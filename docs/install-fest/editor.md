@@ -10,13 +10,13 @@ different languages, great GitHub integration (of course!), and collaboration wi
 
 ## Installation instructions
 
-1. Download the latest version from [atom.io](https://atom.io)
+1. Download the latest version from [atom.io](https://atom.io)<br/>
 ![download button](../../images/install-fest/download_atom.png)
-2. Open the .zip file by clicking on the download status link at the bottom of your browser
+2. Open the .zip file by clicking on the download status link at the bottom of your browser<br/>
 ![Open .zip](../../images/install-fest/open_atom_zip.png)
 3. Move `Atom.app` from where you extracted it from the .zip file (usually your `Downloads` folder)
- to your `Applications` folder
+ to your `Applications` folder<br/>
 ![Move .app](../../images/install-fest/move_atom.png) 
 4. Open Atom from your Applications folder
-5. if you get a warning about applications downloaded from the Internet, just click Open
+5. if you get a warning about applications downloaded from the Internet, just click Open<br/>
 ![Open warning](../../images/install-fest/open_warning.png)
