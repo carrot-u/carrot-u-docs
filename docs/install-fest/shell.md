@@ -67,6 +67,8 @@ Reorg!
 
 Edit what I'm typing
 
+keystrokes
+
 - control+E = end of command
 - control+A = beginning of command
 - esc + B = move backward one word
@@ -75,9 +77,12 @@ Edit what I'm typing
 
 Find something I typed before
 
+keystrokes
+
 - up/down arrow = scroll through command history
 - ctrl+R = search backward (type the first few letters of the command)
 
+commands
 
     $ !!       # run the last command entered (and prints the last command)
     $ history  # show complete command history
@@ -112,6 +117,8 @@ You combine these numbers by adding, so if you want "rw" (read and write), you w
 
 ## Processes
 
+Viewing processes
+
     $ top   # show aninteractive/sortable list of processes running and resources being consumed
             # ? = show a menu (while top is running)
             # control-C to stop top
@@ -120,9 +127,14 @@ You combine these numbers by adding, so if you want "rw" (read and write), you w
     $ ps aux                      # show all processes for all users
     $ ps aux | grep "<pattern>"   # filter for a certain pattern
 
+Controlling processes
+
+keystrokes
+
 - control+Z = Stop (pause) a currently running process
 - control+C = Terminate (exit) a process
 
+commands
 
     $ fg                 # (foreground) resume most recently paused process
     $ <program_name> &   # run a program in "the background", meaning it runs but you can
