@@ -40,13 +40,19 @@ Now let's use this version globally
 Let's make a test project directory and set the local version to 2.3.7
 
     > cd ~/                            # go to your home directory
+
+    > ruby --version                   # check the version of ruby (will vary on your machine)
+    ruby 2.5.1p57 (2018-03-29 revision 63029) [x86_64-darwin17]
+
     > mkdir try-rbenv                  # create a test directory
     > cd try-rbenv                     # change to that test directory
     > rbenv local 2.3.7                # set the ruby version locally
+    > ruby --version                   # check the version again
+    ruby 2.3.7p456 (2018-03-28 revision 63024) [x86_64-darwin17]
     
 Now check that everything is what we expect
 
-    > pwd
+    > pwd                              # what directory am I in?
     /Users/viktor/try-rbenv
     > rbenv local
     2.3.7
