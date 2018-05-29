@@ -1,5 +1,5 @@
 # Install Git
-##Why?
+## Why?
 Any serious software project requires version control. Version control allows you to make changes to
 code in a controlled manner because it keeps track of previous versions, so if you make a serious error
 you can simply revert to a previous version without the error.
@@ -11,7 +11,7 @@ trampling on someone else's changes.
 [git](https://git-scm.com/) is the most popular open-source source control system, by a huge margin, so it is likely that
 anywhere you go they will use git.
 
-##How?
+## How?
 
 As (almost) always, brew!
 
