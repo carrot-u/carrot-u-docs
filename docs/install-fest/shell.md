@@ -78,6 +78,7 @@ Find something I typed before
 - up/down arrow = scroll through command history
 - ctrl+R = search backward (type the first few letters of the command)
 
+
     $ !!       # run the last command entered (and prints the last command)
     $ history  # show complete command history
     $ !1201    # run the command from the history numbered 1201
@@ -122,15 +123,16 @@ You combine these numbers by adding, so if you want "rw" (read and write), you w
 - control+Z = Stop (pause) a currently running process
 - control+C = Terminate (exit) a process
 
+
     $ fg                 # (foreground) resume most recently paused process
     $ <program_name> &   # run a program in "the background", meaning it runs but you can
                          # type other commands in the terminal while it runs
                          # it will still output to the same terminal, which can be disconcerting
     $ jobs               # list current jobs (background processes) for your session
     $ fg <job#>          # resume a particular process (you can get the number from jobs)
-
-    # you get process ids from ps
+    
     $ kill <process_id>        # send signal to (-TERM) terminate (like typing control+C)
+                               # you get process ids from ps
     $ kill -9 <process_id>     # force a process to quit
     $ kill -KILL <process_id>  # force quit
     $ kill -STOP <process_id>  # pause (control+Z)
