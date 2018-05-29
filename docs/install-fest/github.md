@@ -9,4 +9,4 @@ and collaboration site, and many employers want to look at your Github account t
 2. Once you have created your account, request membership in the [carrot-u organization](https://github.com/carrot-u).
 This will give you access to our documentation, class assignments, and class project.
 Ping James Jalandoni with your github username in #carrot-university to get access.
-3. Set up two factor authentication for your [github profile here](https://github.com/settings/security).
+3. Set up [two factor authentication] for your [github profile here](https://github.com/settings/security).
