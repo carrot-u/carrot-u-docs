@@ -37,17 +37,17 @@ Now let's use this version globally
    
     > rbenv global 2.3.7
     
-Let's go to your project directory and set the local version to 2.3.7
+Let's make a test project directory and set the local version to 2.3.7
 
-    > cd ~/git/carrot-u
-    > mkdir try-rbenv
-    > cd try-rbenv
-    > rbenv local 2.3.7
+    > cd ~/                            # go to your home directory
+    > mkdir try-rbenv                  # create a test directory
+    > cd try-rbenv                     # change to that test directory
+    > rbenv local 2.3.7                # set the ruby version locally
     
 Now check that everything is what we expect
 
     > pwd
-    /Users/viktor/git/carrot-u/try-rbenv
+    /Users/viktor/try-rbenv
     > rbenv local
     2.3.7
     
