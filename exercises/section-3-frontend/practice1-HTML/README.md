@@ -7,10 +7,10 @@ of styling, as html alone is not very pretty. In practice #2, student will get t
 opportunity to modify the site using CSS to improve on the look and feel.
 
 ## Instructions
-1.  Start by opening the PDFs to see an example website you are going to build:
-  - [Sushi site](https://github.com/carrot-u/carrot-u-docs/blob/bbf4347c22ba5be79318352b154e0623d0f19196/exercises/section-3-frontend/practice1-HTML/Japanese%20Food%20SF%20-%20Sushi.pdf)
-  - [Ramen site](https://github.com/carrot-u/carrot-u-docs/blob/bbf4347c22ba5be79318352b154e0623d0f19196/exercises/section-3-frontend/practice1-HTML/Japanese%20Food%20SF%20-%20Ramen.pdf)
-  - [Curry site](https://github.com/carrot-u/carrot-u-docs/blob/bbf4347c22ba5be79318352b154e0623d0f19196/exercises/section-3-frontend/practice1-HTML/Japanese%20Food%20SF%20-%20Curry.pdf)
+1.  Start by opening the PDFs listed below to see an example website you are going to build (there are no styles yet so its kind of an eye sore).
+  - Japanese Food SF - Sushi.pdf
+  - Japanese Food SF - Ramen.pdf
+  - Japanese Food SF - Curry.pdf
 2. Create a website using the standard html tags (<head>, <body>, etc ...) and
   any other tags you believe you will need replicate the pdf.
 3. Feel free to change the content. Descriptions, image, etc... is up to you.
