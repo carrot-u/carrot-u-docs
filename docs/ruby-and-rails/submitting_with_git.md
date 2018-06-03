@@ -26,10 +26,10 @@ Create and test your code, then add it to git, commit it, and push it, e.g.
 
 Now go to [the repository on Github](https://github.com/carrot-u/assignments/branches)
 
-![branches](../../images/ruby/github_branches.png)
+![branches](../../images/ruby-and-rails/github_branches.png)
 
 Comment the contents appropriately. We use "WIP" (Work In Progress) to comment something which is not yet finished.
 
-![branches](../../images/ruby/pull_request.png)
+![branches](../../images/ruby-and-rails/pull_request.png)
 
 Finally, click "Create pull request".
