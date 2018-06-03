@@ -15,4 +15,4 @@ bad (i.e. ~1180px the header text starts to bunch up, or the card doesn't have e
 5. Add media queries into your style sheet to adjust styles. See [this page (https://www.w3schools.com/Css/css_rwd_mediaqueries.asp) for reference.
 6. Use the chrome developer tools to test out what the site would look like on
 various phones. See [this guide] (https://developers.google.com/web/tools/chrome-devtools/device-mode/)
-7. Look into solutions folder for one possible implementation.
+7. Look at the style.css file in the solutions folder for one possible implementation.
