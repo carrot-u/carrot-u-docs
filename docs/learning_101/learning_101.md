@@ -1,12 +1,12 @@
 # Learning 101
 
-## What is learning?
+## What is Learning?
 
 ### Immersion
 
 How do you become fluent in another language? The proven best way is immersion. You live in the culture and are forced to speak and listen to the language all day, every day. Programming is a language. Music is a language. Even fitness is a language. Despite myriad differences among pedagogues, they all agree that regular and consistent practice is the best way to learn and retain.
 
-### How does your brain learn stuff?
+### How Does Your Brain Learn Stuff?
 
 Cognition is essentially muscle memory. Your brain cells, nerves, and synapses learn by what you do. Cramming is bad, not because you can't pass the test, but because you lose it once you don't need it. This is how learning works:
 
@@ -44,13 +44,14 @@ Cognition is essentially muscle memory. Your brain cells, nerves, and synapses l
   + 2 -6 PM Coursework/Project
 
 ## Tools and Helpers
-### Set up your Home Environment
+### Setup Your Home Environment
   * If you can, designate a work space for study and practice. This will help create a focused environment.
   * That said, don't be afraid to use the comforts of a couch or bed to change things up a bit
   * Invest in a computer monitor
   * Make sure you have a computer charger available!
 
-### Break up the sessions (Coursework, Reading, Projects)
+### Break Up The Sessions
+  * Break up the type of study into Coursework, Reading, and Projects
   * Use a timer
   * Every 20 minutes take a minute to reset your brain
   * Every 40 - 60 minutes, switch gears
@@ -81,18 +82,12 @@ Treehouse, written materials, and instructors will always give you "additional r
 
   Use this to gauge how well you understand the material. We'll be sending out self-assessement and general feedback forms every so often that use this scale.
 
-  + Knowledge
-    I can recite most of terms and ideas discussed.
-  + Comprehension
-    I can describe the concept in my own words.
-  + Application
-    I can write a single piece of code using the concepts presented.
-  + Analysis
-    I can examine code that demonstrates this concept and explain the logic in my own words.
-  + Synthesis
-    I can write a functional program that integrates, but does not solely rely on, this concept.
-  + Evaluation
-    I can write a blog post or teach a lecture about this concept to other novice programmers.
+  + **Knowledge:** I can recite most of terms and ideas discussed.
+  + **Comprehension:** I can describe the concept in my own words.
+  + **Application:** I can write a single piece of code using the concepts presented.
+  + **Analysis:** I can examine code that demonstrates this concept and explain the logic in my own words.
+  + **Synthesis:** I can write a functional program that integrates, but does not solely rely on, this concept.
+  + **Evaluation:** I can write a blog post or teach a lecture about this concept to other novice programmers.
 
 ## Final Word
 
