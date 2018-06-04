@@ -11,12 +11,15 @@ This first section is designed to move you into an engineering mentality. This m
 
 #### Discussion
 - Welcome To Carrot U
+  - Dave & Muffy
 - How To Succeed In Carrot U
-- [Learning 101](https://github.com/carrot-u/carrot-u-docs/blob/master/docs/learning_101/learning_101.md)
-- Environment setup: Code School: Dev Environment Setup
+  - Jeremy & Logan
+  - [Learning 101](https://github.com/carrot-u/carrot-u-docs/blob/master/docs/learning_101/learning_101.md)
+- Environment setup: [Code School: InstallFest](https://github.com/carrot-u/carrot-u-docs/blob/master/docs/install-fest/index.md)
+  - Carrot U mentors
 
 #### Coursework
-- complete Code School: Dev Environment Setup (https://instacart.quip.com/8kHjAfMMT4Rf)
+- complete Code School: InstallFest (https://github.com/carrot-u/carrot-u-docs/blob/master/docs/install-fest/index.md)
 - Console Foundations (https://teamtreehouse.com/library/console-foundations)
 - SQL Basics (https://teamtreehouse.com/library/sql-basics)
 
@@ -26,6 +29,8 @@ This week we'll work on solving problems with programming. This involves getting
 
 #### Discussion
 - SQL at Instacart: Blazer and PGHero
+  - Viktor
+
 
 #### Coursework
 * Beginner SQL (https://teamtreehouse.com/tracks/beginner-sql) (finish full track)
@@ -46,6 +51,7 @@ This week we'll work on solving problems with programming. This involves getting
 
 #### Discussion
 - Getting Started With Ruby
+  - Jeremy
   - Building a simple program for a room cleaner bot
 
 #### Coursework
@@ -67,6 +73,7 @@ This week we'll continue our work with Ruby, focusing on how to reason about dat
 
 #### Discussion
 - Some Class: Objects and Classes in Ruby
+  - Dave
 
 #### Coursework
 * Ruby Collections (https://teamtreehouse.com/library/ruby-collections)
@@ -106,6 +113,7 @@ This week we'll take what we've learned about building web applications and maki
 
 #### Discussion
 - Live Build A Web App With Sinatra
+  - Dave
 
 #### Coursework
 * Bootstrap 4 (https://teamtreehouse.com/library/bootstrap-4-basics)
@@ -136,7 +144,7 @@ This week we'll dive into Ruby on Rails and build our first Rails application.
 #### Extra Resources
 
 
-### Week of 7/30 working With Rails
+### Week of 7/30 Working With Rails
 
 #### Discussion
 - TBD
@@ -189,6 +197,7 @@ In this section we'll diver deeper into the major frontend technologies: HTML, C
 
 #### Discussion
 - Overview of HTML and CSS, Accessibility at Instacart
+  - Logan
 
 #### Coursework
 * Beginning HTML and CSS (https://teamtreehouse.com/library/introduction-to-html-and-css)
@@ -207,6 +216,7 @@ In this section we'll diver deeper into the major frontend technologies: HTML, C
 
 #### Discussion
 - DOM manipulation and API calls
+  - James J
 
 #### Coursework
 * JavaScript Basics (https://teamtreehouse.com/library/javascript-basics)
@@ -224,6 +234,7 @@ In this section we'll diver deeper into the major frontend technologies: HTML, C
 
 #### Discussion
 - Overview of React
+  - Will
 
 #### Coursework
 * “easy” react with next.js and now (https://nextjs.org/static/videos/hnpwa-next-v2.mp4)
@@ -261,6 +272,7 @@ In this section we'll dive deeper into useful computer science theory and also e
 
 #### Discussion
 - Product Specs for Engineers
+  - Muffy and a yet to be named PM
 
 #### Coursework
 - Recursion: https://www.khanacademy.org/computing/computer-science/algorithms/recursive-algorithms/a/recursion

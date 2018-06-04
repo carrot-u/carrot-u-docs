@@ -16,6 +16,7 @@ Everything builds on top of other concepts. Ask questions when you don't know th
 
 - connect with your paired mentor and set up a weekly 1:1 time
 - complete [InstallFest](../install-fest/index.md) tasks
+- confirm that you can log into [Treehouse](https://teamtreehouse.com/)
 - complete all other Week 1 lectures/exercises
 
 ## Important Documents/Links
