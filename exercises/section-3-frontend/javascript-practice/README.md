@@ -6,7 +6,7 @@ syntax and ES6 functions. Additionally, students can see an example of TTD devel
 by having test available before writing any code.
 
 ## Instructions
-1. Make sure you have cloned the `carrot-u-docs` repo and the `cd` to the `carrot-u-docs/exercises/section-3-frontend/javascript-practice/` directory.
+1. Make sure you have cloned the `carrot-u-docs` repo and then `cd` to the `carrot-u-docs/exercises/section-3-frontend/javascript-practice/` directory.
 2. Start by running `npm install`.
 3. Enter the command `yarn test:watch` into the terminal. This will launch the
 javascript testing suite that is setup to compare solutions in `solutions.js`
