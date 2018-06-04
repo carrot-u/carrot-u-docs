@@ -10,7 +10,10 @@ This first section is designed to move you into an engineering mentality. This m
 ### Week of 6/4: Orientation
 
 #### Discussion
-- Welcome To Carrot U / How To Succeed In Carrot U / Environment setup: Code School: Dev Environment Setup
+- Welcome To Carrot U
+- How To Succeed In Carrot U
+- [Learning 101](https://github.com/carrot-u/carrot-u-docs/blob/master/docs/learning_101/learning_101.md)
+- Environment setup: Code School: Dev Environment Setup
 
 #### Coursework
 - complete Code School: Dev Environment Setup (https://instacart.quip.com/8kHjAfMMT4Rf)
@@ -34,7 +37,7 @@ This week we'll work on solving problems with programming. This involves getting
 
 #### Extra Resources
 * SQL Zoo: https://sqlzoo.net/
-* Docs for postgres http://devdocs.io/postgresql~9.6/  
+* Docs for postgres http://devdocs.io/postgresql~9.6/
 * PostgreSQL Exercises https://pgexercises.com/
 
 ### Week of 6/18 Getting Started With Ruby
@@ -252,7 +255,7 @@ In this section we'll diver deeper into the major frontend technologies: HTML, C
 
 ## Section 4: Theory and Practice
 
-In this section we'll dive deeper into useful computer science theory and also explore some of the practical skills involved with shipping production code. During this section you will devote most of your time to building group projects, in groups of 3-4. Discussions will cover a range of topics in computer science and getting code into production.  
+In this section we'll dive deeper into useful computer science theory and also explore some of the practical skills involved with shipping production code. During this section you will devote most of your time to building group projects, in groups of 3-4. Discussions will cover a range of topics in computer science and getting code into production.
 
 ### Week of 10/1 Practice: The product spec
 
