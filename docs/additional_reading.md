@@ -12,3 +12,4 @@ In no particular order, some sites I came across while working on this course:</
 * https://medium.com/airbnb-engineering/rearchitecting-airbnbs-frontend-5e213efc24d2
 * http://vaidehijoshi.github.io/blog/2015/06/23/to-serialize-or-not-to-serialize-activemodel-serializers/
 * https://www.coursera.org/specializations/algorithms
+* https://cs61a.org/
