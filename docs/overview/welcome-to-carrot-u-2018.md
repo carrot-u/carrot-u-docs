@@ -20,7 +20,7 @@ Everything builds on top of other concepts. Ask questions when you don't know th
 
 ## Important Documents/Links
 
-- Syllabus
+- [Syllabus](./syllabus-2018.md)
 - [Mentor Pairings](./mentor-pairings-2018.md)
 - [Treehouse](https://teamtreehouse.com/)
 - [Carrot U Github Team](https://github.com/carrot-u)
