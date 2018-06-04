@@ -21,6 +21,7 @@ In order to install brew, you will use the instructions from [https://brew.sh/](
  - Open the terminal, paste the copied command, and hit enter
  - It will prompt you as it runs - you can just use the defaults it offers
  - At some point, it will prompt you for your password; this is fine, go ahead and enter your password
+  (note that when you enter your password, you will not see the typing, for security reasons - this is fine)
  
 After the installation completes, type
 
