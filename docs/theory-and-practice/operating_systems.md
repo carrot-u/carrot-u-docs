@@ -6,4 +6,4 @@ https://www.youtube.com/watch?v=9GDX-IyZ_C8
 
 ## Additional Resources
 
-https://theopenacademy.com/content/operating-systems-and-system-programming
+* https://theopenacademy.com/content/operating-systems-and-system-programming
