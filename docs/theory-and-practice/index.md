@@ -1,35 +1,35 @@
 # Theory and Practice
 
-### Week 1 - Practice: The Product Spec
+#### Week 1 - Practice: The Product Spec
 
-[Project specs for engineers](project_specs.md)
+[Project specs for engineers](project_specs.md)<br>
 
-### Week 2 - Theory: Data Structures
+#### Week 2 - Theory: Data Structures
 
-[Data Structure](data_structures.md)
+[Data Structures](data_structures.md)<br>
 
-### Week 3 - Practice: Database Design
+#### Week 3 - Practice: Database Design
 
-[Database Design](database_design.md)
+[Database Design](database_design.md)<br>
 
-### Week 4 - Theory: Algorithms
+#### Week 4 - Theory: Algorithms
 
-[Algorithms](algorithms.md)
+[Algorithms](algorithms.md)<br>
 
-### Week 5 - Practice: Code Reviews
+#### Week 5 - Practice: Code Reviews
 
-[Code Reviews](code_reviews.md)
+[Code Reviews](code_reviews.md)<br>
 
-### Week 6 - Theory: Programming Paradigms
+#### Week 6 - Theory: Programming Paradigms
 
-[Programming Paradigms](programming_paradigms.md)
-[Computer Architecture](computer_architecture.md)
-[Operating Systems](operating_systems.md)
+[Programming Paradigms](programming_paradigms.md)<br>
+[Computer Architecture](computer_architecture.md)<br>
+[Operating Systems](operating_systems.md)<br>
 
-### Week 7 - Practice: Deploying Your Code
+#### Week 7 - Practice: Deploying Your Code
 
-[AWS](aws.md)
+[AWS](aws.md)<br>
 
-### Week 8 - Theory: Development vs. Production
+#### Week 8 - Theory: Development vs. Production
 
-[Development vs. Production](dev_vs_prod.md)
+[Development vs. Production](dev_vs_prod.md)<br>
