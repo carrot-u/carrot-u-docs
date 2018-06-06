@@ -100,4 +100,8 @@ The goal of this document is to give you some insight into this year's mentors a
 
 ### Will Faurot (Mentor)
 
-Ask him in person why he hasn't filled this out. ;)
+* Full stack (focused on frontend) for the Checkout/Express team
+* General HTML/CSS/JS
+* React + redux + other modern frontend tools
+* UI/UX/Accesibility
+* Self-proclaimed code detective - I love debugging and investigations
