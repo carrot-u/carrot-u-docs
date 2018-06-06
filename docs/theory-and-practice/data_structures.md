@@ -34,5 +34,5 @@
 
 ## Additional Resources
 
-http://bigocheatsheet.com/
-https://xlinux.nist.gov/dads/
+* http://bigocheatsheet.com/
+* https://xlinux.nist.gov/dads/
