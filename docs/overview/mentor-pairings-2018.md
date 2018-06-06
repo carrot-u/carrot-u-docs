@@ -20,3 +20,7 @@ Let your mentor know how you're doing. What you're enjoying. What you're struggl
 | Mamata Malekoo | James Jalandoni |
 
 Dave and Muffy are "subs" so if your mentor is out of town or busy you might meet with one of them.
+
+## Meet the Mentors
+
+For an introduction to this year's mentors, check out [Meet the Mentors](meet-the-mentors-2018.md).
