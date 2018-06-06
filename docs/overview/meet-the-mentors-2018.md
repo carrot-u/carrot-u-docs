@@ -58,7 +58,10 @@ The goal of this document is to give you some insight into this year's mentors a
 
 ### Albert Deng (Mentor)
 
-Ask him in person why he hasn't filled this out. ;)
+* Full-stack engineer on Checkout/Express team
+* Ruby, Rails, React
+* Enjoys teaching/mentoring
+* Loves to scuba dive
 
 ### James Jalandoni (Mentor)
 
