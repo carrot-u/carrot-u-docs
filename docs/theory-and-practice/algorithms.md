@@ -1,6 +1,6 @@
 # Algorithms
 
-## What is an algorithm?
+### What is an algorithm?
 
 https://www.khanacademy.org/computing/computer-science/algorithms
 

@@ -1,11 +1,11 @@
 # Code Reviews
-## What is a code review?
+### What is a code review?
 A code review is people looking at a proposed code change from someone and making comments on it. Typically the requester and reviewers are engineers, but that is not required.
 
-## What is a pull request (PR)?
+### What is a pull request (PR)?
 A pull request is GitHub's mechanism for publishing proposed code changes to allow for review comments.
 
-## What are the benefits?
+### What are the benefits?
 * Verification of correctness
 * Knowledge sharing
   * Code
@@ -17,7 +17,7 @@ A pull request is GitHub's mechanism for publishing proposed code changes to all
 * Algorithm check
 * Testing check
 
-## What are the challenges?
+### What are the challenges?
 * Time
    * Delay in release
    * Time for reviewers to read and comment
@@ -25,7 +25,7 @@ A pull request is GitHub's mechanism for publishing proposed code changes to all
 * Selection of reviewers
 * Sizing
 
-## What makes a good review request?
+### What makes a good review request?
 * Atomic changes
 * Good commit comments
 * Supporting documents
@@ -43,7 +43,7 @@ A pull request is GitHub's mechanism for publishing proposed code changes to all
 * Reviewer selection
   * No rubber-stamping
 
-## What makes a good review?
+### What makes a good review?
 * Be polite!
   * Take serious disagreements offline
   * We're a team

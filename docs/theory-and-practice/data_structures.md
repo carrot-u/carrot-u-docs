@@ -1,4 +1,4 @@
-### Data Structures
+# Data Structures
 
 #### Array
 
@@ -32,7 +32,7 @@
 
 
 
-### Additional Resources
+## Additional Resources
 
 http://bigocheatsheet.com/
 https://xlinux.nist.gov/dads/
