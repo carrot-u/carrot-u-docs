@@ -2,7 +2,7 @@
 
 Congratulations, you've been accepted to Carrot University 2018!
 
-One of the most important aspects of succeeding in Carrot U is communication. Every student has been paired with a mentor, but this doesn't mean you are only allowed to talk to your own mentor. Every mentor is here to help every student reach their highest potential.
+One of the most important aspects of succeeding in Carrot U is communication. Every student has been [paired with a mentor](mentor-pairings-2018.md), but this doesn't mean you are only allowed to talk to your own mentor. Every mentor is here to help every student reach their highest potential.
 
 The goal of this document is to give you some insight into this year's mentors and their interests. When you have a question, it's best to ask your own mentor first so that they can track your progress, but if it the question is about a particular technology or topic on this list feel free to reach out to the mentor whose expertise best aligns with your question.
 
@@ -16,7 +16,7 @@ The goal of this document is to give you some insight into this year's mentors a
 * Happy to talk about programmer career paths
 * Varying levels of competence as a musician, cartoonist, father, coffee advocate, and builder of ridiculous things
 
-### Muffy Barkocy (Organizer / Substitute Mentor)
+### Muffy Barkocy (Organizer, Substitute Mentor)
 
 * Infrastructure, formerly Orders/Payments
 * 30+ years as an engineer
