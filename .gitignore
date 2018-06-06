@@ -1,53 +1,53 @@
-# Created by .ignore support plugin (hsz.mobi)
-### JetBrains template
-# Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion, Android Studio and WebStorm
-# Reference: https://intellij-support.jetbrains.com/hc/en-us/articles/206544839
+# Global ignores - please do not add to this list unless you are confident
+# that *every* project has no need for these files
 
-# User-specific stuff:
-.idea/**/workspace.xml
-.idea/**/tasks.xml
-.idea/dictionaries
+# scm revert files
+**.orig
 
-# Sensitive or high-churn files:
-.idea/**/dataSources/
-.idea/**/dataSources.ids
-.idea/**/dataSources.local.xml
-.idea/**/sqlDataSources.xml
-.idea/**/dynamic.xml
-.idea/**/uiDesigner.xml
+# mac finder artifacts
+.DS_Store
 
-# Gradle:
-.idea/**/gradle.xml
-.idea/**/libraries
+# textmate/sublime/rubymine project files
+*.tmproj
+*.sublime-*
+.idea
+*.iml
+*.vscode*
 
-# CMake
-cmake-build-debug/
-cmake-build-release/
+# other editor artifacts
+**.sw*
+*~
+*#
 
-# Mongo Explorer plugin:
-.idea/**/mongoSettings.xml
+# environment files that may contain sensitive data
+.env
+.env.devonly
+.powenv
 
-## File-based project format:
-*.iws
+# irb/pry/rvm/rbenv config
+.irbrc
+.pryrc
+.rvm
+.rbenv-vars
+.rbenv-gemsets
+.ruby-gemset
+.sass-cache
 
-## Plugin-specific files:
+# guardfiles
+Guardfile.me
 
-# IntelliJ
-out/
+# bundle config
+.bundle
+node_modules
 
-# mpeltonen/sbt-idea plugin
-.idea_modules/
+# dangerous config files that might accidentally be committed
+isce.yml
+isce.yaml
 
-# JIRA plugin
-atlassian-ide-plugin.xml
+# Sublime Text, Atom, VIM CTags
+*.tags
+*.tags_swap
 
-# Cursive Clojure plugin
-.idea/replstate.xml
-
-# Crashlytics plugin (for Android Studio and IntelliJ)
-com_crashlytics_export_strings.xml
-crashlytics.properties
-crashlytics-build.properties
-fabric.properties
-
-.idea/
+# Ignored files
+*.ignore
+*.pckl
