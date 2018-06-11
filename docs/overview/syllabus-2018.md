@@ -38,7 +38,7 @@ This week we'll work on solving problems with programming. This involves getting
 
 #### Assignments
 - Use Blazer: https://blazer.instacart.com/
-- Instacart Queries *(link to come)*
+- [Instacart Queries](https://github.com/carrot-u/assignments/blob/master/databases-sql/week02.md)
 
 #### Extra Resources
 * SQL Zoo: https://sqlzoo.net/
