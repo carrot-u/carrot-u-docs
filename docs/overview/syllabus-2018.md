@@ -55,8 +55,9 @@ This week we'll work on solving problems with programming. This involves getting
   - Building a simple program for a room cleaner bot
 
 #### Coursework
-* Ruby Basics (https://teamtreehouse.com/library/ruby-basics)
-* Operators and Control Structures (https://teamtreehouse.com/library/ruby-operators-and-control-structures)
+* Ruby Basics (https://teamtreehouse.com/library/ruby-basics-2)
+* Ruby Collections (https://teamtreehouse.com/library/ruby-collections)
+* Ruby Loops (https://teamtreehouse.com/library/ruby-loops)
 
 #### Assignments
 - Guessing Game *(link to come)*
@@ -76,13 +77,17 @@ This week we'll continue our work with Ruby, focusing on how to reason about dat
   - Dave
 
 #### Coursework
-* Ruby Collections (https://teamtreehouse.com/library/ruby-collections)
-* Objects and Classes (https://teamtreehouse.com/library/ruby-objects-and-classes)
+* Ruby Objects and Classes (https://teamtreehouse.com/library/ruby-objects-and-classes)
+* Ruby Blocks (https://teamtreehouse.com/library/ruby-blocks)
+* Build an Address Book in Ruby (https://teamtreehouse.com/library/build-an-address-book-in-ruby)
+* Ruby Modules (https://teamtreehouse.com/library/ruby-modules)
 
 #### Assignments
 - Build an Order *(link to come)*
 
 #### Extra Resources
+
+* Work through the rest of the Treehouse [Learn Ruby](https://teamtreehouse.com/tracks/learn-ruby) track.
 
 ## Break #1 (Week of 7/2)
 - ['merica](http://mountsaintawesome.com/comic.php?id=19)
