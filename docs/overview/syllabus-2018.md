@@ -52,7 +52,7 @@ This week we'll work on solving problems with programming. This involves getting
 #### Discussion
 - Getting Started With Ruby
   - Jeremy
-  - Building a simple program for a room cleaner bot
+  - [Ruby Room Cleaner](https://github.com/carrot-u/carrot-u-docs/blob/master/docs/ruby_room_cleaner/room_cleaner_lecture_notes.md)
 
 #### Coursework
 * Ruby Basics (https://teamtreehouse.com/library/ruby-basics-2)
@@ -60,7 +60,7 @@ This week we'll work on solving problems with programming. This involves getting
 * Ruby Loops (https://teamtreehouse.com/library/ruby-loops)
 
 #### Assignments
-- Guessing Game *(link to come)*
+- [Ruby Basics Assignment](https://github.com/carrot-u/carrot-u-docs/blob/master/exercises/ruby_one_assignments/ruby_one_assignments.md) - due 6/24 11:59pm
 
 #### Extra Resources
 * How To Teach Git: https://recompilermag.com/issues/issue-1/how-to-teach-git/

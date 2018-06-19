@@ -1,4 +1,15 @@
-## Ruby One Assigments
+# Ruby Intro Assignments
+
+## Due Date
+
+6/24 11:59pm
+
+## Assignment submission process
+
+- Create a new branch of the [assignments repo](https://github.com/carrot-u/assignments)
+- Create a folder in the week3 folder for your submission. See example [here](https://github.com/carrot-u/assignments/tree/master/week3/dschwantes).
+- Once done, create a pull request to add you code to the repo. How to do that? All details [here](https://github.com/carrot-u/carrot-u-docs/blob/master/docs/overview/submitting-with-git.md).
+Git is sometimes tricky, ask your mentors if you have issues.
 
 ### 1. Customize the [room_cleaner](../../ruby_room_cleaner/room_cleaner_complete.rb) program.
 
