@@ -36,6 +36,7 @@ In no particular order, some sites I came across while working on this course:
 ## SQL
 
 * http://joins.spathon.com/
+* https://blog.codinghorror.com/a-visual-explanation-of-sql-joins/
 
 ### PostgreSQL
 

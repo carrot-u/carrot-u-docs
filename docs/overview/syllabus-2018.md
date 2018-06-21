@@ -67,6 +67,7 @@ This week we'll work on solving problems with programming. This involves getting
 * https://try.github.io
 * Learn Ruby The Hard Way https://learnrubythehardway.org/book/
 * why's Poignant Guide To Ruby: https://poignant.guide/ (maybe... it's weird)
+* Learn Ruby quizzes: http://www.codequizzes.com/ruby
 
 ### Week of 6/25 Data Structures and Objects In Ruby
 
@@ -87,6 +88,8 @@ This week we'll continue our work with Ruby, focusing on how to reason about dat
 
 #### Extra Resources
 
+* Class vs Object (https://www.youtube.com/watch?v=K8eOkzQ_o9w)
+* The Ruby Standard Library (https://teamtreehouse.com/library/ruby-core-and-standard-library)
 * Work through the rest of the Treehouse [Learn Ruby](https://teamtreehouse.com/tracks/learn-ruby) track.
 
 ## Break #1 (Week of 7/2)
@@ -102,6 +105,8 @@ This week we'll combine our Ruby skills with some new web development knowledge 
 
 #### Discussion
 - How The Web Works
+  - Muffy
+  - Talk about HTTP, what happens when you visit a website, etc.
 
 #### Coursework
 * How To Make A Website (https://teamtreehouse.com/library/how-to-make-a-website)
@@ -125,7 +130,7 @@ This week we'll take what we've learned about building web applications and maki
 * Building Web Apps With Sinatra (https://teamtreehouse.com/library/building-web-apps-with-sinatra)
 
 #### Assignments
-- Blog/Twitter Clone
+- Blog/Twitter Clone *(link to come)*
 
 #### Extra Resources
 - Sinatra: http://sinatrarb.com/
@@ -144,7 +149,7 @@ This week we'll dive into Ruby on Rails and build our first Rails application.
 * Active Record
 
 #### Assignments
-- Rebuild Sinatra App In Rails
+- Rebuild Sinatra App In Rails *(link to come)*
 
 #### Extra Resources
 
