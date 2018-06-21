@@ -5,7 +5,7 @@ Welcome to Carrot University!
 # Read me first!
 ## How to be successful at Code School
 
-Ultimately only you can decide how to structure your time to ensure 
+Ultimately only you can decide how to structure your time to ensure
 you get the most out of the content, and out of your relationships
 with your mentors. However, we have some guidelines we hope will help.
 
@@ -60,7 +60,7 @@ at-mentioning them in #carrot-university.
 
 Learn this pattern, because you will use it every day as a developer. None of us know all
 the answers, the trick is knowing where to look and when to stop searching and ask.
-  
+
 Before asking, it's always best to do some upfront work to ensure you can help people
 help you. Remember that others don't have the context that you have. Focus on setting up
 your question effectively. Clearly explain what your goal is at a high level, what the
@@ -68,8 +68,11 @@ specific task you're trying to accomplish is, and make sure you can answer the f
 questions:
 
 1. What have you tried so far?
-1. Why do you think it didn't work?
-1. What other solutions do you think might be worthy to explore?
+2. Why do you think it didn't work?
+3. What other solutions do you think might be worthy to explore?
 
-Now let's get your [computer set up for Carrot U](docs/install-fest/index.md)
-
+## Ok! Let's Get Started!
+- [Welcome class of 2018!](docs/overview/welcome-to-carrot-u-2018.md)
+- Get your [computer set up for Carrot U](docs/install-fest/index.md)
+- Read the [syllabus](docs/overview/syllabus-2018.md)
+- Explore the [additional reading](docs/additional_reading.md)
