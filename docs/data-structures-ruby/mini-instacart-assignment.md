@@ -1,4 +1,4 @@
-# Build a Mini Instacart
+# Build a Mini Instacart (WORK IN PROGRESS, WILL BE UPDATED SOON)
 
 The goal of this assignment is to use your understanding of classes in to build a Mini Instacart in Ruby.
 

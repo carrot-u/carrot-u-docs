@@ -1,5 +1,12 @@
 # Show Some Class: Objects and Classes In Ruby
 
+## Other Business
+
+- Hackathon this week! You should all participate.
+- This week is the last week of Section 1
+  - no lecture next week
+  - take that week to work with your mentor(s) and brush up on anything you've gotten behind on
+
 ## Key Terms
 - data structure
 - class
@@ -14,7 +21,7 @@ dave.include?("🍕")
 # true
 
 names = ["Dave", "Muffy", "Chairman Meow"]
-names << ["Bender"]
+names << "Bender"
 # ["Dave", "Muffy", "Chairman Meow", "Bender"]
 names.sort
 # ["Bender", "Chairman Meow", "Dave", "Muffy"]
@@ -69,13 +76,21 @@ Animals have a type, a name, some number of legs, a favorite food, and they can 
 ## Ok. Let's make a class
 
 ```ruby
-# code here
+class Animal
+
+  def initialize(type_of_animal, name, number_of_legs, favorite_food)
+    @type = type_of_animal
+    @name = name
+    @number_of_legs = number_of_legs
+    @favorite_food = favorite_food
+  end
+end
 ```
 
 ## Now let's use it!
 
 ```ruby
-# code here
+chairman = Animal.new("cat", "Chairman Meow", 4, "ham")
 ```
 
 ## Inheritance
