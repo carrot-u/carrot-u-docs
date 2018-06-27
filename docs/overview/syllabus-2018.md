@@ -76,6 +76,8 @@ This week we'll continue our work with Ruby, focusing on how to reason about dat
 #### Discussion
 - Some Class: Objects and Classes in Ruby
   - Dave
+  - [lecture notes](https://github.com/carrot-u/carrot-u-docs/blob/master/docs/data-structures-ruby/show-some-class-lecture.md)
+  - [code](https://github.com/carrot-u/carrot-u-docs/blob/master/docs/data-structures-ruby/show-some-class-code.rb)
 
 #### Coursework
 * Ruby Objects and Classes (https://teamtreehouse.com/library/ruby-objects-and-classes)
@@ -84,7 +86,7 @@ This week we'll continue our work with Ruby, focusing on how to reason about dat
 * Ruby Modules (https://teamtreehouse.com/library/ruby-modules)
 
 #### Assignments
-- Build an Order *(link to come)*
+- [Build an Order](https://github.com/carrot-u/carrot-u-docs/blob/master/exercises/ruby-data-structures/mini-instacart-assignments.md) - due 7/1 11:59pm
 
 #### Extra Resources
 
