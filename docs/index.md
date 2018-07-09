@@ -51,7 +51,7 @@ This week we'll go over some issues students have had in the first section.
 This week we'll combine our Ruby skills with some new web development knowledge to build a basic web application.
 
 #### Discussion:
-* How the Web works
+* [How the Web works](theory-and-practice/how_the_web_works.md)
 
 ### Week of 7/23 How To Build A Web App
 
