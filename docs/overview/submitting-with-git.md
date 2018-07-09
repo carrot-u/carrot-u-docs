@@ -1,5 +1,10 @@
 ## Submitting via Git
-First, clone the repository
+If you do not yet have a git directory, create it
+
+    % cd
+    % mkdir git    # create a directory
+
+Now, clone the repository
 
     % cd ~/git
     % git clone https://github.com/carrot-u/assignments
