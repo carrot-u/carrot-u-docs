@@ -22,7 +22,7 @@
 
 * Teaching others teaches you.
 * Working together is an important skill for a developer.
-* Better form of []rubber duck debugging](https://rubberduckdebugging.com/).
+* Better form of [rubber duck debugging](https://rubberduckdebugging.com/).
 
 ## Review of classes, class structure, and methods
 
