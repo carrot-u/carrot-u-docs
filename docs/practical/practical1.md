@@ -23,6 +23,15 @@
 * Teaching others teaches you.
 * Working together is an important skill for a developer.
 * Better form of []rubber duck debugging](https://rubberduckdebugging.com/).
+
+## Review of classes, class structure, and methods
+
+* [Abstraction](https://stackify.com/oop-concept-abstraction/)
+* [Encapsulation](https://stackify.com/oop-concept-for-beginners-what-is-encapsulation/)
+* [Polymorphism](https://stackify.com/oop-concept-polymorphism/)
+* Calling methods
+* Chaining methods
+* Connecting classes to each other (see the demo)
  
 # Live demo
 
