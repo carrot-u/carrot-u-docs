@@ -101,7 +101,29 @@ This week we'll continue our work with Ruby, focusing on how to reason about dat
 
 In this section we'll take our basic programming knowledge and start building web applications with Ruby
 
-### Week of 7/9 How To Build A Website
+### Week of 7/9 Foundational Review
+
+This week, we'll take a step back to go over some of the foundational aspects of software engineering we touched on in the first section.
+
+#### Discussion
+- Practical Workshop
+  - Muffy & Nicolas
+  - Go over git and some fundamental coding practices.
+  - Answer questions about anything
+  - [notes](https://github.com/carrot-u/carrot-u-docs/blob/master/docs/practical/practical1.md)
+
+#### Coursework
+* catch up on any missed coursework!
+
+#### Assignments
+- catch up on any missed homework!
+
+#### Extra Resources
+- [adding git info to your prompt](https://coderwall.com/p/fasnya/add-git-branch-name-to-bash-prompt)
+- [Ruby style guide](https://github.com/airbnb/ruby)
+- [Rubocop (style enforcing tool for Ruby)](https://github.com/rubocop-hq/rubocop)
+
+### Week of 7/16 How To Build A Website
 
 This week we'll combine our Ruby skills with some new web development knowledge to build a basic web application.
 
@@ -109,6 +131,7 @@ This week we'll combine our Ruby skills with some new web development knowledge 
 - How The Web Works
   - Muffy
   - Talk about HTTP, what happens when you visit a website, etc.
+  - [notes](https://github.com/carrot-u/carrot-u-docs/blob/master/docs/theory-and-practice/how_the_web_works.md)
 
 #### Coursework
 * How To Make A Website (https://teamtreehouse.com/library/how-to-make-a-website)
@@ -119,7 +142,7 @@ This week we'll combine our Ruby skills with some new web development knowledge 
 
 #### Extra Resources
 
-### Week of 7/16 How To Build A Web App
+### Week of 7/23 How To Build A Web App
 
 This week we'll take what we've learned about building web applications and making them look better and do more. We'll also develop a more fundamental understanding of how the web works.
 
@@ -138,7 +161,7 @@ This week we'll take what we've learned about building web applications and maki
 - Sinatra: http://sinatrarb.com/
 - Sequel: https://github.com/jeremyevans/sequel
 
-### Week of 7/23 Getting Started With Rails
+### Week of 7/30 Getting Started With Rails
 
 This week we'll dive into Ruby on Rails and build our first Rails application.
 
@@ -156,7 +179,7 @@ This week we'll dive into Ruby on Rails and build our first Rails application.
 #### Extra Resources
 
 
-### Week of 7/30 Working With Rails
+### Week of 8/6 Working With Rails
 
 #### Discussion
 - TBD
@@ -171,7 +194,7 @@ This week we'll dive into Ruby on Rails and build our first Rails application.
 
 #### Extra Resources
 
-### Week of 8/6 Expanding Your Rails App
+### Week of 8/13 Expanding Your Rails App
 
 #### Discussion
 -
@@ -185,7 +208,7 @@ This week we'll dive into Ruby on Rails and build our first Rails application.
 
 #### Extra Resources
 
-### Week Of 8/13 Rails In The Real World
+### Week Of 8/20 Rails In The Real World
 
 #### Discussion
 - Overview of the Instacart Rails App
@@ -198,14 +221,14 @@ This week we'll dive into Ruby on Rails and build our first Rails application.
 
 #### Extra Resources
 
-## Break #2 (Week of 8/20)
+## Break #2 (Week of 8/27)
 - [Summer Vacation, woo!](http://mountsaintawesome.com/comic.php?id=104)
 
 ## Section 3: Frontend Development
 
 In this section we'll diver deeper into the major frontend technologies: HTML, CSS, and JavaScript. We'll also start to work with React, the front-end framework we use here at Instacart.
 
-### Week of 8/27 HTML/CSS/Javascript
+### Week of 9/3 HTML/CSS/Javascript
 
 #### Discussion
 - Overview of HTML and CSS, Accessibility at Instacart
@@ -224,7 +247,7 @@ In this section we'll diver deeper into the major frontend technologies: HTML, C
 * Advanced CSS selectors (https://teamtreehouse.com/library/css-selectors)
 * Accessibility (https://teamtreehouse.com/library/accessibility)
 
-### Week of 9/3 Javascript the Language and the DOM
+### Week of 9/10 Javascript the Language and the DOM
 
 #### Discussion
 - DOM manipulation and API calls
@@ -242,7 +265,7 @@ In this section we'll diver deeper into the major frontend technologies: HTML, C
 
 #### Extra Resources
 
-### Week of 9/10 React
+### Week of 9/17 React
 
 #### Discussion
 - Overview of React
@@ -258,7 +281,7 @@ In this section we'll diver deeper into the major frontend technologies: HTML, C
 
 #### Extra Resources
 
-### Week of 9/17 More React
+### Week of 9/24 More React
 
 #### Discussion
 - React/Redux
@@ -273,14 +296,14 @@ In this section we'll diver deeper into the major frontend technologies: HTML, C
 
 #### Extra Resources
 
-## Break #3 (Week of 9/24)
+## Break #3 (Week of 10/1)
 - [XOR](http://mountsaintawesome.com/comic.php?id=57)
 
 ## Section 4: Theory and Practice
 
 In this section we'll dive deeper into useful computer science theory and also explore some of the practical skills involved with shipping production code. During this section you will devote most of your time to building group projects, in groups of 3-4. Discussions will cover a range of topics in computer science and getting code into production.
 
-### Week of 10/1 Practice: The product spec
+### Week of 10/8 Practice: The product spec
 
 #### Discussion
 - Product Specs for Engineers
@@ -295,7 +318,7 @@ In this section we'll dive deeper into useful computer science theory and also e
 
 #### Extra Resources
 
-### Week of 10/8 Theory: Data structures
+### Week of 10/15 Theory: Data structures
 
 #### Discussion
 - Deep Dive Into Data structures
@@ -311,7 +334,7 @@ In this section we'll dive deeper into useful computer science theory and also e
 #### Extra Resources
 - Big O Cheatsheet: http://bigocheatsheet.com/
 
-### Week of 10/15 Practice: Database design
+### Week of 10/22 Practice: Database design
 
 #### Discussion
 - Database Design
@@ -325,7 +348,7 @@ In this section we'll dive deeper into useful computer science theory and also e
 
 #### Extra Resources
 
-### Week of 10/22 Theory: Algorithms
+### Week of 10/29 Theory: Algorithms
 
 #### Discussion
 -
@@ -342,7 +365,7 @@ In this section we'll dive deeper into useful computer science theory and also e
 
 #### Extra Resources
 
-### Week of 10/29 Practice: Code reviews
+### Week of 11/5 Practice: Code reviews
 
 #### Discussion
 - Code reviews
