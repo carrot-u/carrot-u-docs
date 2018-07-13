@@ -132,11 +132,12 @@ This week we'll combine our Ruby skills with some new web development knowledge 
   - Talk about HTTP, what happens when you visit a website, etc.
 
 #### Coursework
-* How To Make A Website (https://teamtreehouse.com/library/how-to-make-a-website)
-* How The Web Works (https://teamtreehouse.com/library/how-the-web-works)
+* [Treehouse: How To Make A Website](https://teamtreehouse.com/library/how-to-make-a-website)
+* [Treehouse: How The Web Works](https://teamtreehouse.com/library/how-the-web-works)
+* [Treehouse: Bootstrap 4 Basics](https://teamtreehouse.com/library/bootstrap-4-basics-2)
 
 #### Assignments
-- [Build a Website]()
+- [Build a Website](https://github.com/carrot-u/assignments/tree/master/week7)
 
 #### Extra Resources
 
