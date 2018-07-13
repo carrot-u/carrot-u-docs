@@ -80,5 +80,6 @@ and re-submitting it. You learn as much or more from making these changes as fro
 Once you are satisfied with your work, you want to make it part of the master branch. This is very easy to do on Github:
 
 1. Go to [the page of branches](https://github.com/carrot-u/assignments/branches)
-1. Find your branch and click on the green "Open" ![Open](../../images/overview/open_pr.png) button to the right of it
-1. Scroll to the bottom and click the green "Merge pull request" ![Merge pull request](../../images/overview/merge_pr.png) button
+1. Find your branch and click on the green "Open" button to the right of it ![Open](../../images/overview/open_pr.png)
+1. Scroll to the bottom and click the green "Merge pull request" button
+ ![Merge pull request](../../images/overview/merge_pr.png)
