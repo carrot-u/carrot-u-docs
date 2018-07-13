@@ -74,3 +74,11 @@ Finally, click "Create pull request".
 One or two of the mentors will make comments on your pull request. While is is not required, it is good practice to address
 those comments either by responding to them on Github or making changes to your code based on the comments
 and re-submitting it. You learn as much or more from making these changes as from doing the exercises.
+
+### Merge your branch
+
+Once you are satisfied with your work, you want to make it part of the master branch. This is very easy to do on Github:
+
+1. Go to [the page of branches](https://github.com/carrot-u/assignments/branches)
+1. Find your branch and click on the green "Open" ![Open](../../images/overview/open_pr.png) button to the right of it
+1. Scroll to the bottom and click the green "Merge pull request" ![Merge pull request](../../images/overview/merge_pr.png) button
