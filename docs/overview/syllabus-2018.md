@@ -19,9 +19,9 @@ This first section is designed to move you into an engineering mentality. This m
   - Carrot U mentors
 
 #### Coursework
-- complete Code School: InstallFest (https://github.com/carrot-u/carrot-u-docs/blob/master/docs/install-fest/index.md)
-- Console Foundations (https://teamtreehouse.com/library/console-foundations)
-- SQL Basics (https://teamtreehouse.com/library/sql-basics)
+- [complete Code School: InstallFest](https://github.com/carrot-u/carrot-u-docs/blob/master/docs/install-fest/index.md)
+- [Treehouse: Console Foundations](https://teamtreehouse.com/library/console-foundations)
+- [Treehouse: SQL Basics](https://teamtreehouse.com/library/sql-basics)
 
 ### Week of 6/11: Databases / SQL
 
@@ -33,8 +33,8 @@ This week we'll work on solving problems with programming. This involves getting
 
 
 #### Coursework
-* Beginner SQL (https://teamtreehouse.com/tracks/beginner-sql) (finish full track)
-* Intro To Git (https://teamtreehouse.com/library/introduction-to-git)
+* [Treehouse: Beginner SQL](https://teamtreehouse.com/tracks/beginner-sql) (finish full track)
+* [Treehouse: Intro To Git](https://teamtreehouse.com/library/introduction-to-git)
 
 #### Assignments
 - Use Blazer: https://blazer.instacart.com/
@@ -55,9 +55,9 @@ This week we'll work on solving problems with programming. This involves getting
   - [Ruby Room Cleaner](https://github.com/carrot-u/carrot-u-docs/blob/master/docs/ruby_room_cleaner/room_cleaner_lecture_notes.md)
 
 #### Coursework
-* Ruby Basics (https://teamtreehouse.com/library/ruby-basics-2)
-* Ruby Collections (https://teamtreehouse.com/library/ruby-collections)
-* Ruby Loops (https://teamtreehouse.com/library/ruby-loops)
+* [Treehouse: Ruby Basics](https://teamtreehouse.com/library/ruby-basics-2)
+* [Treehouse: Ruby Collections](https://teamtreehouse.com/library/ruby-collections)
+* [Treehouse: Ruby Loops](https://teamtreehouse.com/library/ruby-loops)
 
 #### Assignments
 - [Ruby Basics Assignment](https://github.com/carrot-u/carrot-u-docs/blob/master/exercises/ruby_one_assignments/ruby_one_assignments.md) - due 6/24 11:59pm
@@ -80,10 +80,10 @@ This week we'll continue our work with Ruby, focusing on how to reason about dat
   - [code](https://github.com/carrot-u/carrot-u-docs/blob/master/docs/data-structures-ruby/show-some-class-code.rb)
 
 #### Coursework
-* Ruby Objects and Classes (https://teamtreehouse.com/library/ruby-objects-and-classes)
-* Ruby Blocks (https://teamtreehouse.com/library/ruby-blocks)
-* Build an Address Book in Ruby (https://teamtreehouse.com/library/build-an-address-book-in-ruby)
-* Ruby Modules (https://teamtreehouse.com/library/ruby-modules)
+* [Treehouse: Ruby Objects and Classes](https://teamtreehouse.com/library/ruby-objects-and-classes)
+* [Treehouse: Ruby Blocks](https://teamtreehouse.com/library/ruby-blocks)
+* [Treehouse: Build an Address Book in Ruby](https://teamtreehouse.com/library/build-an-address-book-in-ruby)
+* [Treehouse: Ruby Modules](https://teamtreehouse.com/library/ruby-modules)
 
 #### Assignments
 - [Build an Order](https://github.com/carrot-u/carrot-u-docs/blob/master/exercises/ruby-data-structures/mini-instacart-assignments.md) - due 7/1 11:59pm
@@ -124,7 +124,7 @@ This week, we'll take a step back to go over some of the foundational aspects of
 
 ### Week of 7/16 How To Build A Website
 
-This week we'll combine our Ruby skills with some new web development knowledge to build a basic web application.
+This week we'll bring together HTML and CSS to build a website.
 
 #### Discussion
 - [How The Web Works](https://github.com/carrot-u/carrot-u-docs/blob/master/docs/theory-and-practice/how_the_web_works.md)
@@ -141,18 +141,19 @@ This week we'll combine our Ruby skills with some new web development knowledge 
 
 #### Extra Resources
 - https://pages.github.com/
+- What happens when you type "google.com" into your browser? (https://github.com/alex/what-happens-when)
 
 ### Week of 7/23 How To Build A Web App
 
-This week we'll take what we've learned about building web applications and making them look better and do more. We'll also develop a more fundamental understanding of how the web works.
+This week we'll take what we've learned about building web sites and making them look better and do more. We'll also develop a more fundamental understanding of how the web works.
 
 #### Discussion
 - Live Build A Web App With Sinatra
   - Dave
 
 #### Coursework
-* Bootstrap 4 (https://teamtreehouse.com/library/bootstrap-4-basics)
-* Building Web Apps With Sinatra (https://teamtreehouse.com/library/building-web-apps-with-sinatra)
+* [Treehouse: Building Web Apps With Sinatra](https://teamtreehouse.com/library/building-web-apps-with-sinatra)
+* [Treehouse: Bootstrap 4](https://teamtreehouse.com/library/bootstrap-4-basics)
 
 #### Assignments
 - Build a Blog *(link to come)*
@@ -172,8 +173,8 @@ This week we'll dive into Ruby on Rails and build our first Rails application.
   - introduction to Test Driven Development (TDD)
 
 #### Coursework
-* Ruby on Rails 5 Basics (https://teamtreehouse.com/library/ruby-on-rails-5-basics)
-* Rails Routes and Resources (https://teamtreehouse.com/library/rails-routes-and-resources)
+* [Treehouse: Ruby on Rails 5 Basics](https://teamtreehouse.com/library/ruby-on-rails-5-basics)
+* [Treehouse: Rails Routes and Resources](https://teamtreehouse.com/library/rails-routes-and-resources)
 
 #### Assignments
 - Rebuild Sinatra App In Rails *(link to come)*
@@ -186,6 +187,8 @@ This week we'll dive into Ruby on Rails and build our first Rails application.
 
 ### Week of 8/6 Working With Rails
 
+This week we'll take a deeper dive into some core pieces of Rails functionality.
+
 #### Discussion
 - ActiveRecord and ERB
   - Dave and Viktor
@@ -193,7 +196,7 @@ This week we'll dive into Ruby on Rails and build our first Rails application.
   - How ERB is used for rendering layouts in Rails
 
 #### Coursework
-* Active Record (https://teamtreehouse.com/library/active-record-associations-in-rails)
+* [Treehouse: Active Record](https://teamtreehouse.com/library/active-record-associations-in-rails)
 * ERB  
   - (https://teamtreehouse.com/library/practice-sinatra-basics/practice-erb-templates/erb-templates)
   review "ERB Templates" from (https://teamtreehouse.com/library/building-web-apps-with-sinatra)
@@ -205,15 +208,17 @@ This week we'll dive into Ruby on Rails and build our first Rails application.
 
 ### Week of 8/13 Expanding Your Rails App
 
+This week we'll look at how to make use of external code libraries to add functionality to your applications.
+
 #### Discussion
 - Gems and Rspec
   - using external libraries via Ruby Gems
   - deeper understanding of testing via Rspec
 
 #### Coursework
-* Ruby Gems (https://teamtreehouse.com/library/ruby-gems)
-* Rspec (https://www.youtube.com/watch?v=Dj19O9kLK6w)
-* Troubleshooting Rails Applications (https://teamtreehouse.com/library/troubleshooting-a-rails-application)
+* [Treehouse: Ruby Gems](https://teamtreehouse.com/library/ruby-gems)
+* [YouTube video on Rspec](https://www.youtube.com/watch?v=Dj19O9kLK6w)
+* [Treehouse: Troubleshooting Rails Applications](https://teamtreehouse.com/library/troubleshooting-a-rails-application)
 
 #### Assignments
 -
@@ -224,16 +229,18 @@ This week we'll dive into Ruby on Rails and build our first Rails application.
 
 ### Week Of 8/20 Rails In The Real World
 
+Rails is used as the the foundation for many large websites, including Instacart.
+
 #### Discussion
 - Overview of the Instacart Rails App
   - Muffy
   - let's look at some code in the Instacart application!
 
 #### Coursework
-- Practice Rails Basics (https://teamtreehouse.com/library/practice-ruby-on-rails-basics)
-- Static Pages In Rails (https://teamtreehouse.com/library/creating-static-pages-in-rails)
-- Rails Application Walkthrough (https://teamtreehouse.com/library/rails-application-walkthrough)
-- Deploying Rails With Capistrano (https://teamtreehouse.com/library/deployment-with-capistrano)
+- [Treehouse: Practice Rails Basics](https://teamtreehouse.com/library/practice-ruby-on-rails-basics)
+- [Treehouse: Static Pages In Rails](https://teamtreehouse.com/library/creating-static-pages-in-rails)
+- [Treehouse: Rails Application Walkthrough](https://teamtreehouse.com/library/rails-application-walkthrough)
+- [Treehouse: Deploying Rails With Capistrano](https://teamtreehouse.com/library/deployment-with-capistrano)
 
 #### Assignments
 - Deploy your Rails app to Heroku
