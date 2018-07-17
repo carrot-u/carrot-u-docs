@@ -106,11 +106,10 @@ In this section we'll take our basic programming knowledge and start building we
 This week, we'll take a step back to go over some of the foundational aspects of software engineering we touched on in the first section.
 
 #### Discussion
-- Practical Workshop
+- [Practical Workshop](https://github.com/carrot-u/carrot-u-docs/blob/master/docs/practical/practical1.md)
   - Muffy & Nicolas
   - Go over git and some fundamental coding practices.
   - Answer questions about anything
-  - [notes](https://github.com/carrot-u/carrot-u-docs/blob/master/docs/practical/practical1.md)
 
 #### Coursework
 * catch up on any missed coursework!
@@ -128,17 +127,17 @@ This week, we'll take a step back to go over some of the foundational aspects of
 This week we'll combine our Ruby skills with some new web development knowledge to build a basic web application.
 
 #### Discussion
-- How The Web Works
+- [How The Web Works](https://github.com/carrot-u/carrot-u-docs/blob/master/docs/theory-and-practice/how_the_web_works.md)
   - Muffy
   - Talk about HTTP, what happens when you visit a website, etc.
-  - [notes](https://github.com/carrot-u/carrot-u-docs/blob/master/docs/theory-and-practice/how_the_web_works.md)
 
 #### Coursework
-* How To Make A Website (https://teamtreehouse.com/library/how-to-make-a-website)
-* How The Web Works (https://teamtreehouse.com/library/how-the-web-works)
+* [Treehouse: How To Make A Website](https://teamtreehouse.com/library/how-to-make-a-website)
+* [Treehouse: How The Web Works](https://teamtreehouse.com/library/how-the-web-works)
+* [Treehouse: Bootstrap 4 Basics](https://teamtreehouse.com/library/bootstrap-4-basics-2)
 
 #### Assignments
-- Build a Website! *(link to come)*
+- [Build a Website](https://github.com/carrot-u/assignments/tree/master/week7)
 
 #### Extra Resources
 - https://pages.github.com/

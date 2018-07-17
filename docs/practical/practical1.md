@@ -1,6 +1,7 @@
 # Using Git/Github to submit homework
 
-[Git Ramp-up](https://instacart.quip.com/6AJvAzoIZIif)
+* [Git Ramp-up](https://instacart.quip.com/6AJvAzoIZIif)
+* [Submitting with Git](../overview/submitting-with-git.md)
 
 # Doing homework
 
