@@ -141,6 +141,7 @@ This week we'll combine our Ruby skills with some new web development knowledge 
 - Build a Website! *(link to come)*
 
 #### Extra Resources
+- https://pages.github.com/
 
 ### Week of 7/23 How To Build A Web App
 
@@ -155,7 +156,7 @@ This week we'll take what we've learned about building web applications and maki
 * Building Web Apps With Sinatra (https://teamtreehouse.com/library/building-web-apps-with-sinatra)
 
 #### Assignments
-- Blog/Twitter Clone *(link to come)*
+- Build a Blog *(link to come)*
 
 #### Extra Resources
 - Sinatra: http://sinatrarb.com/
@@ -166,28 +167,37 @@ This week we'll take what we've learned about building web applications and maki
 This week we'll dive into Ruby on Rails and build our first Rails application.
 
 #### Discussion
-- TBD
+- Let's Build A Rails App Together
+  - James
+  - everybody will build their first Rails app together
+  - introduction to Test Driven Development (TDD)
 
 #### Coursework
 * Ruby on Rails 5 Basics (https://teamtreehouse.com/library/ruby-on-rails-5-basics)
 * Rails Routes and Resources (https://teamtreehouse.com/library/rails-routes-and-resources)
-* Active Record
 
 #### Assignments
 - Rebuild Sinatra App In Rails *(link to come)*
 
 #### Extra Resources
+- https://rubyonrails.org/
+- http://guides.rubyonrails.org/ (this is REALLY helpful!)
+- https://www.railstutorial.org/book
 
 
 ### Week of 8/6 Working With Rails
 
 #### Discussion
-- TBD
+- ActiveRecord and ERB
+  - Dave and Viktor
+  - How ActiveRecord is used to make your code interact with a database
+  - How ERB is used for rendering layouts in Rails
 
 #### Coursework
-* Rails console
-* Rspec
-* deploying to Heroku
+* Active Record (https://teamtreehouse.com/library/active-record-associations-in-rails)
+* ERB  
+  - (https://teamtreehouse.com/library/practice-sinatra-basics/practice-erb-templates/erb-templates)
+  review "ERB Templates" from (https://teamtreehouse.com/library/building-web-apps-with-sinatra)
 
 #### Assignments
 - Question and Answer Site
@@ -197,29 +207,41 @@ This week we'll dive into Ruby on Rails and build our first Rails application.
 ### Week of 8/13 Expanding Your Rails App
 
 #### Discussion
--
+- Gems and Rspec
+  - using external libraries via Ruby Gems
+  - deeper understanding of testing via Rspec
 
 #### Coursework
 * Ruby Gems (https://teamtreehouse.com/library/ruby-gems)
+* Rspec (https://www.youtube.com/watch?v=Dj19O9kLK6w)
 * Troubleshooting Rails Applications (https://teamtreehouse.com/library/troubleshooting-a-rails-application)
 
 #### Assignments
 -
 
 #### Extra Resources
+- http://rspec.info/
+- https://rubygems.org/
 
 ### Week Of 8/20 Rails In The Real World
 
 #### Discussion
 - Overview of the Instacart Rails App
+  - Muffy
+  - let's look at some code in the Instacart application!
 
 #### Coursework
-- Javascript in Rails
+- Practice Rails Basics (https://teamtreehouse.com/library/practice-ruby-on-rails-basics)
+- Static Pages In Rails (https://teamtreehouse.com/library/creating-static-pages-in-rails)
+- Rails Application Walkthrough (https://teamtreehouse.com/library/rails-application-walkthrough)
+- Deploying Rails With Capistrano (https://teamtreehouse.com/library/deployment-with-capistrano)
 
 #### Assignments
--
+- Deploy your Rails app to Heroku
 
 #### Extra Resources
+- http://docs.railsbridge.org/installfest/deploy_a_rails_app
+
 
 ## Break #2 (Week of 8/27)
 - [Summer Vacation, woo!](http://mountsaintawesome.com/comic.php?id=104)
