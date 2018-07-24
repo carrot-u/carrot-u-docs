@@ -148,7 +148,7 @@ This week we'll bring together HTML and CSS to build a website.
 This week we'll take what we've learned about building web sites and making them look better and do more. We'll also develop a more fundamental understanding of how the web works.
 
 #### Discussion
-- Live Build A Web App With Sinatra
+- [Live Build A Web App With Sinatra](https://github.com/carrot-u/carrot-u-docs/blob/master/docs/sinatra/notes.md)
   - Dave
 
 #### Coursework
@@ -161,6 +161,7 @@ This week we'll take what we've learned about building web sites and making them
 #### Extra Resources
 - Sinatra: http://sinatrarb.com/
 - Sequel: https://github.com/jeremyevans/sequel
+- Sqlite: https://www.sqlite.org/index.html
 
 ### Week of 7/30 Getting Started With Rails
 
