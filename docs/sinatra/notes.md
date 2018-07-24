@@ -202,7 +202,7 @@ Alright, let's create something to handle this request.
 post '/create_post' do
   puts "*********** Trying to create new blog post ***********"
   puts "title: #{params[:title]}"
-  puts "body: #{params[:post_body:]}"
+  puts "body: #{params[:post_body]}"
 end
 ```
 
