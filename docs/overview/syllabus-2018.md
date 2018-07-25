@@ -156,7 +156,7 @@ This week we'll take what we've learned about building web sites and making them
 * [Treehouse: Bootstrap 4](https://teamtreehouse.com/library/bootstrap-4-basics)
 
 #### Assignments
-- Build a Blog *(link to come)*
+- [Build a Blog]((https://github.com/carrot-u/carrot-u-docs/blob/master/exercises/sinatra/blog-assignment.md) - due 7/29 11:59pm
 
 #### Extra Resources
 - Sinatra: http://sinatrarb.com/
