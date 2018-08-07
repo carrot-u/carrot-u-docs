@@ -156,7 +156,7 @@ This week we'll take what we've learned about building web sites and making them
 * [Treehouse: Bootstrap 4](https://teamtreehouse.com/library/bootstrap-4-basics)
 
 #### Assignments
-- [Build a Blog]((https://github.com/carrot-u/carrot-u-docs/blob/master/exercises/sinatra/blog-assignment.md) - due 7/29 11:59pm
+- [Build a Blog](https://github.com/carrot-u/carrot-u-docs/blob/master/exercises/sinatra/blog-assignment.md) - due 7/29 11:59pm
 
 #### Extra Resources
 - Sinatra: http://sinatrarb.com/
@@ -171,14 +171,14 @@ This week we'll dive into Ruby on Rails and build our first Rails application.
 - Let's Build A Rails App Together
   - James
   - everybody will build their first Rails app together
-  - introduction to Test Driven Development (TDD)
+  - [slides](https://docs.google.com/presentation/d/1yLj8ZhwtuFS2HIn7OT5KfqvvWTIDdaT3ltSPTlmmUwc/edit)
 
 #### Coursework
 * [Treehouse: Ruby on Rails 5 Basics](https://teamtreehouse.com/library/ruby-on-rails-5-basics)
 * [Treehouse: Rails Routes and Resources](https://teamtreehouse.com/library/rails-routes-and-resources)
 
 #### Assignments
-- Rebuild Sinatra App In Rails *(link to come)*
+- [Instacart Lite](https://github.com/carrot-u/assignments/blob/master/week9/instacart-lite.md) - due 8/5 11:59pm
 
 #### Extra Resources
 - https://rubyonrails.org/
@@ -191,21 +191,24 @@ This week we'll dive into Ruby on Rails and build our first Rails application.
 This week we'll take a deeper dive into some core pieces of Rails functionality.
 
 #### Discussion
-- ActiveRecord and ERB
+- ActiveRecord
   - Dave and Viktor
   - How ActiveRecord is used to make your code interact with a database
-  - How ERB is used for rendering layouts in Rails
+  - Finish up last week's content
 
 #### Coursework
 * [Treehouse: Active Record](https://teamtreehouse.com/library/active-record-associations-in-rails)
 * ERB  
   - (https://teamtreehouse.com/library/practice-sinatra-basics/practice-erb-templates/erb-templates)
-  review "ERB Templates" from (https://teamtreehouse.com/library/building-web-apps-with-sinatra)
+  - review "ERB Templates" from (https://teamtreehouse.com/library/building-web-apps-with-sinatra)
 
 #### Assignments
-- Question and Answer Site
+- [Question and Answer Site](https://github.com/carrot-u/carrot-u-docs/blob/master/exercises/ruby-and-rails/question-answer.md) - due 8/12 11:59pm
 
 #### Extra Resources
+- Rails Validator docs: https://guides.rubyonrails.org/active_record_validations.html
+- The original "Rails blog" video: https://www.youtube.com/watch?v=Gzj723LkRJY
+- HAML (an alternative to ERB): http://haml.info/
 
 ### Week of 8/13 Expanding Your Rails App
 
@@ -222,11 +225,12 @@ This week we'll look at how to make use of external code libraries to add functi
 * [Treehouse: Troubleshooting Rails Applications](https://teamtreehouse.com/library/troubleshooting-a-rails-application)
 
 #### Assignments
--
+- TDD Application
 
 #### Extra Resources
 - http://rspec.info/
 - https://rubygems.org/
+- https://github.com/hothero/awesome-rails-gem (useful gems for Rails work)
 
 ### Week Of 8/20 Rails In The Real World
 
