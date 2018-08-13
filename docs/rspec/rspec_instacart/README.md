@@ -106,7 +106,7 @@ The output changes to red and it'll give you what line the spec failed and why.
 
 [Better Specs](http://www.betterspecs.org/) is a great resource for immediately learning good practices.
 
-# Assignment
+## Weekly Assignment
 1. Write a basic driver model spec in the test app, using the customer and order model specs as your template. Make sure your tests pass.
 2. Write a drivers controller spec and use it to write an actual drivers controller, with at least two basic actions (index, show, new, edit, create, update, destroy) and the necessary views and routes.
 
@@ -115,17 +115,16 @@ _*Optional (for the brave and fancy):*_
 2. Create a new tiny_instacart with Rspec. Install FactoryBot and write your models and controllers by writing specs that fail. Build each piece of functionality based on the output of the test.
 3. On either an existing or new app, learn about and implement [feature specs (requires the Capybara gem)](https://www.driftingruby.com/episodes/feature-testing-with-capybara)
 
-## How to Create a New App with rSpec and Factory Boy
+## How to Create a New App with rSpec and Factory Bot
 
-1. Create your Rails App.
+1. Create your Rails App with `$ rails new app_name -T`
 
-2. Add to gemfile
+2. Add `rspec-rails` gem to the development and test group block in your app's Gemfile.
 
 ```ruby
 group :development, :test do
-  gem 'rspec-rails'
-  # Call 'byebug' anywhere in the code to stop execution and get a debugger console
-  gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
+  gem "rspec-rails"
+  # other gems in this group block
 end
 ```
 
