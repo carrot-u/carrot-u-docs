@@ -4,6 +4,8 @@ class Order < ApplicationRecord
 
   validates_presence_of :items, :warehouse
 
+  serialize :items, Array
+
   def advance_to_next_stage
     return if workflow_state == "delivered"
     case workflow_state

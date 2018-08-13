@@ -24,3 +24,7 @@
 
 # Ignore master key for decrypting credentials and more.
 /config/master.key
+
+# sqlite dbs
+/rspec_instacart_development
+/rspec_instacart_test
