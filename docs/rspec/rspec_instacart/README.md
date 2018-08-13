@@ -106,19 +106,37 @@ The output changes to red and it'll give you what line the spec failed and why.
 
 [Better Specs](http://www.betterspecs.org/) is a great resource for immediately learning good practices.
 
-# TODO
-- [ ] how to install
-- [ ] finish all specs
-- [ ] create assignment
-- [ ] create class tasks
+# Assignment
+1. Write a basic driver model spec in the test app, using the customer and order model specs as your template. Make sure your tests pass.
+2. Write a drivers controller spec and use it to write an actual drivers controller, with at least two basic actions (index, show, new, edit, create, update, destroy) and the necessary views and routes.
 
-### Model Study: Order
+_*Optional (for the brave and fancy):*_
+1. Add Rspec and FactoryBot to an existing assignment and write specs for any of your models and controllers.
+2. Create a new tiny_instacart with Rspec. Install FactoryBot and write your models and controllers by writing specs that fail. Build each piece of functionality based on the output of the test.
+3. On either an existing or new app, learn about and implement [feature specs (requires the Capybara gem)](https://www.driftingruby.com/episodes/feature-testing-with-capybara)
 
-### Feature Study: Order Controller/View
+## How to Create a New App with rSpec and Factory Boy
 
-### Driver Model/View
+1. Create your Rails App.
 
-## How to Create a New App with rSpec
+2. Add to gemfile
+
+```ruby
+group :development, :test do
+  gem 'rspec-rails'
+  # Call 'byebug' anywhere in the code to stop execution and get a debugger console
+  gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
+end
+```
+
+3. run `$ bundle install`
+
+4. run `$ rails generate rspec:install`
+
+5. run `$ bundle binstubs rspec-core`
+
+6. [Set Up Factory Bot](https://www.rubydoc.info/gems/factory_bot/file/GETTING_STARTED.md)
+
 
 ## Resources
 
