@@ -107,8 +107,9 @@ The output changes to red and it'll give you what line the spec failed and why.
 [Better Specs](http://www.betterspecs.org/) is a great resource for immediately learning good practices.
 
 ## Weekly Assignment
-1. Write a basic driver model spec in the test app, using the customer and order model specs as your template. Make sure your tests pass.
-2. Write a drivers controller spec and use it to write an actual drivers controller, with at least two basic actions (index, show, new, edit, create, update, destroy) and the necessary views and routes.
+1. Fill out the [Feedback Form](https://instacartshoppers.typeform.com/to/NjVahF) before the lecture ends.
+2. Write a basic driver model spec in the test app, using the customer and order model specs as your template. Make sure your tests pass.
+3. Write a drivers controller spec and use it to write an actual drivers controller, with at least two basic actions (index, show, new, edit, create, update, destroy) and the necessary views and routes.
 
 _*Optional (for the brave and fancy):*_
 1. Add Rspec and FactoryBot to an existing assignment and write specs for any of your models and controllers.
