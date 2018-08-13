@@ -1,0 +1,34 @@
+%h2= "Order #{@order.id}"
+
+%table.show
+  %tr
+    %td
+      %strong Id
+    %td= @order.id
+  %tr
+    %td
+      %strong Customer
+    %td= @order.customer.name
+  %tr
+    %td
+      %strong Driver
+    %td= @order.driver.name
+  %tr
+    %td
+      %strong Warehouse
+    %td= @order.warehouse
+  %tr
+    %td
+      %strong Items
+    %td
+      - @order.items.each do |item|
+        %p= item
+  %tr
+    %td
+      %strong Total
+    %td= "$#{@order.total}"
+  %tr
+    %td
+      %strong Status
+    %td= "Picking"
+

@@ -1,0 +1,20 @@
+// Place all the styles related to the orders controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+table, th, td {
+  border: 1px solid black;
+
+}
+
+table {
+  width: 100%;
+}
+
+td {
+  text-align: center;
+}
+
+table.show {
+  max-width: 50%;
+}

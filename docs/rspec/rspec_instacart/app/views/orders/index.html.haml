@@ -1,0 +1,23 @@
+%h1 Orders
+
+%table
+  %tr
+    %th Id
+    %th Customer
+    %th Driver
+    %th Warehouse
+    %th Items
+    %th Total
+    %th Status
+  %tr
+    - @orders.each do |order|
+      %td= order.id
+      %td= order.customer.name
+      %td= order.driver.name
+      %td= order.warehouse
+      %td
+        - order.items.each do |item|
+          %p= item
+      %td= "$#{order.total}"
+      %td= "Picking"
+
