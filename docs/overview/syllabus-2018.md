@@ -215,9 +215,10 @@ This week we'll take a deeper dive into some core pieces of Rails functionality.
 This week we'll look at how to make use of external code libraries to add functionality to your applications.
 
 #### Discussion
-- Gems and Rspec
-  - using external libraries via Ruby Gems
+- Testing and Rspec
   - deeper understanding of testing via Rspec
+  - Jeremy
+  - example app: https://github.com/carrot-u/carrot-u-docs/tree/master/docs/rspec/rspec_instacart
 
 #### Coursework
 * [Treehouse: Ruby Gems](https://teamtreehouse.com/library/ruby-gems)
@@ -225,21 +226,22 @@ This week we'll look at how to make use of external code libraries to add functi
 * [Treehouse: Troubleshooting Rails Applications](https://teamtreehouse.com/library/troubleshooting-a-rails-application)
 
 #### Assignments
-- TDD Application
+- [Write Your Own Specs](https://github.com/carrot-u/carrot-u-docs/tree/master/docs/rspec/rspec_instacart#weekly-assignment)
 
 #### Extra Resources
 - http://rspec.info/
 - https://rubygems.org/
 - https://github.com/hothero/awesome-rails-gem (useful gems for Rails work)
+- https://httpstatuses.com/
 
 ### Week Of 8/20 Rails In The Real World
 
 Rails is used as the the foundation for many large websites, including Instacart.
 
 #### Discussion
-- Overview of the Instacart Rails App
-  - Muffy
-  - let's look at some code in the Instacart application!
+- Debugging and Inspecting Your Application / Review of What We Can Do With Rails
+  - Viktor and Dave
+  - Pry / Postman / Chrome Developer Tools 
 
 #### Coursework
 - [Treehouse: Practice Rails Basics](https://teamtreehouse.com/library/practice-ruby-on-rails-basics)
@@ -252,16 +254,20 @@ Rails is used as the the foundation for many large websites, including Instacart
 
 #### Extra Resources
 - http://docs.railsbridge.org/installfest/deploy_a_rails_app
+- https://github.com/pry/pry
 
 
-## Break #2 (Week of 8/27)
+## Break #2 (Week of 8/27 & Week of 9/3)
 - [Summer Vacation, woo!](http://mountsaintawesome.com/comic.php?id=104)
+- Note, 2 week break here
+  - use the time to catch up on things you may have fallen behind in
+  - we will still hold office hours
 
 ## Section 3: Frontend Development
 
 In this section we'll diver deeper into the major frontend technologies: HTML, CSS, and JavaScript. We'll also start to work with React, the front-end framework we use here at Instacart.
 
-### Week of 9/3 HTML/CSS/Javascript
+### Week of 9/10 HTML/CSS/Javascript
 
 #### Discussion
 - Overview of HTML and CSS, Accessibility at Instacart
@@ -280,7 +286,7 @@ In this section we'll diver deeper into the major frontend technologies: HTML, C
 * Advanced CSS selectors (https://teamtreehouse.com/library/css-selectors)
 * Accessibility (https://teamtreehouse.com/library/accessibility)
 
-### Week of 9/10 Javascript the Language and the DOM
+### Week of 9/17 Javascript the Language and the DOM
 
 #### Discussion
 - DOM manipulation and API calls
@@ -298,7 +304,7 @@ In this section we'll diver deeper into the major frontend technologies: HTML, C
 
 #### Extra Resources
 
-### Week of 9/17 React
+### Week of 9/24 React
 
 #### Discussion
 - Overview of React
@@ -314,7 +320,7 @@ In this section we'll diver deeper into the major frontend technologies: HTML, C
 
 #### Extra Resources
 
-### Week of 9/24 More React
+### Week of 10/1 More React
 
 #### Discussion
 - React/Redux
@@ -329,14 +335,14 @@ In this section we'll diver deeper into the major frontend technologies: HTML, C
 
 #### Extra Resources
 
-## Break #3 (Week of 10/1)
+## Break #3 (Week of 10/8)
 - [XOR](http://mountsaintawesome.com/comic.php?id=57)
 
 ## Section 4: Theory and Practice
 
 In this section we'll dive deeper into useful computer science theory and also explore some of the practical skills involved with shipping production code. During this section you will devote most of your time to building group projects, in groups of 3-4. Discussions will cover a range of topics in computer science and getting code into production.
 
-### Week of 10/8 Practice: The product spec
+### Week of 10/15 Practice: The product spec
 
 #### Discussion
 - Product Specs for Engineers
@@ -351,7 +357,7 @@ In this section we'll dive deeper into useful computer science theory and also e
 
 #### Extra Resources
 
-### Week of 10/15 Theory: Data structures
+### Week of 10/22 Theory: Data structures
 
 #### Discussion
 - Deep Dive Into Data structures
@@ -367,7 +373,7 @@ In this section we'll dive deeper into useful computer science theory and also e
 #### Extra Resources
 - Big O Cheatsheet: http://bigocheatsheet.com/
 
-### Week of 10/22 Practice: Database design
+### Week of 10/29 Practice: Database design
 
 #### Discussion
 - Database Design
@@ -381,7 +387,7 @@ In this section we'll dive deeper into useful computer science theory and also e
 
 #### Extra Resources
 
-### Week of 10/29 Theory: Algorithms
+### Week of 11/5 Theory: Algorithms
 
 #### Discussion
 -
@@ -398,7 +404,7 @@ In this section we'll dive deeper into useful computer science theory and also e
 
 #### Extra Resources
 
-### Week of 11/5 Practice: Code reviews
+### Week of 11/12 Practice: Code reviews
 
 #### Discussion
 - Code reviews
@@ -411,7 +417,7 @@ In this section we'll dive deeper into useful computer science theory and also e
 
 #### Extra Resources
 
-### Week of 11/5 Theory: Programming paradigms
+### Week of 11/19 Theory: Programming paradigms
 
 #### Discussion
 - Programming paradigms
