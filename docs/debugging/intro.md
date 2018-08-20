@@ -1,6 +1,6 @@
 # Debug - shell tools, pry, postman, dev tools
 
-## Prereqquesites 
+## Prerequesites 
 
 - install pry `gem install pry`
 
@@ -8,8 +8,7 @@
 
 - install telnet `brew install telnet`
 
-
-Simple Sinatra site
+- create simple sinatra site in main.rb
 
 ```
 require 'sinatra'
@@ -27,7 +26,11 @@ end
 
 ```
 
+
 ## telnet
+
+
+
 ```
 > telnet
 o localhost 4567
@@ -57,6 +60,8 @@ Host: localhost
 
 ## Pry
  [GitHub - pry/pry: An IRB alternative and runtime developer console](https://github.com/pry/pry)
+ [enable for rails](https://github.com/rweng/pry-rails)
+ 
 ```
 > ls. # https://gist.github.com/banister/c0fc686ef923c8b87715
 
@@ -75,6 +80,9 @@ Host: localhost
 
 
 ## Postman
+
+Go to https://chrome.google.com/webstore/detail/postman/fhbjgbiflinjbdggehcddcbncdddomop/related and launch it
+
 ```
  - get 
  - post
