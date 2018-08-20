@@ -8,7 +8,7 @@
 
 - install telnet `brew install telnet`
 
-- create simple sinatra site in main.rb
+- create simple sinatra site in `main.rb`
 
 ```
 require 'sinatra'
