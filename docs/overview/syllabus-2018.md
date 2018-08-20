@@ -242,6 +242,8 @@ Rails is used as the the foundation for many large websites, including Instacart
 - Debugging and Inspecting Your Application / Review of What We Can Do With Rails
   - Viktor and Dave
   - Pry / Postman / Chrome Developer Tools 
+  - Look back at what we know how to do with Rails
+    - [Rails Review notes](https://github.com/carrot-u/carrot-u-docs/tree/master/docs/rails-review/rails_review.md)
 
 #### Coursework
 - [Treehouse: Practice Rails Basics](https://teamtreehouse.com/library/practice-ruby-on-rails-basics)
@@ -255,13 +257,15 @@ Rails is used as the the foundation for many large websites, including Instacart
 #### Extra Resources
 - http://docs.railsbridge.org/installfest/deploy_a_rails_app
 - https://github.com/pry/pry
+- [Postman Chrome plugin](https://chrome.google.com/webstore/detail/postman/fhbjgbiflinjbdggehcddcbncdddomop)
 
 
 ## Break #2 (Week of 8/27 & Week of 9/3)
 - [Summer Vacation, woo!](http://mountsaintawesome.com/comic.php?id=104)
-- Note, 2 week break here
+- **Note, 2 week break here**
   - use the time to catch up on things you may have fallen behind in
   - we will still hold office hours
+  - lecture times will be used for group Q&A
 
 ## Section 3: Frontend Development
 
