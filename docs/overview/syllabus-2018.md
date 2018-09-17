@@ -274,14 +274,15 @@ In this section we'll diver deeper into the major frontend technologies: HTML, C
 ### Week of 9/10 HTML/CSS/Javascript
 
 #### Discussion
-- Overview of HTML and CSS, Accessibility at Instacart
-  - Logan
+- Overview of HTML and CSS
+  - [HTML/CSS Crash Course](https://github.com/carrot-u/carrot-u-docs/tree/master/html-css/html-css-crash-course.md)
+  - Will
 
 #### Coursework
-* Beginning HTML and CSS (https://teamtreehouse.com/library/introduction-to-html-and-css)
-* Quick read on CSS: https://blog.logrocket.com/how-css-works-understanding-the-cascade-d181cd89a4d8
-* Responsive design (https://teamtreehouse.com/library/responsive-layouts)
-* Flexbox (https://teamtreehouse.com/library/css-flexbox-layout)
+* [Treehouse: Beginning HTML and CSS](https://teamtreehouse.com/library/introduction-to-html-and-css)
+* [Quick read on CSS](https://blog.logrocket.com/how-css-works-understanding-the-cascade-d181cd89a4d8)
+* [Treehouse: Responsive design](https://teamtreehouse.com/library/responsive-layouts)
+* [Treehouse: Flexbox](https://teamtreehouse.com/library/css-flexbox-layout)
 
 #### Assignments
 - PNG to website
@@ -297,16 +298,17 @@ In this section we'll diver deeper into the major frontend technologies: HTML, C
   - James J
 
 #### Coursework
-* JavaScript Basics (https://teamtreehouse.com/library/javascript-basics)
-* JavaScript Loops, Arrays, and Objects (https://teamtreehouse.com/library/javascript-loops-arrays-and-objects)
-* JavaScript and the DOM (https://teamtreehouse.com/library/javascript-and-the-dom-2)
-* AJAX (https://teamtreehouse.com/library/ajax-basics)
+* [Treehouse: JavaScript Basics](https://teamtreehouse.com/library/javascript-basics)
+* [Treehouse: JavaScript Loops, Arrays, and Objects](https://teamtreehouse.com/library/javascript-loops-arrays-and-objects)
+* [Treehouse: JavaScript and the DOM](https://teamtreehouse.com/library/javascript-and-the-dom-2)
+* [Treehouse: AJAX](https://teamtreehouse.com/library/ajax-basics)
 
 #### Assignments
 - Ajax practice
 - [JS Practice](https://github.com/carrot-u/carrot-u-docs/tree/master/exercises/section-3-frontend/javascript-practice)
 
 #### Extra Resources
+- https://egghead.io/ (JS tool and framework lessons)
 
 ### Week of 9/24 React
 
@@ -315,8 +317,8 @@ In this section we'll diver deeper into the major frontend technologies: HTML, C
   - Will
 
 #### Coursework
-* “easy” react with next.js and now (https://nextjs.org/static/videos/hnpwa-next-v2.mp4)
-* Learn React (https://teamtreehouse.com/tracks/learn-react)
+* [“easy” react with next.js and now](https://nextjs.org/static/videos/hnpwa-next-v2.mp4)
+* [Treehouse: Learn React](https://teamtreehouse.com/tracks/learn-react)
 
 #### Assignments
 - Stateless website using react (same website as in week 1 of FE)
@@ -328,11 +330,11 @@ In this section we'll diver deeper into the major frontend technologies: HTML, C
 
 #### Discussion
 - React/Redux
+- React at Instacart
 
 #### Coursework
-* Learn React (https://teamtreehouse.com/tracks/learn-react)
+* [Treehouse: Learn React](https://teamtreehouse.com/tracks/learn-react)
 * Lifecycle methods
-* React at Instacart
 
 #### Assignments
 - Stateful website (to demo how state impacts interactivity) using react
