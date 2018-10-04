@@ -275,7 +275,7 @@ In this section we'll diver deeper into the major frontend technologies: HTML, C
 
 #### Discussion
 - Overview of HTML and CSS
-  - [HTML/CSS Crash Course](https://github.com/carrot-u/carrot-u-docs/tree/master/html-css/html-css-crash-course.md)
+  - [HTML/CSS Crash Course](https://github.com/carrot-u/carrot-u-docs/blob/master/docs/html-css/html-css-crash-course.md)
   - Will
 
 #### Coursework
@@ -313,8 +313,9 @@ In this section we'll diver deeper into the major frontend technologies: HTML, C
 ### Week of 9/24 React
 
 #### Discussion
-- Overview of React
-  - Will
+- Intro to React
+  - Logan
+  - https://github.com/carrot-u/assignments/blob/master/week14/intro_to_react.md
 
 #### Coursework
 * [“easy” react with next.js and now](https://nextjs.org/static/videos/hnpwa-next-v2.mp4)
@@ -329,15 +330,15 @@ In this section we'll diver deeper into the major frontend technologies: HTML, C
 ### Week of 10/1 More React
 
 #### Discussion
-- React/Redux
-- React at Instacart
+- Pure JS vs React
+  - Will
+  - https://github.com/wfro/typeahead-extravaganza
 
 #### Coursework
 * [Treehouse: Learn React](https://teamtreehouse.com/tracks/learn-react)
-* Lifecycle methods
 
 #### Assignments
-- Stateful website (to demo how state impacts interactivity) using react
+- React version of [typeahead](https://github.com/wfro/typeahead-extravaganza)
 
 #### Extra Resources
 
