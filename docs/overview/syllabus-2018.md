@@ -342,14 +342,34 @@ In this section we'll diver deeper into the major frontend technologies: HTML, C
 
 #### Extra Resources
 
-## Break #3 (Week of 10/8)
+### Week of 10/8 JavaScript/React Review
+
+#### Discussion
+- JavaScript Fundamentals
+  - review JavaScript fundamentals
+  - take questions about React
+  - ???
+
+#### Coursework
+* Finish JavaScript Treehouse Sessions if you haven't yet!
+* [Treehouse: JavaScript Basics](https://teamtreehouse.com/library/javascript-basics)
+* [Treehouse: JavaScript Loops, Arrays, and Objects](https://teamtreehouse.com/library/javascript-loops-arrays-and-objects)
+* [Treehouse: JavaScript and the DOM](https://teamtreehouse.com/library/javascript-and-the-dom-2)
+
+
+#### Assignments
+* TBD
+
+#### Extra Resources
+
+## Break #3 (Week of 10/15)
 - [XOR](http://mountsaintawesome.com/comic.php?id=57)
 
 ## Section 4: Theory and Practice
 
 In this section we'll dive deeper into useful computer science theory and also explore some of the practical skills involved with shipping production code. During this section you will devote most of your time to building group projects, in groups of 3-4. Discussions will cover a range of topics in computer science and getting code into production.
 
-### Week of 10/15 Practice: The product spec
+### Week of 10/22 Practice: The product spec
 
 #### Discussion
 - Product Specs for Engineers
@@ -364,7 +384,7 @@ In this section we'll dive deeper into useful computer science theory and also e
 
 #### Extra Resources
 
-### Week of 10/22 Theory: Data structures
+### Week of 10/29 Theory: Data structures
 
 #### Discussion
 - Deep Dive Into Data structures
@@ -380,7 +400,7 @@ In this section we'll dive deeper into useful computer science theory and also e
 #### Extra Resources
 - Big O Cheatsheet: http://bigocheatsheet.com/
 
-### Week of 10/29 Practice: Database design
+### Week of 11/5 Practice: Database design
 
 #### Discussion
 - Database Design
@@ -394,7 +414,7 @@ In this section we'll dive deeper into useful computer science theory and also e
 
 #### Extra Resources
 
-### Week of 11/5 Theory: Algorithms
+### Week of 11/12 Theory: Algorithms
 
 #### Discussion
 -
@@ -411,7 +431,7 @@ In this section we'll dive deeper into useful computer science theory and also e
 
 #### Extra Resources
 
-### Week of 11/12 Practice: Code reviews
+### Week of 11/19 Practice: Code reviews
 
 #### Discussion
 - Code reviews
@@ -424,7 +444,7 @@ In this section we'll dive deeper into useful computer science theory and also e
 
 #### Extra Resources
 
-### Week of 11/19 Theory: Programming paradigms
+### Week of 11/26 Theory: Programming paradigms
 
 #### Discussion
 - Programming paradigms
@@ -436,6 +456,12 @@ In this section we'll dive deeper into useful computer science theory and also e
 - Class project: UI
 
 #### Extra Resources
+
+### Week of 12/3
+
+### Week of 12/10
+
+### Week of 12/17
 
 ### Practice: Deploying your code
 
