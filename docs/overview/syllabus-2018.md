@@ -369,55 +369,56 @@ In this section we'll diver deeper into the major frontend technologies: HTML, C
 
 In this section we'll dive deeper into useful computer science theory and also explore some of the practical skills involved with shipping production code. During this section you will devote most of your time to building group projects, in groups of 3-4. Discussions will cover a range of topics in computer science and getting code into production.
 
-### Week of 10/22 Practice: The product spec
+### Week of 10/22 Practice: Working With Product
 
 #### Discussion
-- Product Specs for Engineers
-  - Muffy and a yet to be named PM
+- PMs and the Product Spec
+  - Andreea
 
 #### Coursework
-- Recursion: https://www.khanacademy.org/computing/computer-science/algorithms/recursive-algorithms/a/recursion
--
+- Group Project!
 
 #### Assignments
-- Class project: Project spec
+- Group Project: Build a spec for your project
+- start working on your group projects
 
 #### Extra Resources
 
-### Week of 10/29 Theory: Data structures
-
-#### Discussion
-- Deep Dive Into Data structures
-
-#### Coursework
-- Recursion: https://www.khanacademy.org/computing/computer-science/algorithms/recursive-algorithms/a/recursion
-- Regular expressions: http://regex101.com/
-- Type Systems: https://en.wikipedia.org/wiki/Type_system
-
-#### Assignments
-- Class project: Reconcile project specs with team
-
-#### Extra Resources
-- Big O Cheatsheet: http://bigocheatsheet.com/
-
-### Week of 11/5 Practice: Database design
+### Week of 10/29 Practice: Database Design
 
 #### Discussion
 - Database Design
+  - Edmund
 
 #### Coursework
--
+- Database Design (work through coursework and project): https://www.khanacademy.org/computing/computer-programming/sql#sql-basics
+
 
 #### Assignments
-* Class project: Design database
-* Class project: Create Rails migrations
+- Work on your Group Project!
+- Group Project: Design your data models for your project. Think about how they relate to each other. Build and run your migrations.
 
 #### Extra Resources
 
-### Week of 11/12 Theory: Algorithms
+### Week of 11/5 Practice: Code Reviews
 
 #### Discussion
--
+- Code Review
+  - Jeremy
+
+#### Coursework
+
+#### Assignments
+- Work on your Group Project!
+- Do AT LEAST one code review for someone else on your team.
+
+#### Extra Resources
+
+### Week of 11/12 Theory: Data Structures and Algorithms
+
+#### Discussion
+- Algorthms and Data Structures
+  - Edmund
 
 #### Coursework
 - What Is An Algorithm https://www.khanacademy.org/computing/computer-science/algorithms/intro-to-algorithms/v/what-are-algorithms
@@ -426,76 +427,51 @@ In this section we'll dive deeper into useful computer science theory and also e
 - Quick Sort https://www.khanacademy.org/computing/computer-science/algorithms/quick-sort/a/overview-of-quicksort
 
 #### Assignments
-* Class project: Reconcile database designs with team
-* Algorithms: Improve performance of bad code
+- Work on your Group Project!
+- look for places where you could make better use of available data structures
 
 #### Extra Resources
+- Big O Cheatsheet: http://bigocheatsheet.com/
 
-### Week of 11/19 Practice: Code reviews
-
-#### Discussion
-- Code reviews
-
-#### Coursework
--
-
-#### Assignments
-- Class project: Rails models + review all teammates' PRs
-
-#### Extra Resources
-
-### Week of 11/26 Theory: Programming paradigms
+### Week of 11/19 Practice: Deploymnets
 
 #### Discussion
-- Programming paradigms
+- Deployin Code At Instacart
+  - (need someone from infra)
 
 #### Coursework
--
+- Railsbridge deployment instructions: http://docs.railsbridge.org/installfest/deploy_a_rails_app
 
 #### Assignments
-- Class project: UI
-
-#### Extra Resources
-
-### Week of 12/3
-
-### Week of 12/10
-
-### Week of 12/17
-
-### Practice: Deploying your code
-
-#### Discussion
-- Deployments
-
-#### Coursework
--
-
-#### Assignments
-- Class project: Set up heroku and deploy application
+- Work on your Group Project!
+- Group Project: Deploy your project to Heroku
 
 #### Extra Resources
 - S3 https://aws.amazon.com/s3/
 
-### Week of 11/19 Practice: Development vs. Production
-
-*Note: this is the week of Thanksgiving*
+### Week of 11/26 Pracice: Security
 
 #### Discussion
-- Production Considerations
+- Web Application Security Overview
+  - (need someone from security)
 
 #### Coursework
 -
 
 #### Assignments
-- Class project: Finishing touches
+
 
 #### Extra Resources
 
-### Week of 11/26 Group Project Presentations
+### Week of 12/3 Wrap Up Group Projects
 
-Present group projects at Hacker Lunch
+### Week of 12/10 Present Group Projects At Hackers Lunch
 
-## Early December
+### Week of 12/17 Practice: Interview
 
-* prep for interviews
+#### Discussion
+- Engineering Interview
+  - Dave
+
+#### Extra Resources
+- http://www.crackingthecodinginterview.com/
