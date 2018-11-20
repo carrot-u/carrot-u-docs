@@ -436,8 +436,11 @@ In this section we'll dive deeper into useful computer science theory and also e
 ### Week of 11/19 Practice: Deploymnets
 
 #### Discussion
-- Deployin Code At Instacart
-  - (need someone from infra)
+- Deploying Code At Instacart
+  - Dave
+  - go over concept of deploymnet/ENV vars
+  - talk about CD at Instacart
+  - work through Railsbridge deployment tutorial together
 
 #### Coursework
 - Railsbridge deployment instructions: http://docs.railsbridge.org/installfest/deploy_a_rails_app
@@ -445,6 +448,7 @@ In this section we'll dive deeper into useful computer science theory and also e
 #### Assignments
 - Work on your Group Project!
 - Group Project: Deploy your project to Heroku
+- Group Project: make sure everybody on your team can deploy your app
 
 #### Extra Resources
 - S3 https://aws.amazon.com/s3/
