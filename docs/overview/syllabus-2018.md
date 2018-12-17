@@ -474,13 +474,13 @@ In this section we'll dive deeper into useful computer science theory and also e
 
 ### Week of 12/17 Prepare For Software Engineering Interviews
 
-#### Assignments
-- Work on your Group Project!
-
 #### Discussion
 - Engineering Interview
   - Dave
   - https://docs.google.com/presentation/d/1y3jfLAeQa0BtssB9CdzrRjuxNSPKTBu4A7FzqK3dm04/edit?usp=sharing
+
+#### Assignments
+- Work on your Group Project!
 
 #### Extra Resources
 - http://www.crackingthecodinginterview.com/
