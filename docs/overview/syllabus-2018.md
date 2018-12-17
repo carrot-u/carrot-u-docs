@@ -457,25 +457,36 @@ In this section we'll dive deeper into useful computer science theory and also e
 
 #### Discussion
 - Web Application Security Overview
-  - (need someone from security)
-
-#### Coursework
--
+  - Ankit Agrawal and Shashank Mirji (from the Security Team)
 
 #### Assignments
+- Work on your Group Project!
 
+### Week of 12/3 Check In on Group Projects
 
-#### Extra Resources
+#### Assignments
+- Work on your Group Project!
 
-### Week of 12/3 Wrap Up Group Projects
+### Week of 12/10 Open Topics
 
-### Week of 12/10 Present Group Projects At Hackers Lunch
+#### Assignments
+- Work on your Group Project!
 
-### Week of 12/17 Practice: Interview
+### Week of 12/17 Prepare For Software Engineering Interviews
 
 #### Discussion
 - Engineering Interview
   - Dave
+  - https://docs.google.com/presentation/d/1y3jfLAeQa0BtssB9CdzrRjuxNSPKTBu4A7FzqK3dm04/edit?usp=sharing
+
+#### Assignments
+- Work on your Group Project!
 
 #### Extra Resources
 - http://www.crackingthecodinginterview.com/
+- https://www.hackerrank.com/
+- https://blog.codinghorror.com/why-cant-programmers-program/ (Why Coders Can't Code / Fizzbuzz)
+- http://www.thagomizer.com/blog/2017/06/18/there-is-no-perfect-interview.html
+- https://steve-yegge.blogspot.com/2008/03/get-that-job-at-google.html
+
+### 1/3 Present Projects At Hacker Lunch
