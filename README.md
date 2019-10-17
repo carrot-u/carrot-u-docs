@@ -72,7 +72,7 @@ questions:
 3. What other solutions do you think might be worthy to explore?
 
 ## Ok! Let's Get Started!
-- [Welcome class of 2018!](docs/overview/welcome-to-carrot-u-2018.md)
-- Get your [computer set up for Carrot U](docs/install-fest/index.md)
-- Read the [syllabus](docs/overview/syllabus-2018.md)
-- Explore the [additional reading](docs/additional_reading.md)
+- [Welcome class of 2018!](2019-session/welcome-to-carrot-u-2019.md)
+- Get your [computer set up for Carrot U](2019-session/install-fest/index.md)
+- Read the [syllabus](2019-session/syllabus-2019.md)
+- Explore the [additional reading](2019-session/extra/additional_reading.md)
