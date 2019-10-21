@@ -1,5 +1,5 @@
 # Carrot U: Code School Syllabus 2019
-![Carrot U](../../images/code-school-carrot-u.png)
+![Carrot U](./images/code-school-carrot-u.png)
 
 ## Section 1: Solving Problems Like an Engineer
 
@@ -18,10 +18,10 @@ Welcome to the first day of school!
     - Sveta & Michael
 - Meet your Carrot U mentors
     - [2019 Mentor/Mentee Pairings]()
-- Environment setup: [Code School: InstallFest](https://github.com/carrot-u/carrot-u-docs/blob/master/docs/install-fest/index.md)
+- Troubleshoot environment setup: [Code School: InstallFest](./install-fest/index.md)
 
 #### Coursework
-- [complete Code School: InstallFest](https://github.com/carrot-u/carrot-u-docs/blob/master/docs/install-fest/index.md)
+- [complete Code School: InstallFest](./install-fest/index.md)
 - [Treehouse: Console Foundations](https://teamtreehouse.com/library/console-foundations)
 - [Treehouse: SQL Basics](https://teamtreehouse.com/library/sql-basics)
 
@@ -51,14 +51,14 @@ This week we'll work on getting information out of databases using SQL. We'll al
 - Docs for postgres http://devdocs.io/postgresql~9.6/
 - PostgreSQL Exercises https://pgexercises.com/
 
-### Week of 3 Getting Started With Ruby
+### Week 3: Getting Started With Ruby
 
 This week we'll work on solving problems with programming. This involves getting comfortable with the console and writing programs in Ruby.
 
 #### Discussion
 - Getting Started With Ruby
-  - ????
-  - reuse Ruby Room cleaner by Jeremy?
+  - Jeremy?
+  - _reuse Ruby Room cleaner?_
 
 #### Coursework
 - [Treehouse: Ruby Basics](https://teamtreehouse.com/library/ruby-basics-2)
@@ -75,7 +75,7 @@ This week we'll work on solving problems with programming. This involves getting
 - why's Poignant Guide To Ruby: https://poignant.guide/ (maybe... it's weird)
 - Learn Ruby quizzes: http://www.codequizzes.com/ruby
 
-### Week of 6/25 Data Structures and Objects In Ruby
+### Week 4: Data Structures and Objects In Ruby
 
 This week we'll continue our work with Ruby, focusing on how to reason about data in your programs
 
@@ -92,7 +92,7 @@ This week we'll continue our work with Ruby, focusing on how to reason about dat
 * [Treehouse: Ruby Modules](https://teamtreehouse.com/library/ruby-modules)
 
 #### Assignments
-- [Build an Order](https://github.com/carrot-u/carrot-u-docs/blob/master/exercises/ruby-data-structures/mini-instacart-assignments.md) - due 7/1 11:59pm
+- [Build an Order](https://github.com/carrot-u/carrot-u-docs/blob/master/exercises/ruby-data-structures/mini-instacart-assignments.md)
 
 #### Extra Resources
 

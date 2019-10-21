@@ -2,7 +2,7 @@
 
 The goal of this assignment is to make sure that you are comfortable using git to submit files.
 
-TODO: go over details of cloneing assignment repo
+TODO: go over details of cloning assignment repo
 
 ...
 
