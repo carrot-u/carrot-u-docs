@@ -8,7 +8,7 @@ This week's assignment is to use your knowledge of SQL and our internal too, [Bl
 - Once tested and validated, please compile your answers in a `.sql` file. You can use **atom** to write your SQL. 
   - File naming convention: `firstname-lastname.sql`
   - Template of the file: here()
-- Once done, push your file to the `submissions` directory in git. How to do that? All details [here](https://github.com/carrot-u/carrot-u-docs/blob/master/docs/overview/submitting-with-git.md)
+- Once done, push your file to the `submissions` directory in git. How to do that? All details [here](https://github.com/carrot-u/assignments-2019)
 
 ## Assignment
 

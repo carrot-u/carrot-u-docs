@@ -17,7 +17,7 @@ Welcome to the first day of school!
 - How To Succeed In Carrot U
     - Sveta & Michael
 - Meet your Carrot U mentors
-    - [2019 Mentor/Mentee Pairings]()
+    - [2019 Mentor/Mentee Pairings]() (coming soon!)
 - Troubleshoot environment setup: [Code School: InstallFest](./install-fest/index.md)
 
 #### Coursework
@@ -31,7 +31,7 @@ This week we'll work on getting information out of databases using SQL. We'll al
 
 #### Discussion
 - SQL at Instacart: Blazer and PGHero
-  - ????
+  - Michael
 - Assignment 0
     - learn to use git to turn things in
     - [Assignment 0](/assignments/assignment-0.md)
@@ -57,8 +57,8 @@ This week we'll work on solving problems with programming. This involves getting
 
 #### Discussion
 - Getting Started With Ruby
-  - Jeremy?
-  - _reuse Ruby Room cleaner?_
+  - Jeremy
+  - Ruby Room cleaner
 
 #### Coursework
 - [Treehouse: Ruby Basics](https://teamtreehouse.com/library/ruby-basics-2)
@@ -66,7 +66,7 @@ This week we'll work on solving problems with programming. This involves getting
 - [Treehouse: Ruby Loops](https://teamtreehouse.com/library/ruby-loops)
 
 #### Assignments
-- [Ruby Basics Assignment](https://github.com/carrot-u/carrot-u-docs/blob/master/exercises/ruby_one_assignments/ruby_one_assignments.md) - due ---- 11:59pm
+- [Ruby Basics Assignment]() - due ---- 11:59pm
 
 #### Extra Resources
 - How To Teach Git: https://recompilermag.com/issues/issue-1/how-to-teach-git/
@@ -82,8 +82,8 @@ This week we'll continue our work with Ruby, focusing on how to reason about dat
 #### Discussion
 - Some Class: Objects and Classes in Ruby
 - Dave
-- [lecture notes](https://github.com/carrot-u/carrot-u-docs/blob/master/docs/data-structures-ruby/show-some-class-lecture.md)
-- [code](https://github.com/carrot-u/carrot-u-docs/blob/master/docs/data-structures-ruby/show-some-class-code.rb)
+- [lecture notes](./lectures/data-structures-ruby/show-some-class-lecture.md)
+- [code](./lectures/data-structures-ruby/show-some-class-code.rb)
 
 #### Coursework
 * [Treehouse: Ruby Objects and Classes](https://teamtreehouse.com/library/ruby-objects-and-classes)
@@ -92,13 +92,20 @@ This week we'll continue our work with Ruby, focusing on how to reason about dat
 * [Treehouse: Ruby Modules](https://teamtreehouse.com/library/ruby-modules)
 
 #### Assignments
-- [Build an Order](https://github.com/carrot-u/carrot-u-docs/blob/master/exercises/ruby-data-structures/mini-instacart-assignments.md)
+- [Build an Order]()
 
 #### Extra Resources
 
 * Class vs Object (https://www.youtube.com/watch?v=K8eOkzQ_o9w)
 * The Ruby Standard Library (https://teamtreehouse.com/library/ruby-core-and-standard-library)
 * Work through the rest of the Treehouse [Learn Ruby](https://teamtreehouse.com/tracks/learn-ruby) track.
+
+### Week 5: Project Management
+
+#### Discussion
+#### Coursework
+#### Assignments
+#### Extra Resources
 
 ## Break #1 
 
