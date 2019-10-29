@@ -21,8 +21,13 @@ folders.
 
 ![an example new terminal](../images/install-fest/install_terminal.png)
 
-[Here](shell.md) is quick reference for the most useful commands you might use from the
+[Here](shell.md) is a reference for the most useful commands you might use from the
 terminal.
+
+## Learning the shell
+
+http://linuxcommand.org/lc3_learning_the_shell.php is a pretty good tutorial to use to
+get comfortable with the shell.
 
 ## Advanced options
 
