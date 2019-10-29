@@ -1,9 +1,8 @@
 # InstallFest
 
-These instructions assume that you will be using a Mac with an OSX version 
-later than Snow Leopard. If that is not the case, please reach out to someone
-in the #carrot-university Slack channel or talk with a mentor at
-office hours.
+These instructions assume that you will be using a Mac with OSX Mojave
+or a later version. If that is not the case, please reach out to someone
+in the #carrot-university Slack channel or talk with your mentor.
 
 We want to get you out of the Treehouse sandbox and into the real world
 as soon as possible. That said, you won't use some of these tools right away.

@@ -13,13 +13,13 @@ Open a terminal and type
 
 If you do not have the tools installed, you will see a series of dialogs; just agree to everything.
 
-![dialog 1](../../images/install-fest/install_xcode_1.png) 
+![dialog 1](../images/install-fest/install_xcode_1.png) 
 
-![dialog 2](../../images/install-fest/install_xcode_2.png)
+![dialog 2](../images/install-fest/install_xcode_2.png)
  
-![dialog 3](../../images/install-fest/install_xcode_3.png)
+![dialog 3](../images/install-fest/install_xcode_3.png)
  
-![dialog 4](../../images/install-fest/install_xcode_4.png) 
+![dialog 4](../images/install-fest/install_xcode_4.png) 
 
 If you already have them installed, as I do, you will see a message in the shell
 

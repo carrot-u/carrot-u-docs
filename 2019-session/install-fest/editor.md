@@ -2,8 +2,8 @@
 
 ## Why?
 
-There are so many text editors out there, many of which are Interactive Development
-Environments (IDEs) that you will probably get a different answer from every developer
+There are many text editors out there, many of which are Interactive Development
+Environments (IDEs). You will probably get a different answer from every developer
 you ask as to what their favorite editor is and why. All will tell you, however, that 
 the choice of editor is very important in enabling you to produce code efficiently. Today's
 editors and IDEs integrate with a lot of the services you need and provide syntax checking
