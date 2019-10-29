@@ -10,4 +10,4 @@ functionality in order to be helpful to you. This is nice, but it's also nice to
 under the hood.
 
 ## How?
-Install [PopSQL](https://popsql.io/)
+Install [PopSQL](https://popsql.io/) (written by former Instacart engineers!)
