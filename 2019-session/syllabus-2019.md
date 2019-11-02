@@ -7,7 +7,8 @@ This first section is designed to move you into an engineering mentality. This m
 
 [Be a rockstar engineer...](http://mountsaintawesome.com/comic.php?id=50)
 
-### Week 1: Orientation
+### Week 1: Orientation 
+**11/5/19**
 
 Welcome to the first day of school!
 
@@ -26,6 +27,7 @@ Welcome to the first day of school!
 - [Treehouse: SQL Basics](https://teamtreehouse.com/library/sql-basics)
 
 ### Week 2: Databases / SQL
+**11/12/19**
 
 This week we'll work on getting information out of databases using SQL. We'll also make you use git for some reason!
 
@@ -52,6 +54,7 @@ This week we'll work on getting information out of databases using SQL. We'll al
 - PostgreSQL Exercises https://pgexercises.com/
 
 ### Week 3: Getting Started With Ruby
+**11/19/19**
 
 This week we'll work on solving problems with programming. This involves getting comfortable with the console and writing programs in Ruby.
 
@@ -75,21 +78,33 @@ This week we'll work on solving problems with programming. This involves getting
 - why's Poignant Guide To Ruby: https://poignant.guide/ (maybe... it's weird)
 - Learn Ruby quizzes: http://www.codequizzes.com/ruby
 
-### Week 4: Data Structures and Objects In Ruby
+### NO LECTURE on 11/26 🦃
+
+### Week 4: Product Management
+**12/3/19**
+
+#### Discussion
+- Lauren Romaniuk
+#### Coursework
+#### Assignments
+#### Extra Resources
+
+### Week 5: Data Structures and Objects In Ruby
+**12/10/19**
 
 This week we'll continue our work with Ruby, focusing on how to reason about data in your programs
 
 #### Discussion
-- Some Class: Objects and Classes in Ruby
+- Show Some Class: Objects and Classes in Ruby
 - Dave
 - [lecture notes](./lectures/data-structures-ruby/show-some-class-lecture.md)
 - [code](./lectures/data-structures-ruby/show-some-class-code.rb)
 
 #### Coursework
-* [Treehouse: Ruby Objects and Classes](https://teamtreehouse.com/library/ruby-objects-and-classes)
-* [Treehouse: Ruby Blocks](https://teamtreehouse.com/library/ruby-blocks)
-* [Treehouse: Build an Address Book in Ruby](https://teamtreehouse.com/library/build-an-address-book-in-ruby)
-* [Treehouse: Ruby Modules](https://teamtreehouse.com/library/ruby-modules)
+- [Treehouse: Ruby Objects and Classes](https://teamtreehouse.com/library/ruby-objects-and-classes)
+- [Treehouse: Ruby Blocks](https://teamtreehouse.com/library/ruby-blocks)
+- [Treehouse: Build an Address Book in Ruby](https://teamtreehouse.com/library/build-an-address-book-in-ruby)
+- [Treehouse: Ruby Modules](https://teamtreehouse.com/library/ruby-modules)
 
 #### Assignments
 - [Build an Order]()
@@ -100,12 +115,32 @@ This week we'll continue our work with Ruby, focusing on how to reason about dat
 * The Ruby Standard Library (https://teamtreehouse.com/library/ruby-core-and-standard-library)
 * Work through the rest of the Treehouse [Learn Ruby](https://teamtreehouse.com/tracks/learn-ruby) track.
 
-### Week 5: Project Management
+### Week 5: Product Management
+**12/10/19**
 
 #### Discussion
 #### Coursework
 #### Assignments
 #### Extra Resources
+
+### Week 6: Foundational Review
+**12/17/19**
+
+This week, we'll take a step back to go over some of the foundational aspects of software engineering we touched on in the first section.
+
+#### Discussion
+- we want to know what you need help with at this point
+
+#### Coursework
+- catch up on any missed coursework!
+
+#### Assignments
+- catch up on any missed homework!
+
+#### Extra Resources
+- [adding git info to your prompt](https://coderwall.com/p/fasnya/add-git-branch-name-to-bash-prompt)
+- [Ruby style guide](https://github.com/airbnb/ruby)
+- [Rubocop (style enforcing tool for Ruby)](https://github.com/rubocop-hq/rubocop)
 
 ## Break #1 
 
