@@ -1,13 +1,17 @@
 # Installation for Windows 10
 
+## Why?
+
 If you have a machine running Windows 10, you can run Linux on it, which
 supports all of the software you'll need for the course.
+
+## How?
 
 Follow the instructions in 
 [this blog post](https://medium.com/@edwardbaeg9/using-homebrew-on-windows-10-with-windows-subsystem-for-linux-wsl-c7f1792f88b3) 
 to set up your computer, then return to the [basic InstallFest instructions](./index.md).
 
-## Troubleshooting
+### Troubleshooting
 
 Some notes on things you might run into:
 
