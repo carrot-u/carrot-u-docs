@@ -40,7 +40,7 @@ defaults to a database with your username.
 
 If this does not work, use
 
-    % ln -s /Applications/Postgres.app/Contents/Versions/9.6/bin/psql /usr/local/bin/
+    % ln -s /Applications/Postgres.app/Contents/Versions/latest/bin/psql /usr/local/bin/
 
 then try running
 
