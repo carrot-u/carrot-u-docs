@@ -61,3 +61,12 @@ You do not need to run StackBuilder, you can exist the installation at this poin
 Once it has installed, you can launch the command line using the
 PostgreSQL -> SQL Shell option in your Start menu.
 
+## What else?
+
+In some cases Postgres may already be installed on your machine, usually with `brew`.
+In this case, trying to start Postgress.app will give you an error that it is
+already running or that the port is already occupied.
+ 
+* If `psql` works, you are still fine.
+* If it does not work, contact the mentors in #carrot-university, and include the
+command you ran and the output you saw to help us in answering quickly. 
