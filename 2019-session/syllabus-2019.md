@@ -23,7 +23,7 @@ Welcome to the first day of school!
 
 #### Coursework
 - [complete Code School: InstallFest](./install-fest/index.md)
-- [Treehouse: Console Foundations](https://teamtreehouse.com/library/console-foundations)
+- [Treehouse: Intro to Terminals](https://teamtreehouse.com/library/introduction-to-the-terminal)
 - [Treehouse: SQL Basics](https://teamtreehouse.com/library/sql-basics)
 
 ### Week 2: Databases / SQL
