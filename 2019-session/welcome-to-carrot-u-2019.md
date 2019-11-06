@@ -15,7 +15,7 @@ Everything builds on top of other concepts. Ask questions when you don't know th
 ## Week 1 TODO
 
 - connect with your paired mentor and set up a weekly 1:1 time
-- complete [InstallFest](TODO) tasks
+- complete [InstallFest](https://github.com/carrot-u/carrot-u-docs/blob/master/2019-session/install-fest/index.md) tasks
 - confirm that you can log into [Treehouse](https://teamtreehouse.com/)
 - complete all other Week 1 lectures/exercises
 
