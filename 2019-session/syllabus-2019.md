@@ -32,11 +32,13 @@ Welcome to the first day of school!
 This week we'll work on getting information out of databases using SQL. We'll also make you use git for some reason!
 
 #### Discussion
+- Pedagogy of Learning
+    - Jeremy
 - SQL at Instacart: Blazer and PGHero
   - Michael
 - Assignment 0
     - learn to use git to turn things in
-    - [Assignment 0](/assignments/assignment-0.md)
+    - [Assignment 0](./assignments/assignment-0.md)
     - turn in assignment 0 in a folder with your name
 
 #### Coursework
@@ -45,10 +47,12 @@ This week we'll work on getting information out of databases using SQL. We'll al
 
 #### Assignments
 - Use Blazer: https://blazer.instacart.com/
-- Make sure you can do [Assignment 0](/assignments/assignment-0.md)
-- [Instacart Queries](/assignments/assignment-1-sql.md)
+- Make sure you can do [Assignment 0](./assignments/assignment-0.md)
+- [Instacart Queries](./assignments/assignment-1-sql.md)
 
 #### Extra Resources
+- How To Teach Git: https://recompilermag.com/issues/issue-1/how-to-teach-git/
+- https://try.github.io
 - SQL Zoo: https://sqlzoo.net/
 - Docs for postgres http://devdocs.io/postgresql~9.6/
 - PostgreSQL Exercises https://pgexercises.com/
@@ -72,8 +76,6 @@ This week we'll work on solving problems with programming. This involves getting
 - [Ruby Basics Assignment]() - due ---- 11:59pm
 
 #### Extra Resources
-- How To Teach Git: https://recompilermag.com/issues/issue-1/how-to-teach-git/
-- https://try.github.io
 - Learn Ruby The Hard Way https://learnrubythehardway.org/book/
 - why's Poignant Guide To Ruby: https://poignant.guide/ (maybe... it's weird)
 - Learn Ruby quizzes: http://www.codequizzes.com/ruby
