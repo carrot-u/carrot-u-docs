@@ -18,20 +18,20 @@ Cognition is essentially muscle memory. Your brain cells, nerves, and synapses l
 
 ### Tips to Improve Retention
 
-  * Do the same [small] thing 12 times, consecutively and consistently to train your brain, but make sure you don't do it incorrectly. Practice makes permanent. For example, when you're learning to write a simple SQL statement, try typing the same command from memory 12 times in a row perfectly (making sure to execute each one, obvz).
+  * Do the same [small] thing 12 times, consecutively and consistently to train your brain, but make sure you don't do it incorrectly. Practice makes ~perfect~ _permanent_. For example, when you're learning to write a simple SQL statement, try typing the same command from memory 12 times in a row perfectly (making sure to execute each one, obvz).
   * Review the week's previous lessons for a few minutes each day before pushing forward.
   * Put in at least 20 minutes _every day,_ even if life gets in the way, even if you're just drilling what you learned yesterday, even if you're just watching treehouse videos or reading articles in the carrot-u docs.
 
 ## Set a Regular Schedule
-  * Schedules generally increase personal accountability.
+  * Schedules increase personal accountability.
   * This should be your priority outside of work.
   * Be loose at first and then set regular times once you find your groove.
   * Allow for flexibility and unexpected time sucks (commute, meetings, sickness, meetings, LIFE)
-  * Allow for some time every week to have fun or just decompress. Studies show that both sleep and extracurricular coginitive/sensory stimuation (reading, board games, dance party) can improve retention and comprehension.
+  * Allow for some time every week to have fun or just decompress. Studies show that both sleep and extracurricular coginitive/sensory stimulation (reading, board games, dance party) can improve retention and comprehension.
 
 ### Sample Schedule A
 #### Weekday
-  + 8-9AM Coursework/Project _(Usually review previous material here)_
+  + 8-9AM Coursework/Project _(Recommendation: review previous material here)_
   + 9AM Office hours if available
   + 12PM Coursework/Project OR Office Hours
   + 4PM Coursework/Project (if regular work is done)
@@ -65,7 +65,7 @@ Cognition is essentially muscle memory. Your brain cells, nerves, and synapses l
   * If you can, designate a work space for study and practice. This will help create a focused environment.
   * That said, don't be afraid to use the comforts of a couch or bed to change things up a bit
   * Invest in a computer monitor
-  * Make sure you have a computer charger available!
+  * Make sure you have ~a~ several computer chargers available!
 
 ### Break Up The Sessions
   * Break up the type of study into Coursework, Reading, and Projects
@@ -74,7 +74,7 @@ Cognition is essentially muscle memory. Your brain cells, nerves, and synapses l
   * Every 40 - 60 minutes, switch gears
 
 ### Tell your programmer friends what you're working on
-  * They might have some awesome resources.
+  * They might share some awesome resources.
   * It's good practice to explain what you're learning to someone else
   * Beware the tech gear bro
 
@@ -93,7 +93,7 @@ Cognition is essentially muscle memory. Your brain cells, nerves, and synapses l
 Treehouse, written materials, and instructors will always give you "additional reading". Go forth and explore, but not too far from the path. Reading 1 or 2 other related items can help reinforce concepts. This is great, but don't derail. Make sure to come back to the original material and ensure that the additional information helped.
 
 * Save longer or less relevant reading for your commute, or designated reading time.
-* Don't believe the first thing you read. Anyone can post on the internet... ANYONE!
+* Don't believe the first thing you read. Anyone can post on the internet... LITERALLY.ANYONE!
 
 ## Competitive Edge
 
@@ -104,11 +104,11 @@ Treehouse, written materials, and instructors will always give you "additional r
 
   Use this to gauge how well you understand the material. We'll be sending out self-assessement and general feedback forms every so often that use this scale.
 
-  + **Knowledge:** I can recite most of terms and ideas discussed.
+  + **Knowledge:** I can reguritate most of terms and ideas discussed.
   + **Comprehension:** I can describe the concept in my own words.
   + **Application:** I can write a single piece of code using the concepts presented.
   + **Analysis:** I can examine code that demonstrates this concept and explain the logic in my own words.
-  + **Synthesis:** I can write a functional program that integrates, but does not solely rely on, this concept.
+  + **Synthesis:** I can successfully write (and run) code that incorporates this concept with others.
   + **Evaluation:** I can write a blog post or teach a lecture about this concept to other novice programmers.
 
 ## Final Word
