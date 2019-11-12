@@ -85,7 +85,8 @@ Cognition is essentially muscle memory. Your brain cells, nerves, and synapses l
 
 ### Take care of yourself
   * Eat enough, get some exercise, and get enough sleep.
-  * Don't overwork, either on your actual job, OR on Carrot U.
+  * Don't overwork, either on your actual job OR on Carrot U.
+  * If you find yourself daydreaming or not paying attention, get up and take a walk for 5 minutes.
 
 
 ## Shallow Spelunking
