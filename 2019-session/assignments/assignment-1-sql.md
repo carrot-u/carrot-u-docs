@@ -119,7 +119,7 @@ Some tables you might use are:
 
 4) Count the number of deliveries (table name: order_deliveries) from The Garden (warehouse id: 1000) that have been completed in the last day
 
-5) List the first name, last name, email, and phone number of the first 10 people to have a delivery from The Garden (warehouse id: 1000)
+5) List the user_ids of the first 10 people to have a delivery from The Garden (warehouse id: 1000)
 
 
 **Fun Fact**: Blazer is open source software that was developed by one of our early engineers. It is used at Instacart and by many other people. You can look at the source code for Blazer [here](https://github.com/ankane/blazer).
