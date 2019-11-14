@@ -49,17 +49,16 @@ Concepts:
 
 ### Question 3
 
-**_What percentage of our active shoppers are in each of those age ranges:_**
-**_- (0-20(_**
-**_- (20-30(_**
-**_- (30-40(_**
-**_- (40-50(_**
-**_- (50-60(_**
-**_- 60+_**
+**_What percentage of our active shoppers have been with us for the following months:_**
+**_- (0-6)_**
+**_- (6-12)_**
+**_- (12-18)_**
+**_- (18-24)_**
+**_- 24+_**
 
 Table / columns to look at:
 - drivers
-- `birthday` in drivers table
+- `hired_at` in drivers table
 
 Concepts:
 - GROUP BY
