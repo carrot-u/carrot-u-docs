@@ -120,5 +120,7 @@ Some tables you might use are:
 
 5) List the user_ids of the first 10 people to have a delivery from The Garden (warehouse id: 1000)
 
+6) Figure out the 5 year anniversary of Dave's account being created, and congratulate him on that day. (Don't forget to convert the timezone from UTC to America/Los_Angeles)
+
 
 **Fun Fact**: Blazer is open source software that was developed by one of our early engineers. It is used at Instacart and by many other people. You can look at the source code for Blazer [here](https://github.com/ankane/blazer).
