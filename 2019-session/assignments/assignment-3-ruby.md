@@ -16,7 +16,7 @@
   _Compose a simple terminal program using one or more of the common objects from Instacart (`orders`, `drivers`, `batches`, `order_items`, `payments`, etc)_
 
   1. Design a desired workflow. ex. The entire flow of a driver from accepting a batch to delivery
-  2. Using the tools and concepts from [`room_cleaner_complete.rb`](/room_cleaner_complete.rb), construct a self-running terminal program that successfully runs through your intended workflow.
+  2. Using the tools and concepts from [`room_cleaner_complete.rb`](../lectures/ruby_room_cleaner/room_cleaner_complete.rb), construct a self-running terminal program that successfully runs through your intended workflow.
   3. Test your program thoroughly to ensure that it runs as expected.
 
 **Possible Extensions:**
