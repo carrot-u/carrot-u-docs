@@ -1,4 +1,4 @@
-[Link to weekly assignment](../../assignments/assignment-3-ruby.md)
+[Link to weekly assignment](../../assignments/assignment-2-ruby.md)
 
 # Clean Your House with Ruby!
 
