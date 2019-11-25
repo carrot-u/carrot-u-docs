@@ -87,8 +87,12 @@ This week we'll work on solving problems with programming. This involves getting
 
 #### Discussion
 - Lauren Romaniuk
+
 #### Coursework
 #### Assignments
+
+- [Write a project spec](./assignments/assignment-3-project-spec.md)
+
 #### Extra Resources
 
 ### Week 5: Data Structures and Objects In Ruby
