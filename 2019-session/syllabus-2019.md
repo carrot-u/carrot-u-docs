@@ -120,14 +120,7 @@ This week we'll continue our work with Ruby, focusing on how to reason about dat
 * Class vs Object (https://www.youtube.com/watch?v=K8eOkzQ_o9w)
 * The Ruby Standard Library (https://teamtreehouse.com/library/ruby-core-and-standard-library)
 * Work through the rest of the Treehouse [Learn Ruby](https://teamtreehouse.com/tracks/learn-ruby) track.
-
-### Week 5: Product Management
-**12/10/19**
-
-#### Discussion
-#### Coursework
-#### Assignments
-#### Extra Resources
+* Coding practice with [Advent of Code](https://adventofcode.com/2019)
 
 ### Week 6: Foundational Review
 **12/17/19**
@@ -135,6 +128,7 @@ This week we'll continue our work with Ruby, focusing on how to reason about dat
 This week, we'll take a step back to go over some of the foundational aspects of software engineering we touched on in the first section.
 
 #### Discussion
+- Muffy: live coding demo
 - we want to know what you need help with at this point
 
 #### Coursework
