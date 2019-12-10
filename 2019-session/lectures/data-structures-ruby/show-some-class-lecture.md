@@ -1,11 +1,12 @@
 # Show Some Class: Objects and Classes In Ruby
 
-## Other Business
-
-- Hackathon this week! You should all participate.
-- This week is the last week of Section 1
-  - no lecture next week
-  - take that week to work with your mentor(s) and brush up on anything you've gotten behind on
+## Overview
+- We're going to talk about classes and objects (specifically implemented in Ruby)
+- This lecture involves live coding which means I will misspell things
+- Pull out a laptop and a text editor and code along with the examples!
+- Seriously, code along
+- For some reason many of my examples are cat related. I'm not sure why.
+  - This is my cat [Chairman Meow](https://www.instagram.com/p/6GfLXChWT4/)
 
 ## Key Terms
 - data structure
@@ -63,7 +64,7 @@ A **data structure** is a data organization format. It a collection of data valu
 
 ## What is a class? (And what is an object?)
 
-A class is a template or blue print for objects. It describes what and object is and can do.
+A class is a template or blueprint for objects. It describes what and object is and can do.
 
 This means defining what values it can have and what methods it has. Values are accessed by methods (I'll explain what that means later).
 
@@ -73,7 +74,15 @@ An object is an **instance** of a class. You **instantiate** a class and get an 
 
 Animals have a type, a name, some number of legs, a favorite food, and they can eat!
 
+## How do classes relate to data structures?
+
+Classes are user defined, special purpose data structures
+
+_(note: how data structures and classes/objects relate to each other could be discussed in further academic detail, but this definition is a good starting place.)_
+
 ## Ok. Let's make a class
+
+_This means you! Pull out a laptop and make this class!_
 
 ```ruby
 class Animal
@@ -132,6 +141,21 @@ puts unique_words
 ## Bringing It Together
 
 **Classes** describe **data structures**. **Objects** are instances of those classes.
+
+## But Why?
+
+Classes and objects make code more **maintainable** and **reusable** and often easier to reason about.
+
+- the interface (the methods made available) to an object can be well understood and hide the implementation details, making it easier to reason about how a program works
+
+## Neat Ruby Things
+
+- `thing.class`
+- `thing.class.superclass`
+- `thing.methods`
+- `thing.public_methods`
+- `thing.class.methods`
+- Monkey Patching
 
 ## Getting Started on a NEW Mini Instacart
 
