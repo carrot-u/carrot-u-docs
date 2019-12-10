@@ -104,7 +104,7 @@ This week we'll continue our work with Ruby, focusing on how to reason about dat
 - Show Some Class: Objects and Classes in Ruby
 - Dave
 - [lecture notes](./lectures/data-structures-ruby/show-some-class-lecture.md)
-- [code](./lectures/data-structures-ruby/show-some-class-code.rb)
+- [code](./lectures/data-structures-ruby/show-some-class-code-notes.rb)
 
 #### Coursework
 - [Treehouse: Ruby Objects and Classes](https://teamtreehouse.com/library/ruby-objects-and-classes)
@@ -113,7 +113,7 @@ This week we'll continue our work with Ruby, focusing on how to reason about dat
 - [Treehouse: Ruby Modules](https://teamtreehouse.com/library/ruby-modules)
 
 #### Assignments
-- [Build an Order]()
+- [Build an Order](./assignments/assignment-4-classes.md)
 
 #### Extra Resources
 
