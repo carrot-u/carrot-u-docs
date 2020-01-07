@@ -148,27 +148,54 @@ This week, we'll take a step back to go over some of the foundational aspects of
 
 In this section we'll take our basic programming knowledge and start building web applications with Ruby
 
+### Week 7: Do You Want To Build A Web Site?
+**1/7/20**
+
+Welcome back from break! This week we'll learn a bit about how the web works and how to build websites.
+
+#### Discussion
+- How The Web Works
+    - Viktor
+
+#### Coursework
+- [Treehouse: How To Make A Website](https://teamtreehouse.com/library/how-to-make-a-website)
+- [Treehouse: How The Web Works](https://teamtreehouse.com/library/how-the-web-works)
+- [Treehouse: Bootstrap 4 Basics](https://teamtreehouse.com/library/bootstrap-4-basics-2)
+
+#### Assignments
+- [Build a Website](./assignments/assignment-5-website.md)
+
+#### Extra Resources
+- https://pages.github.com/
+- What happens when you type "google.com" into your browser? (https://github.com/alex/what-happens-when)
+
+(not purely website related, but still useful)
+- [adding git info to your prompt](https://coderwall.com/p/fasnya/add-git-branch-name-to-bash-prompt)
+- [Ruby style guide](https://github.com/airbnb/ruby)
+- [Rubocop (style enforcing tool for Ruby)](https://github.com/rubocop-hq/rubocop)
+
+### Week of 7/23 How To Build A Web App
+**1/14/20**
+
+This week we'll take what we've learned about building web sites and making them look better and do more. We'll also develop a more fundamental understanding of how the web works.
+
+#### Discussion
+- [Live Build A Web App With Sinatra](./lectures/blog/blog-notes.md)
+- Dave
+
+#### Coursework
+* [Treehouse: Building Web Apps With Sinatra](https://teamtreehouse.com/library/building-web-apps-with-sinatra)
+* [Treehouse: Bootstrap 4](https://teamtreehouse.com/library/bootstrap-4-basics)
+
+#### Assignments
+- [Build a Blog](./assignments/assignment-6-blog.md)
+
+#### Extra Resources
+- Sinatra: http://sinatrarb.com/
+- Sequel: https://github.com/jeremyevans/sequel
+- Sqlite: https://www.sqlite.org/index.html
+
 <!-- 
-    ### Week of 7/9 Foundational Review
-
-    This week, we'll take a step back to go over some of the foundational aspects of software engineering we touched on in the first section.
-
-    #### Discussion
-    - [Practical Workshop](https://github.com/carrot-u/carrot-u-docs/blob/master/docs/practical/practical1.md)
-    - Muffy & Nicolas
-    - Go over git and some fundamental coding practices.
-    - Answer questions about anything
-
-    #### Coursework
-    * catch up on any missed coursework!
-
-    #### Assignments
-    - catch up on any missed homework!
-
-    #### Extra Resources
-    - [adding git info to your prompt](https://coderwall.com/p/fasnya/add-git-branch-name-to-bash-prompt)
-    - [Ruby style guide](https://github.com/airbnb/ruby)
-    - [Rubocop (style enforcing tool for Ruby)](https://github.com/rubocop-hq/rubocop)
 
     ### Week of 7/16 How To Build A Website
 
