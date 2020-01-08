@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Title</title>
+    <meta charset="utf-8">
+    <style>
+      @import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
+      @import url(https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic);
+      @import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic);
+
+      body { font-family: 'Droid Serif'; }
+      h1, h2, h3 {
+        font-family: 'Yanone Kaffeesatz';
+        font-weight: normal;
+      }
+      .remark-code, .remark-inline-code { font-family: 'Ubuntu Mono'; }
+    </style>
+  </head>
+  <body>
+    <textarea id="source">
+class: center, middle
+
+# Back to basics
+# How web works
+
+---
+
+Links 
+# How the Web works
+
+https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/How_the_Web_works
+
+# How internet works
+
+https://developer.mozilla.org/en-US/docs/Learn/Common_questions/How_does_the_Internet_work
+
+# Why is it called "the/a web"? Google it
+
+https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/How_the_Web_works
+
+---
+
+# How to put something on the web
+
+---
+
+# How do you access the web?
+
+![client server](https://mdn.mozillademos.org/files/8973/Client-server.jpg)
+
+You -> computer -> browser -> website -> web server -> browser -> you
+
+---
+
+# What does the browser do?
+
+Displays HTML.
+
+---
+
+# What is HTML?
+
+Hypertext Markup Language.
+
+---
+
+# What is "hypertext"?
+
+hyper = "over" or more accurately *"more than"*
+
+---
+
+# What is HTTP?
+
+Hypertext transfer protocol.
+
+---
+
+# Why transfer? Why protocol?
+
+- It's a way of "transferring" information.
+
+- protocol = "conventions for communication"
+
+---
+
+# What's the difference between a website and a web server?
+
+- site = "location"
+
+- server = "entity that serves"
+
+---
+
+# Is HTML all there is to it?
+
+## Front end
+
+- Style vs. substance
+- Interactivity
+- Single-page applications
+
+## Back end
+
+- Generated HTML
+- Incorporating data
+- Authentication and authorization
+
+---
+
+# Tiny App 
+
+```ruby
+
+
+require 'sinatra'
+require 'pry'
+
+get '/' do
+  s = 'hello' + ' world!'
+  #binding.pry
+  s
+end
+
+post '/' do
+  s = 'hello' + params['message']
+  #binding.pry
+  s
+end
+
+get '/frank-says' do
+  'Put this in your pipe & smoke it!'
+end
+
+```
+
+---
+
+# telnet
+
+```shell
+
+> telnet
+o localhost 4567
+GET: / HTTP/1.0
+Host: localhost
+
+```
+
+---
+
+
+# curl
+```shell 
+
+> curl localhost:4567
+
+> curl -I localhost:4567
+
+> curl -Ivs localhost:4567
+
+> curl --trace-ascii - localhost:4567
+
+>  curl -Ivs localhost:4567 | grep Length
+
+```
+
+---
+
+
+    </textarea>
+    <script src="https://remarkjs.com/downloads/remark-latest.min.js">
+    </script>
+    <script>
+      var slideshow = remark.create();
+    </script>
+  </body>
+</html>
