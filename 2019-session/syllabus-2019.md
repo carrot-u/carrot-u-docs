@@ -158,7 +158,7 @@ Welcome back from break! This week we'll learn a bit about how the web works and
     - Viktor
 
 #### Coursework
-- [Treehouse: How To Make A Website](https://teamtreehouse.com/library/how-to-make-a-website)
+- [Treehouse: Introduction to HTML and CSS](https://teamtreehouse.com/library/introduction-to-html-and-css)
 - [Treehouse: How The Web Works](https://teamtreehouse.com/library/how-the-web-works)
 - [Treehouse: Bootstrap 4 Basics](https://teamtreehouse.com/library/bootstrap-4-basics-2)
 
