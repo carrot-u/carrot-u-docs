@@ -23,4 +23,4 @@ The site should have at minimum:
 * A link to another site
 
 Since you'll be submitting most of your work there, please add a link to
-your site to [Personal Sites](personal-sites.md)
+your site to [Personal Sites](https://github.com/carrot-u/assignments-2019/blob/master/assignment-5-website/personal_sites.md)
