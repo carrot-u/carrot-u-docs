@@ -184,8 +184,8 @@ This week we'll take what we've learned about building web sites and making them
 - Dave
 
 #### Coursework
-* [Treehouse: Building Web Apps With Sinatra](https://teamtreehouse.com/library/building-web-apps-with-sinatra)
-* [Treehouse: Bootstrap 4](https://teamtreehouse.com/library/bootstrap-4-basics)
+- [Treehouse: Building Web Apps With Sinatra](https://teamtreehouse.com/library/building-web-apps-with-sinatra)
+- [Treehouse: Bootstrap 4](https://teamtreehouse.com/library/bootstrap-4-basics)
 
 #### Assignments
 - [Build a Blog](./assignments/assignment-6-blog.md)
@@ -194,6 +194,7 @@ This week we'll take what we've learned about building web sites and making them
 - Sinatra: http://sinatrarb.com/
 - Sequel: https://github.com/jeremyevans/sequel
 - Sqlite: https://www.sqlite.org/index.html
+- Ruby Templating Engines: https://www.rubyguides.com/2018/11/ruby-erb-haml-slim/
 
 <!-- 
 
