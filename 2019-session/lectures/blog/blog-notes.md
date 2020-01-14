@@ -39,14 +39,19 @@ The `--no-ri --no-rdoc` skips the install of some local docs, which slows down t
 To make sure your gem installed, let's check the version:
 ```
 gem list --local sinatra
-# should be something like "sinatra (2.0.3)"
+# should be something like "sinatra (2.0.8.1)"
 ```
 
 ## Now Let's Build Something With It!
 
-We're starting a new project so create a new directory somewhere to house it.
+We're starting a new project so create a new directory somewhere to house it. Let's call the directory `miniblog`
 
-*You could probably even do a `git init` as a matter of good practice.*
+```
+mkdir miniblog // make the miniblog directory
+cd miniblog // and navigate into the new dir
+```
+
+*You should probably even do a `git init` as a matter of good practice.*
 
 Create a new file called `app.rb`. This is where we will start building our web application. As we go along we'll break things out from this single file into multiple files in order to organize our code better.
 
@@ -71,9 +76,11 @@ Neat.
 
 (we'll have to manually start and stop the Sinatra application to reload code for now.)
 
+To manually stop the Sinatra application press `ctrl + c` *(note: not the actual "plus" key, just ctrl and the "c" key)*
+
 **Why did we use the `get` route method?**
 
-Now let's pass some data in and use it.  Add some code that takes a url parameter:
+Now let's pass some data in and use it.  Add a new route that takes a url parameter:
 ```ruby
 get '/hello/:name' do
   "Oh hi, #{params['name']}. Don't you look attractive today!"
@@ -92,7 +99,7 @@ end
 
 Cool. But...
 
-That's a crappy way to do html. It's hard to read, it will be hard to update, and we're starting to do too much in these route handlers.
+That's a crappy way to do html. The code is hard to read, it will be hard to update, and we're starting to do too much in these route handlers.
 
 We can do better. Let's create a **view**. These will be files that represent the layout of our pages and will make use of any data we want to pass in.
 
@@ -120,7 +127,7 @@ Oh hi, <b><%= #{?????} %></b>. Don't you look attractive today!
 
 What's the deal with the `<%=` thing?
 
-```
+```erb
 <%= THIS CODE WILL GET EXECUTED THEN DISPLAYED %>
 
 <% THIS CODE WILL JUST GET EXECUTED %>
@@ -144,7 +151,8 @@ get '/hello/:name' do
   erb :hello
 end
 ```
-```
+
+```erb
 # in hello.erb
 Oh hi, <b><%= @name %></b>. Don't you look attractive today!
 ```
@@ -213,7 +221,7 @@ Now let's actually save this to a database! We'll use Sqlite. It's a lightweight
 First confirm that you have Sqlite (you should, it comes installed with OSX)
 ```
 > sqlite3 --version
-# should look something like this: 3.19.3 2017-06-27 16:48:08 2b0954060fe10d6de6d479287dd88890f1bef6cc1beca11bc6cdb79f72e2377b
+# should look something like this: 3.24.0 2018-06-04 14:10:15 95fbac39baaab1c3a84fdfc82ccb7f42398b2e92f18a2a57bce1d4a713cbaapl
 ```
 
 Let's set up our database. create a `/db` directory and then set up a Sqlite database called `app.db` there.
@@ -246,7 +254,7 @@ We also need the `sqlite3` gem to work with Sqlite databases through the Sequel 
 Now let's use it!
 
 ```ruby
-# in app.rb
+# add these in app.rb
 require 'sequel'
 require 'sqlite3'
 ...
@@ -418,7 +426,7 @@ class Post
 end
 ```
 
-And how we can chage our post route to:
+And how we can change our post route to:
 
 ```ruby
 get '/posts/:post_id' do
