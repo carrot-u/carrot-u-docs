@@ -263,7 +263,7 @@ post '/create_post' do
   ...
   DB = Sequel.connect('sqlite://db/app.db')
   posts = DB[:posts]
-  posts.insert(title: params[:title], body: param[:post_body], created_at: Time.now)
+  posts.insert(title: params[:title], body: params[:post_body], created_at: Time.now)
   puts "wrote to db"
 end
 ```
