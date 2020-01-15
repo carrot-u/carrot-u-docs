@@ -404,7 +404,7 @@ Now we can change our `app.rb` route to look like this:
 ```ruby
 post '/create_post' do
   new_post = Post.new(params[:title], params[:post_body])
-  new_post_row = new_post.create!
+  new_post_row = POSTS_TABLE.create!
 
   redirect "posts/#{new_post_row[:id]}"
 end
@@ -420,7 +420,7 @@ in our `post.rb` class...
 class Post
 ...
   def self.find(post_id)
-    post_row = POSTS_TABLE.first(id: params[:post_id])
+    post_row = POSTS_TABLE.first(id: post_id)
     Post.new(post_row[:title], post_row[:body], post_row[:created_at])
   end
 end
