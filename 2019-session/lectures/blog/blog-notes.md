@@ -32,6 +32,10 @@ Now let's install the gem from RubyGems
 ```
 gem install sinatra --no-ri --no-rdoc
 ```
+or (if you have a Ruby > 2.6)
+```
+gem install sinatra --no-document
+```
 (this downloads a bunch of code from a server at rubygems.org and copies it to your computer so you can use it in your programs)
 
 The `--no-ri --no-rdoc` skips the install of some local docs, which slows down the install a bit.
@@ -250,6 +254,11 @@ We also need the `sqlite3` gem to work with Sqlite databases through the Sequel 
 > gem install sequel --no-ri --no-rdoc
 > gem install sqlite3 --no-ri --no-rdoc
 ```
+or (if you have a Ruby > 2.6)
+```
+> gem install sequel --no-document
+> gem install sqlite3 --no-document
+```
 
 Now let's use it!
 
@@ -392,7 +401,7 @@ class Post
 ...
   def create!
     POSTS_TABLE.insert(title: @title, body: @body, created_at: @created_at)
-    new_post_row = posts.order(:created_at).last
+    new_post_row = POSTS_TABLE.order(:created_at).last
 
     new_post_row
   end
