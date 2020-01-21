@@ -3,3 +3,7 @@
 Q: [Viktor] How do I commit to git :blush: ? 
 
 A: 
+
+Q: [Dave] Any questions?
+
+A:
