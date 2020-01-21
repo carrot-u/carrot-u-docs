@@ -199,6 +199,129 @@ Note that `id` , `created_at`, and `updated_at` were implicitly created for us
 #### Remember MVC?
 Rails has generated all the components of Model-View-Controller for the Users model for us (see for yourself). Of course this is just a skelton that we need to fill in, but quite a bit is there. We can already run [http://localhost:3000/users](http://localhost:3000/user)
 
+#### Connecting to the index page
+Now we have a create user interface, we should link it to the index page
+
+We'll want to link to the `Users` model to create a new user. To create a dynamically set link we use the `link_to` tag in our `index.html.erb` file.
+```ruby
+# add to welcome/index.html.erb
+ <%= link_to 'Sign up', new_user_path %>
+```
+
+How did we know to use `new_user_path`? It's the prefix for the `Users` model to create a new user. We can look these up by running `rake routes`:
+```
+instacartlite$ rake routes
+                               Prefix Verb   URI Pattern                                                                              Controller#Action
+                                users GET    /users(.:format)                                                                         users#index
+                                      POST   /users(.:format)                                                                         users#create
+                             new_user GET    /users/new(.:format)                                                                     users#new
+                            edit_user GET    /users/:id/edit(.:format)                                                                users#edit
+                                 user GET    /users/:id(.:format)                                                                     users#show
+                                      PATCH  /users/:id(.:format)                                                                     users#update
+                                      PUT    /users/:id(.:format)                                                                     users#update
+                                      DELETE /users/:id(.:format)                                                                     users#destroy
+                        welcome_index GET    /welcome/index(.:format)                                                                 welcome#index
+                                 root GET    /                                                                                        welcome#index
+```
+We just append `_path`  to the prefix to get `new_user_path`
+
+### Lets build a login
+
+#### Adding a password field
+
+Our User model from earlier was missing a _password_ field, we can add it now:
+```
+rails g migration add_password_to_users password:string
+```
+
+We'll need to run migrations again for the new column to be added:
+```
+rake db:migrate
+```
+
+Our model will be updated automatically but our controller and views will need this new field:
+```ruby
+# update in controllers/users_controller.rb
+    def user_params
+      params.require(:user).permit(:email, :first_name, :last_name, :password)  # add :password to the allowed params
+    end
+```
+And we want to add a password when we render the form to create a new user:
+```ruby
+# add to views/users/_form.html.erb
+  <div class="field">
+    <%= form.label :password %>
+    <%= form.text_field :password %>
+  </div>
+```
+We should also update the other views but, meh.
+
+Let's try it now, creating a user from the root page and we can verify the user was created in _Rails console_: `rails c`
+
+#### Creating a controller to handle logins
+Typically we want to create
+```
+rails g controller Sessions new
+```
+
+#### Adding login routes
+```ruby
+# add to config/routes.rb
+  get '/login', to: 'sessions#new'
+  post '/login', to: 'sessions#create'
+```
+
+#### Updating the sessions controller
+```ruby
+  def create
+    user = User.find_by(email: params[:session][:email].downcase)
+    password = params[:session][:password]
+    if user && user.password == password
+      @message = 'Successful login!'
+    else
+      @message = 'Bad username/password. Bad!'
+    end
+    render :index
+  end
+```
+
+#### Adding the login form
+```ruby
+# add to views/sessoins/new.html.erb
+
+<h1>Login</h1>
+<%= form_for(:session, url: login_path) do |form| %>
+  <div class="field">
+    <%= form.label :email %>
+    <%= form.text_field :email %>
+  </div>
+
+  <div class="field">
+    <%= form.label :password %>
+    <%= form.text_field :password %>
+  </div>
+
+  <div class="actions">
+    <%= form.submit "login" %>
+  </div>
+<% end %>
+```
+
+#### Login success/error page
+Add a new view to provide feedback on the login
+```ruby
+# create a new file: views/sessions/index.html.erb
+<%= @message %>
+```
+
+#### Add a login link to the main page
+```ruby
+# add to welcome/index.html.erb
+<%= link_to 'Login', login_path %>
+```
+
+And now lets try logging in: [http://localhost:3000/](http://localhost:3000/)
+
 
 ## Forward-looking statements
 This is just the start of the topic of Rails applications. In the following weeks, we'll talk more about models in Rails in our discusion of _ActiveRecord_ as well as _testing_ which is an important part of the development lifecycle.
