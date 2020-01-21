@@ -63,7 +63,7 @@ This is a common and well-accepted way to organize our code. It is an observatio
 * *Model*: manages the data, models something in real life as data with properties, is the layer above the database
 * *View*: what we actually see, renders a collection of data
 * *Controller*: manages incoming requests, performs operations (CRUD) on model, and hands off to view
-* Rails implements this as _ActiveRecord-ActionController-ActionView_
+* Rails implementes this as _ActiveRecord-ActionController-ActionView_
 
 
 ## Building a new Rails app
@@ -197,7 +197,7 @@ Indexes:
 Note that `id` , `created_at`, and `updated_at` were implicitly created for us
 
 #### Remember MVC?
-Rails has generated all the components of Model-View-Controller for the Users model for us (see for yourself). Of course this is just a skelton that we need to fill in, but quite a bit is there. We can already run [http://localhost:3000/users](http://localhost:3000/user)
+Rails has generated all the components of Model-View-Controller for the Users model for us (see for yourself). Of course this is just a skelton that we need to fill in, but quite a bite is there. We can already run [http://localhost:3000/users](http://localhost:3000/user)
 
 
 ## Forward-looking statements
