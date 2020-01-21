@@ -174,7 +174,7 @@ Welcome back from break! This week we'll learn a bit about how the web works and
 - [Ruby style guide](https://github.com/airbnb/ruby)
 - [Rubocop (style enforcing tool for Ruby)](https://github.com/rubocop-hq/rubocop)
 
-### Week of 7/23 How To Build A Web App
+### Week 8: How To Build A Web App
 **1/14/20**
 
 This week we'll take what we've learned about building web sites and making them look better and do more. We'll also develop a more fundamental understanding of how the web works.
@@ -195,6 +195,30 @@ This week we'll take what we've learned about building web sites and making them
 - Sequel: https://github.com/jeremyevans/sequel
 - Sqlite: https://www.sqlite.org/index.html
 - Ruby Templating Engines: https://www.rubyguides.com/2018/11/ruby-erb-haml-slim/
+
+### Week of 9: Ruby on Rails
+
+This week we'll dive into Ruby on Rails and build our first Rails application.
+
+#### Discussion
+- Why Rails?
+- Rails philosophy
+- Model-View-Controller (MVC)
+- Making a new Rails app: Instacart lite
+- [Lecture notes](lectures/rails/rails-intro.md)
+- [James' slides from last year's lecture](https://docs.google.com/presentation/d/1yLj8ZhwtuFS2HIn7OT5KfqvvWTIDdaT3ltSPTlmmUwc/edit)
+
+#### Coursework
+* [Treehouse: Ruby on Rails 5 Basics](https://teamtreehouse.com/library/ruby-on-rails-5-basics)
+* [Treehouse: Rails Routes and Resources](https://teamtreehouse.com/library/rails-routes-and-resources)
+
+#### Assignments
+- [Instacart Lite](https://github.com/carrot-u/assignments/blob/master/week9/instacart-lite.md)
+
+#### Extra Resources
+- https://rubyonrails.org/
+- http://guides.rubyonrails.org/ (this is REALLY helpful!)
+- https://www.railstutorial.org/book
 
 <!-- 
 
