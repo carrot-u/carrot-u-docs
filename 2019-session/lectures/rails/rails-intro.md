@@ -4,7 +4,7 @@
 ## Machine setup for Rails
 
 ### Check version
-```
+```ruby
 ruby --version
 # should be something like "ruby 2.3..."
 ```
@@ -13,15 +13,27 @@ if not check out the [Ruby InstallFest Docs](../../install-fest/rbenv.md).
 
 ### Install Rails
 Do we have it already?
-```
+```ruby
 rails --version
 # should be something like "Rails 4.2..."
 ```
 
 Otherwise let's get it installed
 ```
-gem install rails --no-ri --no-rdoc
+gem install rails --no-document
 ```
+
+#### Rails setup issues?
+
+We may need to clean out previously installed files
+
+Uninstall Rails and Postgres Gems:
+```
+gem uninstall rails
+gem uninstall pg
+```
+
+This website also proved helpful: [http://installrails.com/](http://installrails.com/)
 
 ### Postgres
 
@@ -29,17 +41,25 @@ We should already have the Postgres DB setup from [Ruby InstallFest Docs](../../
 
 Install Postgres gem
 ```
-gem install pg
+gem install pg --no-document
+```
+
+#### Postgres issues?
+
+If Postgres is not installed, you can install it from Brew:
+```
+brew update
+brew install postgresql
 ```
 
 #### Create a database user ("role") for our app
 
-Start the Postgres.app
+Start the Postgres app
 Double click on a database (maybe the one with your username on it) to open up psql
 Run the `create role` command to setup the DB user:
 
 ```
-# create role instacartlite with createdb login password 'password';
+create role instacartlite with createdb login password 'password';
 ```
 _Remember these creds as we'll need them later on._
 
@@ -63,7 +83,7 @@ This is a common and well-accepted way to organize our code. It is an observatio
 * *Model*: manages the data, models something in real life as data with properties, is the layer above the database
 * *View*: what we actually see, renders a collection of data
 * *Controller*: manages incoming requests, performs operations (CRUD) on model, and hands off to view
-* Rails implements this as _ActiveRecord-ActionController-ActionView_
+* Rails implements this as _ActiveRecord-ActionView-ActionController_
 
 
 ## Building a new Rails app
@@ -77,7 +97,7 @@ That's it, our app is made. Well ok, there is a bit more to do.
 #### Start the rails server
 
 Open a new terminal tab for the server to run in
-```
+```ruby
 rails s # 's' is short for server
 ```
 
@@ -127,7 +147,7 @@ will execute with all dependencies
 #### Generating our welcome controller
 
 Use rails generate
-```
+```ruby
 rails g controller welcome index # notes: g for generate followed by "controller" (what is being generated), "welcome" (controller name), "index" (action)
 ```
 
@@ -178,8 +198,7 @@ rake db:migrate
 Will run all pending migrations.
 
 We can confirm the table is now created in our database. Open a _psql_ terminal to the _instacartlite_development_ DB instance
-```
-# SQL
+```SQL
 \d # lists tables
 \d users 
                                           Table "public.users"
@@ -197,7 +216,7 @@ Indexes:
 Note that `id` , `created_at`, and `updated_at` were implicitly created for us
 
 #### Remember MVC?
-Rails has generated all the components of Model-View-Controller for the Users model for us (see for yourself). Of course this is just a skelton that we need to fill in, but quite a bit is there. We can already run [http://localhost:3000/users](http://localhost:3000/user)
+Rails has generated all the components of Model-View-Controller for the Users model for us (see for yourself). Of course this is just a skelton that we need to fill in, but quite a bit is there. We can already run [http://localhost:3000/users](http://localhost:3000/users)
 
 #### Connecting to the index page
 Now we have a create user interface, we should link it to the index page
@@ -325,3 +344,5 @@ And now lets try logging in: [http://localhost:3000/](http://localhost:3000/)
 
 ## Forward-looking statements
 This is just the start of the topic of Rails applications. In the following weeks, we'll talk more about models in Rails in our discusion of _ActiveRecord_ as well as _testing_ which is an important part of the development lifecycle.
+
+Assignment: [Instacart Lite](assignment.md)
