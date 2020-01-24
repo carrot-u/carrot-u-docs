@@ -5,7 +5,7 @@
 So far we just have the Users model. What other models make sense to add to Instacart's customer-facing site? We can practice using Rails generate to create scaffolds of data models, views, and controllers (MVC). Below is a list of resources but feel free to add others. Furthermore let's work on connecting all of these resources to make a continuous website experience (ie. login > browse storefront > add to cart). Bonus: work on the sprucing up the UI.
 
 ### Submission
-When ready, check-in the files for your Rails app in the `assignments-2019` repo under the `assignment-6-rails` folder: [https://github.com/carrot-u/assignments-2019](https://github.com/carrot-u/assignments-2019)
+When ready, check-in the files for your Rails app in the `assignments-2019` repo under the `assignment-7-instacart-lite` folder: [https://github.com/carrot-u/assignments-2019](https://github.com/carrot-u/assignments-2019)
 
 
 ### Idess for Resources/Entities

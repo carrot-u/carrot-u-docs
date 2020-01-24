@@ -345,4 +345,4 @@ And now lets try logging in: [http://localhost:3000/](http://localhost:3000/)
 ## Forward-looking statements
 This is just the start of the topic of Rails applications. In the following weeks, we'll talk more about models in Rails in our discusion of _ActiveRecord_ as well as _testing_ which is an important part of the development lifecycle.
 
-Assignment: [Instacart Lite](assignment.md)
+Assignment: [Instacart Lite](../../assignments/assignment-7-instacart-lite.md)
