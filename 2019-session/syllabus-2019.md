@@ -213,7 +213,7 @@ This week we'll dive into Ruby on Rails and build our first Rails application.
 * [Treehouse: Rails Routes and Resources](https://teamtreehouse.com/library/rails-routes-and-resources)
 
 #### Assignments
-- [Instacart Lite](lectures/rails/assignment.md)
+- [Instacart Lite](./assignments/assignment-7-instacart-lite.md)
 
 #### Extra Resources
 - https://rubyonrails.org/
