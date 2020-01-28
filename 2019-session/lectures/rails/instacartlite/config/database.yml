@@ -24,8 +24,6 @@ default: &default
 development:
   <<: *default
   database: instacartlite_development
-  username: instacartlite
-  password: password
 
   # The specified database role being used to connect to postgres.
   # To create additional roles in postgres see `$ createuser --help`.
@@ -59,8 +57,6 @@ development:
 test:
   <<: *default
   database: instacartlite_test
-  username: instacartlite
-  password: password
 
 # As with config/credentials.yml, you never want to store sensitive information,
 # like your database password, in your source code. If your source code is
@@ -84,5 +80,3 @@ test:
 production:
   <<: *default
   database: instacartlite_production
-  username: instacartlite
-  password: password
