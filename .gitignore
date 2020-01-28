@@ -51,3 +51,5 @@ isce.yaml
 # Ignored files
 *.ignore
 *.pckl
+
+*.log
