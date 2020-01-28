@@ -196,7 +196,7 @@ This week we'll take what we've learned about building web sites and making them
 - Sqlite: https://www.sqlite.org/index.html
 - Ruby Templating Engines: https://www.rubyguides.com/2018/11/ruby-erb-haml-slim/
 
-### Week of 9: Ruby on Rails
+### Week 9: Ruby on Rails
 
 This week we'll dive into Ruby on Rails and build our first Rails application.
 
@@ -219,6 +219,24 @@ This week we'll dive into Ruby on Rails and build our first Rails application.
 - https://rubyonrails.org/
 - http://guides.rubyonrails.org/ (this is REALLY helpful!)
 - https://www.railstutorial.org/book
+
+### Week 10 Ruby on Rails - ActiveRecord
+
+This week we'll take a deeper dive into some core pieces of Rails functionality.
+
+#### Discussion
+- ActiveRecord
+- How ActiveRecord is used to make your code interact with a database
+
+#### Coursework
+* [Treehouse: Active Record](https://teamtreehouse.com/library/active-record-associations-in-rails)
+
+#### Assignments
+- TBD
+
+#### Extra Resources
+- Rails Validator docs: https://guides.rubyonrails.org/active_record_validations.html
+- The original "Rails blog" video: https://www.youtube.com/watch?v=Gzj723LkRJY
 
 <!-- 
 
