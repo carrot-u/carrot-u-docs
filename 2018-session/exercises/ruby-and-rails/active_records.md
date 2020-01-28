@@ -1,68 +1,114 @@
-      irb(main):007:0> puts Post.where(id:5).to_sql
-      SELECT "posts".* FROM "posts" WHERE "posts"."id" = 5
-      => nil
-      irb(main):008:0> puts Post.where(id:5).table_name
-      posts
-      => nil
-      irb(main):009:0> puts Post.where(id:5).class.name
-      ActiveRecord::Relation
-      => nil
-      irb(main):010:0> Post.last
-        Post Load (0.2ms)  SELECT  "posts".* FROM "posts" ORDER BY "posts"."id" DESC LIMIT ?  [["LIMIT", 1]]
-      => #<Post id: 3000, title: "By Grand Central Station I Sat Down and Wept", body: "Repellat quam sapiente. Cumque et ea. Et nam accus...", tags: nil, author_id: 50, created_at: "2018-08-06 23:12:35", updated_at: "2018-08-06 23:12:35">
-      irb(main):011:0> Post.last(10)
-        Post Load (0.3ms)  SELECT  "posts".* FROM "posts" ORDER BY "posts"."id" DESC LIMIT ?  [["LIMIT", 10]]
-      => [#<Post id: 2991, title: "In a Glass Darkly", body: "Cum rerum a. Blanditiis reprehenderit vel. Similiq...", tags: nil, author_id: 52, created_at: "2018-08-06 23:12:35", updated_at: "2018-08-06 23:12:35">, #<Post id: 2992, title: "Sleep the Brave", body: "Quam magni et. At recusandae vel. Porro sequi faci...", tags: nil, author_id: 58, created_at: "2018-08-06 23:12:35", updated_at: "2018-08-06 23:12:35">, #<Post id: 2993, title: "That Hideous Strength", body: "Perspiciatis molestias et. Est nisi eum. Eum ullam...", tags: nil, author_id: 60, created_at: "2018-08-06 23:12:35", updated_at: "2018-08-06 23:12:35">, #<Post id: 2994, title: "Consider Phlebas", body: "Aperiam velit eius. Odit blanditiis velit. Commodi...", tags: nil, author_id: 61, created_at: "2018-08-06 23:12:35", updated_at: "2018-08-06 23:12:35">, #<Post id: 2995, title: "Those Barren Leaves, Thrones, Dominations", body: "Quia ex fugit. Molestias velit placeat. Qui rerum ...", tags: nil, author_id: 59, created_at: "2018-08-06 23:12:35", updated_at: "2018-08-06 23:12:35">, #<Post id: 2996, title: "Far From the Madding Crowd", body: "In odio ratione. Iure tenetur sed. Quo illo natus....", tags: nil, author_id: 43, created_at: "2018-08-06 23:12:35", updated_at: "2018-08-06 23:12:35">, #<Post id: 2997, title: "Vanity Fair", body: "Quod voluptatem omnis. Eos nam ut. Praesentium est...", tags: nil, author_id: 49, created_at: "2018-08-06 23:12:35", updated_at: "2018-08-06 23:12:35">, #<Post id: 2998, title: "To Sail Beyond the Sunset", body: "Ut non atque. Iure rem illo. Itaque vitae quia. Ex...", tags: nil, author_id: 54, created_at: "2018-08-06 23:12:35", updated_at: "2018-08-06 23:12:35">, #<Post id: 2999, title: "Bury My Heart at Wounded Knee", body: "Repellat sapiente sunt. Sit aut consectetur. Labor...", tags: nil, author_id: 43, created_at: "2018-08-06 23:12:35", updated_at: "2018-08-06 23:12:35">, #<Post id: 3000, title: "By Grand Central Station I Sat Down and Wept", body: "Repellat quam sapiente. Cumque et ea. Et nam accus...", tags: nil, author_id: 50, created_at: "2018-08-06 23:12:35", updated_at: "2018-08-06 23:12:35">]
-      irb(main):012:0> Post.first
-        Post Load (6.6ms)  SELECT  "posts".* FROM "posts" ORDER BY "posts"."id" ASC LIMIT ?  [["LIMIT", 1]]
-      => #<Post id: 1, title: "The Road Less Traveled", body: "Quo fuga sunt. Voluptas aut voluptate. Sint dolor ...", tags: nil, author_id: 22, created_at: "2018-08-05 15:41:25", updated_at: "2018-08-05 15:41:25">
-      irb(main):013:0> Post.first(5)
-        Post Load (5.8ms)  SELECT  "posts".* FROM "posts" ORDER BY "posts"."id" ASC LIMIT ?  [["LIMIT", 5]]
-      => [#<Post id: 1, title: "The Road Less Traveled", body: "Quo fuga sunt. Voluptas aut voluptate. Sint dolor ...", tags: nil, author_id: 22, created_at: "2018-08-05 15:41:25", updated_at: "2018-08-05 15:41:25">, #<Post id: 2, title: "Wildfire at Midnight", body: "Autem consequuntur eos. Fugiat assumenda tempore. ...", tags: nil, author_id: 33, created_at: "2018-08-05 15:41:25", updated_at: "2018-08-05 15:41:25">, #<Post id: 3, title: "The Parliament of Man", body: "At voluptatem delectus. Vitae voluptatem sint. Vit...", tags: nil, author_id: 22, created_at: "2018-08-05 15:41:25", updated_at: "2018-08-05 15:41:25">, #<Post id: 4, title: "The Doors of Perception", body: "Et doloremque dicta. Recusandae qui corporis. Et a...", tags: nil, author_id: 26, created_at: "2018-08-05 15:41:25", updated_at: "2018-08-05 15:41:25">, #<Post id: 5, title: "Taming a Sea Horse", body: "Laborum dolor ad. Quis perspiciatis sunt. Dicta id...", tags: nil, author_id: 31, created_at: "2018-08-05 15:41:25", updated_at: "2018-08-05 15:41:25">]
-      irb(main):014:0> User.all
-        User Load (0.3ms)  SELECT  "users".* FROM "users" LIMIT ?  [["LIMIT", 11]]
-      => #<ActiveRecord::Relation [#<User id: 22, first_name: "Claudette", last_name: "Bauch", email: "chonghayes@ullrichkemmer.net", phone: "1-907-710-8809", created_at: "2018-08-05 15:41:25", updated_at: "2018-08-05 15:41:25">, #<User id: 23, first_name: "Johnna", last_name: "Cartwright", email: "ute@schamberger.co", phone: "(671) 550-8085", created_at: "2018-08-05 15:41:25", updated_at: "2018-08-05 15:41:25">, #<User id: 24, first_name: "Loyd", last_name: "Bednar", email: "shaunte@hegmannleffler.org", phone: "572.772.0916 x64541", created_at: "2018-08-05 15:41:25", updated_at: "2018-08-05 15:41:25">, #<User id: 25, first_name: "Willis", last_name: "Johnston", email: "earlelakin@oconnellking.com", phone: "163-890-0334", created_at: "2018-08-05 15:41:25", updated_at: "2018-08-05 15:41:25">, #<User id: 26, first_name: "Scott", last_name: "Conroy", email: "harveygerhold@streich.com", phone: "(906) 563-3186 x1835", created_at: "2018-08-05 15:41:25", updated_at: "2018-08-05 15:41:25">, #<User id: 27, first_name: "Star", last_name: "Swaniawski", email: "kentonsmitham@hammes.io", phone: "109.749.0649 x116", created_at: "2018-08-05 15:41:25", updated_at: "2018-08-05 15:41:25">, #<User id: 28, first_name: "Vincent", last_name: "Larson", email: "rustylindgren@tillman.info", phone: "536.304.7502", created_at: "2018-08-05 15:41:25", updated_at: "2018-08-05 15:41:25">, #<User id: 29, first_name: "Max", last_name: "Bashirian", email: "rory@cormier.org", phone: "(833) 206-1328 x73541", created_at: "2018-08-05 15:41:25", updated_at: "2018-08-05 15:41:25">, #<User id: 30, first_name: "Patrick", last_name: "Beatty", email: "khalilah@stantonkoelpin.info", phone: "892-539-8251 x594", created_at: "2018-08-05 15:41:25", updated_at: "2018-08-05 15:41:25">, #<User id: 31, first_name: "Yuri", last_name: "Hirthe", email: "gloriawiza@mcclure.info", phone: "(992) 138-9840 x026", created_at: "2018-08-05 15:41:25", updated_at: "2018-08-05 15:41:25">, ...]>
-      irb(main):015:0> user = User.new
-      => #<User id: nil, first_name: nil, last_name: nil, email: nil, phone: nil, created_at: nil, updated_at: nil>
-      irb(main):016:0> user.first_name = "Viktor'
-      irb(main):017:0" "
-      => "Viktor'\n"
-      irb(main):018:0> user.first_name = "Viktor"
-      => "Viktor"
-      irb(main):019:0> user
-      => #<User id: nil, first_name: "Viktor", last_name: nil, email: nil, phone: nil, created_at: nil, updated_at: nil>
-      irb(main):020:0> user.save
-         (0.1ms)  begin transaction
-        SQL (1.1ms)  INSERT INTO "users" ("first_name", "created_at", "updated_at") VALUES (?, ?, ?)  [["first_name", "Viktor"], ["created_at", "2018-08-06 23:43:00.840450"], ["updated_at", "2018-08-06 23:43:00.840450"]]
-         (2.4ms)  commit transaction
-      => true
-      irb(main):021:0> user2 = User.create first_name:'James'
-         (0.1ms)  begin transaction
-        SQL (0.5ms)  INSERT INTO "users" ("first_name", "created_at", "updated_at") VALUES (?, ?, ?)  [["first_name", "James"], ["created_at", "2018-08-06 23:44:13.579226"], ["updated_at", "2018-08-06 23:44:13.579226"]]
-         (6.4ms)  commit transaction
-      => #<User id: 63, first_name: "James", last_name: nil, email: nil, phone: nil, created_at: "2018-08-06 23:44:13", updated_at: "2018-08-06 23:44:13">
-      irb(main):022:0> User.last
-        User Load (0.2ms)  SELECT  "users".* FROM "users" ORDER BY "users"."id" DESC LIMIT ?  [["LIMIT", 1]]
-      => #<User id: 63, first_name: "James", last_name: nil, email: nil, phone: nil, created_at: "2018-08-06 23:44:13", updated_at: "2018-08-06 23:44:13">
-      irb(main):023:0> User.find(63)
-        User Load (0.2ms)  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?  [["id", 63], ["LIMIT", 1]]
-      => #<User id: 63, first_name: "James", last_name: nil, email: nil, phone: nil, created_at: "2018-08-06 23:44:13", updated_at: "2018-08-06 23:44:13">
-      irb(main):024:0> User.find(63, 62)
-        User Load (0.4ms)  SELECT "users".* FROM "users" WHERE "users"."id" IN (63, 62)
-      => [#<User id: 63, first_name: "James", last_name: nil, email: nil, phone: nil, created_at: "2018-08-06 23:44:13", updated_at: "2018-08-06 23:44:13">, #<User id: 62, first_name: "Viktor", last_name: nil, email: nil, phone: nil, created_at: "2018-08-06 23:43:00", updated_at: "2018-08-06 23:43:00">]
-      irb(main):025:0> User.find_by(first_name: "James")
-        User Load (0.2ms)  SELECT  "users".* FROM "users" WHERE "users"."first_name" = ? LIMIT ?  [["first_name", "James"], ["LIMIT", 1]]
-      => #<User id: 63, first_name: "James", last_name: nil, email: nil, phone: nil, created_at: "2018-08-06 23:44:13", updated_at: "2018-08-06 23:44:13">
-      irb(main):026:0> User.find_by(first_name: "James", last_name: nil)
-        User Load (0.3ms)  SELECT  "users".* FROM "users" WHERE "users"."first_name" = ? AND "users"."last_name" IS NULL LIMIT ?  [["first_name", "James"], ["LIMIT", 1]]
-      => #<User id: 63, first_name: "James", last_name: nil, email: nil, phone: nil, created_at: "2018-08-06 23:44:13", updated_at: "2018-08-06 23:44:13">
-      irb(main):027:0> User.columns
-      => [#<ActiveRecord::ConnectionAdapters::Column:0x00007fd60588fe68 @name="id", @table_name="users", @sql_type_metadata=#<ActiveRecord::ConnectionAdapters::SqlTypeMetadata:0x00007fd60588feb8 @sql_type="INTEGER", @type=:integer, @limit=nil, @precision=nil, @scale=nil>, @null=false, @default=nil, @default_function=nil, @collation=nil, @comment=nil>, #<ActiveRecord::ConnectionAdapters::Column:0x00007fd60588fcd8 @name="first_name", @table_name="users", @sql_type_metadata=#<ActiveRecord::ConnectionAdapters::SqlTypeMetadata:0x00007fd60588fd28 @sql_type="varchar", @type=:string, @limit=nil, @precision=nil, @scale=nil>, @null=true, @default=nil, @default_function=nil, @collation=nil, @comment=nil>, #<ActiveRecord::ConnectionAdapters::Column:0x00007fd60588fb48 @name="last_name", @table_name="users", @sql_type_metadata=#<ActiveRecord::ConnectionAdapters::SqlTypeMetadata:0x00007fd60588fb98 @sql_type="varchar", @type=:string, @limit=nil, @precision=nil, @scale=nil>, @null=true, @default=nil, @default_function=nil, @collation=nil, @comment=nil>, #<ActiveRecord::ConnectionAdapters::Column:0x00007fd60588f9b8 @name="email", @table_name="users", @sql_type_metadata=#<ActiveRecord::ConnectionAdapters::SqlTypeMetadata:0x00007fd60588fa08 @sql_type="varchar", @type=:string, @limit=nil, @precision=nil, @scale=nil>, @null=true, @default=nil, @default_function=nil, @collation=nil, @comment=nil>, #<ActiveRecord::ConnectionAdapters::Column:0x00007fd60588f828 @name="phone", @table_name="users", @sql_type_metadata=#<ActiveRecord::ConnectionAdapters::SqlTypeMetadata:0x00007fd60588f878 @sql_type="varchar", @type=:string, @limit=nil, @precision=nil, @scale=nil>, @null=true, @default=nil, @default_function=nil, @collation=nil, @comment=nil>, #<ActiveRecord::ConnectionAdapters::Column:0x00007fd60588f698 @name="created_at", @table_name="users", @sql_type_metadata=#<ActiveRecord::ConnectionAdapters::SqlTypeMetadata:0x00007fd60588f6e8 @sql_type="datetime", @type=:datetime, @limit=nil, @precision=nil, @scale=nil>, @null=false, @default=nil, @default_function=nil, @collation=nil, @comment=nil>, #<ActiveRecord::ConnectionAdapters::Column:0x00007fd60588f508 @name="updated_at", @table_name="users", @sql_type_metadata=#<ActiveRecord::ConnectionAdapters::SqlTypeMetadata:0x00007fd60588f558 @sql_type="datetime", @type=:datetime, @limit=nil, @precision=nil, @scale=nil>, @null=false, @default=nil, @default_function=nil, @collation=nil, @comment=nil>]
-      irb(main):028:0> User.columns_hash
-      => {"id"=>#<ActiveRecord::ConnectionAdapters::Column:0x00007fd60588fe68 @name="id", @table_name="users", @sql_type_metadata=#<ActiveRecord::ConnectionAdapters::SqlTypeMetadata:0x00007fd60588feb8 @sql_type="INTEGER", @type=:integer, @limit=nil, @precision=nil, @scale=nil>, @null=false, @default=nil, @default_function=nil, @collation=nil, @comment=nil>, "first_name"=>#<ActiveRecord::ConnectionAdapters::Column:0x00007fd60588fcd8 @name="first_name", @table_name="users", @sql_type_metadata=#<ActiveRecord::ConnectionAdapters::SqlTypeMetadata:0x00007fd60588fd28 @sql_type="varchar", @type=:string, @limit=nil, @precision=nil, @scale=nil>, @null=true, @default=nil, @default_function=nil, @collation=nil, @comment=nil>, "last_name"=>#<ActiveRecord::ConnectionAdapters::Column:0x00007fd60588fb48 @name="last_name", @table_name="users", @sql_type_metadata=#<ActiveRecord::ConnectionAdapters::SqlTypeMetadata:0x00007fd60588fb98 @sql_type="varchar", @type=:string, @limit=nil, @precision=nil, @scale=nil>, @null=true, @default=nil, @default_function=nil, @collation=nil, @comment=nil>, "email"=>#<ActiveRecord::ConnectionAdapters::Column:0x00007fd60588f9b8 @name="email", @table_name="users", @sql_type_metadata=#<ActiveRecord::ConnectionAdapters::SqlTypeMetadata:0x00007fd60588fa08 @sql_type="varchar", @type=:string, @limit=nil, @precision=nil, @scale=nil>, @null=true, @default=nil, @default_function=nil, @collation=nil, @comment=nil>, "phone"=>#<ActiveRecord::ConnectionAdapters::Column:0x00007fd60588f828 @name="phone", @table_name="users", @sql_type_metadata=#<ActiveRecord::ConnectionAdapters::SqlTypeMetadata:0x00007fd60588f878 @sql_type="varchar", @type=:string, @limit=nil, @precision=nil, @scale=nil>, @null=true, @default=nil, @default_function=nil, @collation=nil, @comment=nil>, "created_at"=>#<ActiveRecord::ConnectionAdapters::Column:0x00007fd60588f698 @name="created_at", @table_name="users", @sql_type_metadata=#<ActiveRecord::ConnectionAdapters::SqlTypeMetadata:0x00007fd60588f6e8 @sql_type="datetime", @type=:datetime, @limit=nil, @precision=nil, @scale=nil>, @null=false, @default=nil, @default_function=nil, @collation=nil, @comment=nil>, "updated_at"=>#<ActiveRecord::ConnectionAdapters::Column:0x00007fd60588f508 @name="updated_at", @table_name="users", @sql_type_metadata=#<ActiveRecord::ConnectionAdapters::SqlTypeMetadata:0x00007fd60588f558 @sql_type="datetime", @type=:datetime, @limit=nil, @precision=nil, @scale=nil>, @null=false, @default=nil, @default_function=nil, @collation=nil, @comment=nil>}
-      irb(main):029:0> User.columns_hash.keys
-      => ["id", "first_name", "last_name", "email", "phone", "created_at", "updated_at"]
-      irb(main):030:0> User.where(first_name:"James")
+- get SQL query for AR query
+```ruby
+> puts Post.where(id:5).to_sql
+SELECT "posts".* FROM "posts" WHERE "posts"."id" = 5
+```
+
+- get table name
+```ruby
+> puts Post.where(id:5).table_name
+posts
+```
+
+- get last record
+```ruby
+> Post.last
+Post Load (0.2ms)  SELECT  "posts".* FROM "posts" ORDER BY "posts"."id" DESC LIMIT ?  [["LIMIT", 1]]
+=> #<Post id: 3000, title: "By Grand Central Station I Sat Down and Wept", body: "Repellat quam sapiente. Cumque et ea. Et nam accus...", tags: nil, author_id: 50, created_at: "2018-08-06 23:12:35", updated_at: "2018-08-06 23:12:35">
+```
+
+- get last n records
+```ruby
+> Post.last(10)
+Post Load (0.3ms)  SELECT  "posts".* FROM "posts" ORDER BY "posts"."id" DESC LIMIT ?  [["LIMIT", 10]]
+=> [#<Post id: 2991, title: "In a Glass Darkly", body: "Cum rerum a. Blanditiis reprehenderit vel. Similiq...", tags: nil, author_id: 52, created_at: "2018-08-06 23:12:35", updated_at: "2018-08-06 23:12:35">, ...]
+```
+
+- get first error
+```ruby
+> Post.first
+Post Load (6.6ms)  SELECT  "posts".* FROM "posts" ORDER BY "posts"."id" ASC LIMIT ?  [["LIMIT", 1]]
+=> #<Post id: 1, title: "The Road Less Traveled", body: "Quo fuga sunt. Voluptas aut voluptate. Sint dolor ...", tags: nil, author_id: 22, created_at: "2018-08-05 15:41:25", updated_at: "2018-08-05 15:41:25">
+```
+- get first n errors
+```ruby
+> Post.first(5)
+Post Load (5.8ms)  SELECT  "posts".* FROM "posts" ORDER BY "posts"."id" ASC LIMIT ?  [["LIMIT", 5]]
+=> [#<Post id: 1, title: "The Road Less Traveled", body: "Quo fuga sunt. Voluptas aut voluptate. Sint dolor ...", tags: nil, author_id: 22, created_at: "2018-08-05 15:41:25", updated_at: "2018-08-05 15:41:25">,...]
+```
+- get all records
+```ruby
+> User.all
+User Load (0.3ms)  SELECT  "users".* FROM "users" LIMIT ?  [["LIMIT", 11]]
+=> #<ActiveRecord::Relation [#<User id: 22, first_name: "Claudette", last_name: "Bauch", email: "chonghayes@ullrichkemmer.net", phone: "1-907-710-8809", created_at: "2018-08-05 15:41:25", updated_at: "2018-08-05 15:41:25">, ...]>
+```
+- create new user
+```ruby
+> user = User.new
+> user.first_name = "Viktor'
+> user.first_name = "Viktor"
+> user
+=> #<User id: nil, first_name: "Viktor", last_name: nil, email: nil, phone: nil, created_at: nil, updated_at: nil>
+> user.save
+(0.1ms)  begin transaction
+SQL (1.1ms)  INSERT INTO "users" ("first_name", "created_at", "updated_at") VALUES (?, ?, ?)  [["first_name", "Viktor"], ["created_at", "2018-08-06 23:43:00.840450"], ["updated_at", "2018-08-06 23:43:00.840450"]]
+(2.4ms)  commit transaction
+```
+
+- another example
+```ruby
+> user2 = User.create first_name:'James'
+(0.1ms)  begin transaction
+SQL (0.5ms)  INSERT INTO "users" ("first_name", "created_at", "updated_at") VALUES (?, ?, ?)  [["first_name", "James"], ["created_at", "2018-08-06 23:44:13.579226"], ["updated_at", "2018-08-06 23:44:13.579226"]]
+(6.4ms)  commit transaction
+> User.last
+User Load (0.2ms)  SELECT  "users".* FROM "users" ORDER BY "users"."id" DESC LIMIT ?  [["LIMIT", 1]]
+=> #<User id: 63, first_name: "James", last_name: nil, email: nil, phone: nil, created_at: "2018-08-06 23:44:13", updated_at: "2018-08-06 23:44:13">
+```
+
+- retrieve single record by id
+```ruby
+> User.find(63)
+User Load (0.2ms)  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?  [["id", 63], ["LIMIT", 1]]
+=> #<User id: 63, first_name: "James", last_name: nil, email: nil, phone: nil, created_at: "2018-08-06 23:44:13", updated_at: "2018-08-06 23:44:13">
+```
+
+- retrive several records by id
+```ruby
+irb(main):024:0> User.find(63, 62)
+User Load (0.4ms)  SELECT "users".* FROM "users" WHERE "users"."id" IN (63, 62)
+=> [#<User id: 63, first_name: "James", last_name: nil, email: nil, phone: nil, created_at: "2018-08-06 23:44:13", updated_at: "2018-08-06 23:44:13">, #<User id: 62, first_name: "Viktor", last_name: nil, email: nil, phone: nil, created_at: "2018-08-06 23:43:00", updated_at: "2018-08-06 23:43:00">]
+```
+
+- query by specific field
+```ruby
+> User.find_by(first_name: "James")
+  User Load (0.2ms)  SELECT  "users".* FROM "users" WHERE "users"."first_name" = ? LIMIT ?  [["first_name", "James"], ["LIMIT", 1]]
+=> #<User id: 63, first_name: "James", last_name: nil, email: nil, phone: nil, created_at: "2018-08-06 23:44:13", updated_at: "2018-08-06 23:44:13">
+> User.find_by(first_name: "James", last_name: nil)
+User Load (0.3ms)  SELECT  "users".* FROM "users" WHERE "users"."first_name" = ? AND "users"."last_name" IS NULL LIMIT ?  [["first_name", "James"], ["LIMIT", 1]]
+=> #<User id: 63, first_name: "James", last_name: nil, email: nil, phone: nil, created_at: "2018-08-06 23:44:13", updated_at: "2018-08-06 23:44:13">
+```
+
+- finding what columns specific table have
+```ruby
+> User.columns
+=> [#<ActiveRecord::ConnectionAdapters::Column:0x00007fd60588fe68 @name="id", @table_name="users", @sql_type_metadata=#<ActiveRecord::ConnectionAdapters::SqlTypeMetadata:0x00007fd60588feb8 @sql_type="INTEGER", @type=:integer, @limit=nil, @precision=nil, @scale=nil>, @null=false, @default=nil, @default_function=nil, @collation=nil, @comment=nil>, #<ActiveRecord::ConnectionAdapters::Column:0x00007fd60588fcd8 @name="first_name", @table_name="users", @sql_type_metadata=#<ActiveRecord::ConnectionAdapters::SqlTypeMetadata:0x00007fd60588fd28 @sql_type="varchar", @type=:string, @limit=nil, @precision=nil, @scale=nil>, @null=true, @default=nil, @default_function=nil, @collation=nil, @comment=nil>, #<ActiveRecord::ConnectionAdapters::Column:0x00007fd60588fb48 @name="last_name", @table_name="users", @sql_type_metadata=#<ActiveRecord::ConnectionAdapters::SqlTypeMetadata:0x00007fd60588fb98 @sql_type="varchar", @type=:string, @limit=nil, @precision=nil, @scale=nil>, @null=true, @default=nil, @default_function=nil, @collation=nil, @comment=nil>, #<ActiveRecord::ConnectionAdapters::Column:0x00007fd60588f9b8 @name="email", @table_name="users", @sql_type_metadata=#<ActiveRecord::ConnectionAdapters::SqlTypeMetadata:0x00007fd60588fa08 @sql_type="varchar", @type=:string, @limit=nil, @precision=nil, @scale=nil>, @null=true, @default=nil, @default_function=nil, @collation=nil, @comment=nil>, #<ActiveRecord::ConnectionAdapters::Column:0x00007fd60588f828 @name="phone", @table_name="users", @sql_type_metadata=#<ActiveRecord::ConnectionAdapters::SqlTypeMetadata:0x00007fd60588f878 @sql_type="varchar", @type=:string, @limit=nil, @precision=nil, @scale=nil>, @null=true, @default=nil, @default_function=nil, @collation=nil, @comment=nil>, #<ActiveRecord::ConnectionAdapters::Column:0x00007fd60588f698 @name="created_at", @table_name="users", @sql_type_metadata=#<ActiveRecord::ConnectionAdapters::SqlTypeMetadata:0x00007fd60588f6e8 @sql_type="datetime", @type=:datetime, @limit=nil, @precision=nil, @scale=nil>, @null=false, @default=nil, @default_function=nil, @collation=nil, @comment=nil>, #<ActiveRecord::ConnectionAdapters::Column:0x00007fd60588f508 @name="updated_at", @table_name="users", @sql_type_metadata=#<ActiveRecord::ConnectionAdapters::SqlTypeMetadata:0x00007fd60588f558 @sql_type="datetime", @type=:datetime, @limit=nil, @precision=nil, @scale=nil>, @null=false, @default=nil, @default_function=nil, @collation=nil, @comment=nil>]
+```
+- or another way, as a hash
+```ruby
+> User.columns_hash
+=> {"id"=>#<ActiveRecord::ConnectionAdapters::Column:0x00007fd60588fe68 @name="id", @table_name="users", @sql_type_metadata=#<ActiveRecord::ConnectionAdapters::SqlTypeMetadata:0x00007fd60588feb8 @sql_type="INTEGER", @type=:integer, @limit=nil, @precision=nil, @scale=nil>, @null=false, @default=nil, @default_function=nil, @collation=nil, @comment=nil>, "first_name"=>#<ActiveRecord::ConnectionAdapters::Column:0x00007fd60588fcd8 @name="first_name", @table_name="users", @sql_type_metadata=#<ActiveRecord::ConnectionAdapters::SqlTypeMetadata:0x00007fd60588fd28 @sql_type="varchar", @type=:string, @limit=nil, @precision=nil, @scale=nil>, @null=true, @default=nil, @default_function=nil, @collation=nil, @comment=nil>, "last_name"=>#<ActiveRecord::ConnectionAdapters::Column:0x00007fd60588fb48 @name="last_name", @table_name="users", @sql_type_metadata=#<ActiveRecord::ConnectionAdapters::SqlTypeMetadata:0x00007fd60588fb98 @sql_type="varchar", @type=:string, @limit=nil, @precision=nil, @scale=nil>, @null=true, @default=nil, @default_function=nil, @collation=nil, @comment=nil>, "email"=>#<ActiveRecord::ConnectionAdapters::Column:0x00007fd60588f9b8 @name="email", @table_name="users", @sql_type_metadata=#<ActiveRecord::ConnectionAdapters::SqlTypeMetadata:0x00007fd60588fa08 @sql_type="varchar", @type=:string, @limit=nil, @precision=nil, @scale=nil>, @null=true, @default=nil, @default_function=nil, @collation=nil, @comment=nil>, "phone"=>#<ActiveRecord::ConnectionAdapters::Column:0x00007fd60588f828 @name="phone", @table_name="users", @sql_type_metadata=#<ActiveRecord::ConnectionAdapters::SqlTypeMetadata:0x00007fd60588f878 @sql_type="varchar", @type=:string, @limit=nil, @precision=nil, @scale=nil>, @null=true, @default=nil, @default_function=nil, @collation=nil, @comment=nil>, "created_at"=>#<ActiveRecord::ConnectionAdapters::Column:0x00007fd60588f698 @name="created_at", @table_name="users", @sql_type_metadata=#<ActiveRecord::ConnectionAdapters::SqlTypeMetadata:0x00007fd60588f6e8 @sql_type="datetime", @type=:datetime, @limit=nil, @precision=nil, @scale=nil>, @null=false, @default=nil, @default_function=nil, @collation=nil, @comment=nil>, "updated_at"=>#<ActiveRecord::ConnectionAdapters::Column:0x00007fd60588f508 @name="updated_at", @table_name="users", @sql_type_metadata=#<ActiveRecord::ConnectionAdapters::SqlTypeMetadata:0x00007fd60588f558 @sql_type="datetime", @type=:datetime, @limit=nil, @precision=nil, @scale=nil>, @null=false, @default=nil, @default_function=nil, @collation=nil, @comment=nil>}
+```
+- just column names
+```ruby
+> User.columns_hash.keys
+=> ["id", "first_name", "last_name", "email", "phone", "created_at", "updated_at"]
+```
+
+
+```ruby
+irb(main):030:0> User.where(first_name:"James")
         User Load (0.1ms)  SELECT  "users".* FROM "users" WHERE "users"."first_name" = ? LIMIT ?  [["first_name", "James"], ["LIMIT", 11]]
       => #<ActiveRecord::Relation [#<User id: 63, first_name: "James", last_name: nil, email: nil, phone: nil, created_at: "2018-08-06 23:44:13", updated_at: "2018-08-06 23:44:13">]>
       irb(main):031:0> User.find_by(first_name: "James")
@@ -463,3 +509,4 @@
          (0.2ms)  SELECT "posts"."title" FROM "posts" WHERE "posts"."id" IN (12, 22, 30, 51, 57)
       => []
       irb(main):150:0>
+```
