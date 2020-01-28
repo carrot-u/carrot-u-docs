@@ -232,7 +232,7 @@ This week we'll take a deeper dive into some core pieces of Rails functionality.
 * [Treehouse: Active Record](https://teamtreehouse.com/library/active-record-associations-in-rails)
 
 #### Assignments
-- [Question and Answer Site](https://github.com/carrot-u/carrot-u-docs/blob/master/exercises/ruby-and-rails/question-answer.md) - due 8/12 11:59pm
+- TBD
 
 #### Extra Resources
 - Rails Validator docs: https://guides.rubyonrails.org/active_record_validations.html
