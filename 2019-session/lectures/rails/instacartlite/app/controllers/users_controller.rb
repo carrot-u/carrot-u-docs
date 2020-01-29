@@ -5,6 +5,10 @@ class UsersController < ApplicationController
   # GET /users.json
   def index
     @users = User.all
+
+    if params[:no_last_name]
+      @users = @users.no_last_name
+    end
   end
 
   # GET /users/1

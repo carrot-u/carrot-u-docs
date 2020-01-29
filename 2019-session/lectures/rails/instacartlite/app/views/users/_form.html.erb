@@ -13,12 +13,12 @@
 
   <div class="field">
     <%= form.label :email %>
-    <%= form.text_field :email %>
+    <%= form.email_field :email, required: true %>
   </div>
 
   <div class="field">
     <%= form.label :first_name %>
-    <%= form.text_field :first_name %>
+    <%= form.text_field :first_name, required: true %>
   </div>
 
   <div class="field">
@@ -28,7 +28,7 @@
 
   <div class="field">
     <%= form.label :password %>
-    <%= form.text_field :password %>
+    <%= form.password_field :password, required: true %>
   </div>
 
   <div class="actions">
