@@ -197,6 +197,7 @@ This week we'll take what we've learned about building web sites and making them
 - Ruby Templating Engines: https://www.rubyguides.com/2018/11/ruby-erb-haml-slim/
 
 ### Week 9: Ruby on Rails
+**1/21/20**
 
 This week we'll dive into Ruby on Rails and build our first Rails application.
 
@@ -221,390 +222,120 @@ This week we'll dive into Ruby on Rails and build our first Rails application.
 - https://www.railstutorial.org/book
 
 ### Week 10 Ruby on Rails - ActiveRecord
+**1/28/20**
 
 This week we'll take a deeper dive into some core pieces of Rails functionality.
 
 #### Discussion
 - ActiveRecord
 - How ActiveRecord is used to make your code interact with a database
+- Matt
 
 #### Coursework
 * [Treehouse: Active Record](https://teamtreehouse.com/library/active-record-associations-in-rails)
 
 #### Assignments
-- TBD
+- enhance your [Instacart Lite](https://github.com/carrot-u/carrot-u-docs/blob/master/2019-session/assignments/assignment-7-instacart-lite.md) with ActiveRecord functionality (new validations, better queries, etc.)
 
 #### Extra Resources
 - Rails Validator docs: https://guides.rubyonrails.org/active_record_validations.html
 - The original "Rails blog" video: https://www.youtube.com/watch?v=Gzj723LkRJY
 
-<!-- 
+### Week 11 Ruby on Rails - Testing/Rspec
+**2/4/20**
 
-    ### Week of 7/16 How To Build A Website
+Now we'll look into Rails testing.
 
-    This week we'll bring together HTML and CSS to build a website.
+#### Discussion
+- Testing / Rspec
+- Viktor
 
-    #### Discussion
-    - [How The Web Works](https://github.com/carrot-u/carrot-u-docs/blob/master/docs/theory-and-practice/how_the_web_works.md)
-    - Muffy
-    - Talk about HTTP, what happens when you visit a website, etc.
+#### Coursework
+- [Treehouse: Ruby Gems](https://teamtreehouse.com/library/ruby-gems)
+- [YouTube video on Rspec](https://www.youtube.com/watch?v=Dj19O9kLK6w)
+- [Treehouse: Troubleshooting Rails Applications](https://teamtreehouse.com/library/troubleshooting-a-rails-application)
 
-    #### Coursework
-    * [Treehouse: How To Make A Website](https://teamtreehouse.com/library/how-to-make-a-website)
-    * [Treehouse: How The Web Works](https://teamtreehouse.com/library/how-the-web-works)
-    * [Treehouse: Bootstrap 4 Basics](https://teamtreehouse.com/library/bootstrap-4-basics-2)
+#### Assignments
+- TBD
 
-    #### Assignments
-    - [Build a Website](https://github.com/carrot-u/assignments/tree/master/week7)
+#### Extra Resources
+- http://rspec.info/
+- https://rubygems.org/
+- https://github.com/hothero/awesome-rails-gem (useful gems for Rails work)
+- https://httpstatuses.com/
 
-    #### Extra Resources
-    - https://pages.github.com/
-    - What happens when you type "google.com" into your browser? (https://github.com/alex/what-happens-when)
+### Week 12 Rails In The Real World
+**2/11/20**
 
-    ### Week of 7/23 How To Build A Web App
+Let's go over how to deal with your inevitable problems.
 
-    This week we'll take what we've learned about building web sites and making them look better and do more. We'll also develop a more fundamental understanding of how the web works.
+#### Discussion
+- Debugging and Inspecting Your Application / Review of What We Can Do With Rails
+- ???
 
-    #### Discussion
-    - [Live Build A Web App With Sinatra](https://github.com/carrot-u/carrot-u-docs/blob/master/docs/sinatra/notes.md)
-    - Dave
+#### Coursework
+- [Treehouse: Practice Rails Basics](https://teamtreehouse.com/library/practice-ruby-on-rails-basics)
+- [Treehouse: Static Pages In Rails](https://teamtreehouse.com/library/creating-static-pages-in-rails)
+- [Treehouse: Rails Application Walkthrough](https://teamtreehouse.com/library/rails-application-walkthrough)
+- [Treehouse: Deploying Rails With Capistrano](https://teamtreehouse.com/library/deployment-with-capistrano)
 
-    #### Coursework
-    * [Treehouse: Building Web Apps With Sinatra](https://teamtreehouse.com/library/building-web-apps-with-sinatra)
-    * [Treehouse: Bootstrap 4](https://teamtreehouse.com/library/bootstrap-4-basics)
+#### Assignments
+- Deploy your Rails app(s) to Heroku
 
-    #### Assignments
-    - [Build a Blog](https://github.com/carrot-u/carrot-u-docs/blob/master/exercises/sinatra/blog-assignment.md) - due 7/29 11:59pm
+#### Extra Resources
+- http://docs.railsbridge.org/installfest/deploy_a_rails_app
+- https://github.com/pry/pry
+- [Postman Chrome plugin](https://chrome.google.com/webstore/detail/postman/fhbjgbiflinjbdggehcddcbncdddomop)
 
-    #### Extra Resources
-    - Sinatra: http://sinatrarb.com/
-    - Sequel: https://github.com/jeremyevans/sequel
-    - Sqlite: https://www.sqlite.org/index.html
+## Break #2
+**2/18/20**
 
-    ### Week of 7/30 Getting Started With Rails
+## Section 3: Frontend Development
 
-    This week we'll dive into Ruby on Rails and build our first Rails application.
+In this section we'll diver deeper into the major frontend technologies: HTML, CSS, and JavaScript. We'll also start to work with React, the front-end framework we use here at Instacart.
 
-    #### Discussion
-    - Let's Build A Rails App Together
-    - James
-    - everybody will build their first Rails app together
-    - [slides](https://docs.google.com/presentation/d/1yLj8ZhwtuFS2HIn7OT5KfqvvWTIDdaT3ltSPTlmmUwc/edit)
+### Week 13 HTML/CSS/Javascript
+**2/25/20**
 
-    #### Coursework
-    * [Treehouse: Ruby on Rails 5 Basics](https://teamtreehouse.com/library/ruby-on-rails-5-basics)
-    * [Treehouse: Rails Routes and Resources](https://teamtreehouse.com/library/rails-routes-and-resources)
+### Week 14 Javascript the Language and the DOM
+**3/3/20**
 
-    #### Assignments
-    - [Instacart Lite](https://github.com/carrot-u/assignments/blob/master/week9/instacart-lite.md) - due 8/5 11:59pm
+### Week 15 React
+**3/10/20**
 
-    #### Extra Resources
-    - https://rubyonrails.org/
-    - http://guides.rubyonrails.org/ (this is REALLY helpful!)
-    - https://www.railstutorial.org/book
+### Week 16 More React
+**3/17/20**
 
+### Week 17 Even More React
+**3/24/20**
 
-    ### Week of 8/6 Working With Rails
+## Break #3
+**3/31/20**
 
-    This week we'll take a deeper dive into some core pieces of Rails functionality.
+## Section 4: Theory and Practice
 
-    #### Discussion
-    - ActiveRecord
-    - Dave and Viktor
-    - How ActiveRecord is used to make your code interact with a database
-    - Finish up last week's content
+### Week 18 Your Final Project
+**4/7/20**
 
-    #### Coursework
-    * [Treehouse: Active Record](https://teamtreehouse.com/library/active-record-associations-in-rails)
-    * ERB  
-    - (https://teamtreehouse.com/library/practice-sinatra-basics/practice-erb-templates/erb-templates)
-    - review "ERB Templates" from (https://teamtreehouse.com/library/building-web-apps-with-sinatra)
+### Week 18 Practice: Database Design
+**4/14/20**
 
-    #### Assignments
-    - [Question and Answer Site](https://github.com/carrot-u/carrot-u-docs/blob/master/exercises/ruby-and-rails/question-answer.md) - due 8/12 11:59pm
+### Week 19 Theory: Data Structures and Algorithms
+**4/21/20**
 
-    #### Extra Resources
-    - Rails Validator docs: https://guides.rubyonrails.org/active_record_validations.html
-    - The original "Rails blog" video: https://www.youtube.com/watch?v=Gzj723LkRJY
-    - HAML (an alternative to ERB): http://haml.info/
+### Week 20 Practice: Deployments
+**4/28/20**
 
-    ### Week of 8/13 Expanding Your Rails App
+### Week 21 Practice: Security
+**5/5/20**
 
-    This week we'll look at how to make use of external code libraries to add functionality to your applications.
+### Week 22 Check In on Group Projects
+**5/12/20**
 
-    #### Discussion
-    - Testing and Rspec
-    - deeper understanding of testing via Rspec
-    - Jeremy
-    - example app: https://github.com/carrot-u/carrot-u-docs/tree/master/docs/rspec/rspec_instacart
+### Week 23 Open Topics
+**5/19/20**
 
-    #### Coursework
-    * [Treehouse: Ruby Gems](https://teamtreehouse.com/library/ruby-gems)
-    * [YouTube video on Rspec](https://www.youtube.com/watch?v=Dj19O9kLK6w)
-    * [Treehouse: Troubleshooting Rails Applications](https://teamtreehouse.com/library/troubleshooting-a-rails-application)
+### Week 24 Prepare For Software Engineering Interviews
+**5/26/20**
 
-    #### Assignments
-    - [Write Your Own Specs](https://github.com/carrot-u/carrot-u-docs/tree/master/docs/rspec/rspec_instacart#weekly-assignment)
-
-    #### Extra Resources
-    - http://rspec.info/
-    - https://rubygems.org/
-    - https://github.com/hothero/awesome-rails-gem (useful gems for Rails work)
-    - https://httpstatuses.com/
-
-    ### Week Of 8/20 Rails In The Real World
-
-    Rails is used as the the foundation for many large websites, including Instacart.
-
-    #### Discussion
-    - Debugging and Inspecting Your Application / Review of What We Can Do With Rails
-    - Viktor and Dave
-    - Pry / Postman / Chrome Developer Tools 
-    - Look back at what we know how to do with Rails
-        - [Rails Review notes](https://github.com/carrot-u/carrot-u-docs/tree/master/docs/rails-review/rails_review.md)
-
-    #### Coursework
-    - [Treehouse: Practice Rails Basics](https://teamtreehouse.com/library/practice-ruby-on-rails-basics)
-    - [Treehouse: Static Pages In Rails](https://teamtreehouse.com/library/creating-static-pages-in-rails)
-    - [Treehouse: Rails Application Walkthrough](https://teamtreehouse.com/library/rails-application-walkthrough)
-    - [Treehouse: Deploying Rails With Capistrano](https://teamtreehouse.com/library/deployment-with-capistrano)
-
-    #### Assignments
-    - Deploy your Rails app to Heroku
-
-    #### Extra Resources
-    - http://docs.railsbridge.org/installfest/deploy_a_rails_app
-    - https://github.com/pry/pry
-    - [Postman Chrome plugin](https://chrome.google.com/webstore/detail/postman/fhbjgbiflinjbdggehcddcbncdddomop)
-
-
-    ## Break #2 (Week of 8/27 & Week of 9/3)
-    - [Summer Vacation, woo!](http://mountsaintawesome.com/comic.php?id=104)
-    - **Note, 2 week break here**
-    - use the time to catch up on things you may have fallen behind in
-    - we will still hold office hours
-    - lecture times will be used for group Q&A
-
-    ## Section 3: Frontend Development
-
-    In this section we'll diver deeper into the major frontend technologies: HTML, CSS, and JavaScript. We'll also start to work with React, the front-end framework we use here at Instacart.
-
-    ### Week of 9/10 HTML/CSS/Javascript
-
-    #### Discussion
-    - Overview of HTML and CSS
-    - [HTML/CSS Crash Course](https://github.com/carrot-u/carrot-u-docs/blob/master/docs/html-css/html-css-crash-course.md)
-    - Will
-
-    #### Coursework
-    * [Treehouse: Beginning HTML and CSS](https://teamtreehouse.com/library/introduction-to-html-and-css)
-    * [Quick read on CSS](https://blog.logrocket.com/how-css-works-understanding-the-cascade-d181cd89a4d8)
-    * [Treehouse: Responsive design](https://teamtreehouse.com/library/responsive-layouts)
-    * [Treehouse: Flexbox](https://teamtreehouse.com/library/css-flexbox-layout)
-
-    #### Assignments
-    - PNG to website
-
-    #### Extra Resources
-    * Advanced CSS selectors (https://teamtreehouse.com/library/css-selectors)
-    * Accessibility (https://teamtreehouse.com/library/accessibility)
-
-    ### Week of 9/17 Javascript the Language and the DOM
-
-    #### Discussion
-    - DOM manipulation and API calls
-    - James J
-
-    #### Coursework
-    * [Treehouse: JavaScript Basics](https://teamtreehouse.com/library/javascript-basics)
-    * [Treehouse: JavaScript Loops, Arrays, and Objects](https://teamtreehouse.com/library/javascript-loops-arrays-and-objects)
-    * [Treehouse: JavaScript and the DOM](https://teamtreehouse.com/library/javascript-and-the-dom-2)
-    * [Treehouse: AJAX](https://teamtreehouse.com/library/ajax-basics)
-
-    #### Assignments
-    - Ajax practice
-    - [JS Practice](https://github.com/carrot-u/carrot-u-docs/tree/master/exercises/section-3-frontend/javascript-practice)
-
-    #### Extra Resources
-    - https://egghead.io/ (JS tool and framework lessons)
-
-    ### Week of 9/24 React
-
-    #### Discussion
-    - Intro to React
-    - Logan
-    - https://github.com/carrot-u/assignments/blob/master/week14/intro_to_react.md
-
-    #### Coursework
-    * [“easy” react with next.js and now](https://nextjs.org/static/videos/hnpwa-next-v2.mp4)
-    * [Treehouse: Learn React](https://teamtreehouse.com/tracks/learn-react)
-
-    #### Assignments
-    - Stateless website using react (same website as in week 1 of FE)
-    - start thinking about Group Projects
-
-    #### Extra Resources
-
-    ### Week of 10/1 More React
-
-    #### Discussion
-    - Pure JS vs React
-    - Will
-    - https://github.com/wfro/typeahead-extravaganza
-
-    #### Coursework
-    * [Treehouse: Learn React](https://teamtreehouse.com/tracks/learn-react)
-
-    #### Assignments
-    - React version of [typeahead](https://github.com/wfro/typeahead-extravaganza)
-
-    #### Extra Resources
-
-    ### Week of 10/8 JavaScript/React Review
-
-    #### Discussion
-    - JavaScript Fundamentals
-    - review JavaScript fundamentals
-    - take questions about React
-    - ???
-
-    #### Coursework
-    * Finish JavaScript Treehouse Sessions if you haven't yet!
-    * [Treehouse: JavaScript Basics](https://teamtreehouse.com/library/javascript-basics)
-    * [Treehouse: JavaScript Loops, Arrays, and Objects](https://teamtreehouse.com/library/javascript-loops-arrays-and-objects)
-    * [Treehouse: JavaScript and the DOM](https://teamtreehouse.com/library/javascript-and-the-dom-2)
-
-
-    #### Assignments
-    * TBD
-
-    #### Extra Resources
-
-    ## Break #3 (Week of 10/15)
-    - [XOR](http://mountsaintawesome.com/comic.php?id=57)
-
-    ## Section 4: Theory and Practice
-
-    In this section we'll dive deeper into useful computer science theory and also explore some of the practical skills involved with shipping production code. During this section you will devote most of your time to building group projects, in groups of 3-4. Discussions will cover a range of topics in computer science and getting code into production.
-
-    ### Week of 10/22 Practice: Working With Product
-
-    #### Discussion
-    - PMs and the Product Spec
-    - Andreea
-
-    #### Coursework
-    - Group Project!
-
-    #### Assignments
-    - Group Project: Build a spec for your project
-    - start working on your group projects
-
-    #### Extra Resources
-
-    ### Week of 10/29 Practice: Database Design
-
-    #### Discussion
-    - Database Design
-    - Edmund
-
-    #### Coursework
-    - Database Design (work through coursework and project): https://www.khanacademy.org/computing/computer-programming/sql#sql-basics
-
-
-    #### Assignments
-    - Work on your Group Project!
-    - Group Project: Design your data models for your project. Think about how they relate to each other. Build and run your migrations.
-
-    #### Extra Resources
-
-    ### Week of 11/5 Practice: Code Reviews
-
-    #### Discussion
-    - Code Review
-    - Jeremy
-
-    #### Coursework
-
-    #### Assignments
-    - Work on your Group Project!
-    - Do AT LEAST one code review for someone else on your team.
-
-    #### Extra Resources
-
-    ### Week of 11/12 Theory: Data Structures and Algorithms
-
-    #### Discussion
-    - Algorthms and Data Structures
-    - Edmund
-
-    #### Coursework
-    - What Is An Algorithm https://www.khanacademy.org/computing/computer-science/algorithms/intro-to-algorithms/v/what-are-algorithms
-    - Asymptotic Notation https://www.khanacademy.org/computing/computer-science/algorithms/asymptotic-notation/a/asymptotic-notation
-    - Binary Search https://www.khanacademy.org/computing/computer-science/algorithms/binary-search/a/binary-search
-    - Quick Sort https://www.khanacademy.org/computing/computer-science/algorithms/quick-sort/a/overview-of-quicksort
-
-    #### Assignments
-    - Work on your Group Project!
-    - look for places where you could make better use of available data structures
-
-    #### Extra Resources
-    - Big O Cheatsheet: http://bigocheatsheet.com/
-
-    ### Week of 11/19 Practice: Deploymnets
-
-    #### Discussion
-    - Deploying Code At Instacart
-    - Dave
-    - go over concept of deploymnet/ENV vars
-    - talk about CD at Instacart
-    - work through Railsbridge deployment tutorial together
-
-    #### Coursework
-    - Railsbridge deployment instructions: http://docs.railsbridge.org/installfest/deploy_a_rails_app
-
-    #### Assignments
-    - Work on your Group Project!
-    - Group Project: Deploy your project to Heroku
-    - Group Project: make sure everybody on your team can deploy your app
-
-    #### Extra Resources
-    - S3 https://aws.amazon.com/s3/
-
-    ### Week of 11/26 Pracice: Security
-
-    #### Discussion
-    - Web Application Security Overview
-    - Ankit Agrawal and Shashank Mirji (from the Security Team)
-
-    #### Assignments
-    - Work on your Group Project!
-
-    ### Week of 12/3 Check In on Group Projects
-
-    #### Assignments
-    - Work on your Group Project!
-
-    ### Week of 12/10 Open Topics
-
-    #### Assignments
-    - Work on your Group Project!
-
-    ### Week of 12/17 Prepare For Software Engineering Interviews
-
-    #### Discussion
-    - Engineering Interview
-    - Dave
-    - https://docs.google.com/presentation/d/1y3jfLAeQa0BtssB9CdzrRjuxNSPKTBu4A7FzqK3dm04/edit?usp=sharing
-
-    #### Assignments
-    - Work on your Group Project!
-
-    #### Extra Resources
-    - http://www.crackingthecodinginterview.com/
-    - https://www.hackerrank.com/
-    - https://blog.codinghorror.com/why-cant-programmers-program/ (Why Coders Can't Code / Fizzbuzz)
-    - http://www.thagomizer.com/blog/2017/06/18/there-is-no-perfect-interview.html
-    - https://steve-yegge.blogspot.com/2008/03/get-that-job-at-google.html
-
-    ### 1/3 Present Projects At Hacker Lunch -->
+### ??? Present Projects At Hacker Lunch
