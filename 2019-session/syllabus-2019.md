@@ -256,7 +256,8 @@ Now we'll look into Rails testing.
 - [Treehouse: Troubleshooting Rails Applications](https://teamtreehouse.com/library/troubleshooting-a-rails-application)
 
 #### Assignments
-- TBD
+- Add specs to your Instacart Lite project
+    - think about testing Controllers and Models   
 
 #### Extra Resources
 - http://rspec.info/
@@ -271,7 +272,7 @@ Let's go over how to deal with your inevitable problems.
 
 #### Discussion
 - Debugging and Inspecting Your Application / Review of What We Can Do With Rails
-- ???
+- Howard and Viktor 
 
 #### Coursework
 - [Treehouse: Practice Rails Basics](https://teamtreehouse.com/library/practice-ruby-on-rails-basics)
