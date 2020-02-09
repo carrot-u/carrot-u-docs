@@ -1,12 +1,12 @@
 # Debug - shell tools, pry, postman, dev tools
 
-## Prerequesites 
+## Pre-requisites 
 
 - install pry `gem install pry`
 
 - install [postman](https://www.getpostman.com/)
 
-- install telnet `brew install telnet`
+- have Instacart Lite setup (rails-intro.md#building-a-new-rails-app)
 
 - create simple sinatra site in `main.rb`
 
@@ -23,20 +23,6 @@ end
 get '/frank-says' do
   'Put this in your pipe & smoke it!'
 end
-
-```
-
-
-## telnet
-
-
-
-```
-> telnet
-o localhost 4567
-GET: / HTTP/1.0
-Host: localhost 
-
 
 ```
 
@@ -76,8 +62,13 @@ Host: localhost
 
 > continue
 
-```
+> whereami
 
+> show-source -l
+```
+Commands starting with '.' will issue shell commands: https://github.com/pry/pry#command-shell-integration
+
+Opening files from Pry: https://github.com/pry/pry#edit-methods
 
 ## Postman
 
