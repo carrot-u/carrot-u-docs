@@ -7,6 +7,7 @@ class User < ApplicationRecord
   validates :password, length: { minimum: 6 }
 
   has_many :orders
+  has_many :addresses
 
   scope :no_last_name,   -> { where(last_name: nil) }
   scope :created_before, -> (time) { where("created_at < ?", time) }

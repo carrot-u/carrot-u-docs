@@ -42,6 +42,7 @@ class AddressesController < ApplicationController
   def update
     respond_to do |format|
       if @address.update(address_params)
+        refresh_active_address(@address.id) if @address.active?
         format.html { redirect_to @address, notice: 'Address was successfully updated.' }
         format.json { render :show, status: :ok, location: @address }
       else
@@ -70,5 +71,11 @@ class AddressesController < ApplicationController
     # Never trust parameters from the scary internet, only allow the white list through.
     def address_params
       params.require(:address).permit(:user_id, :street, :city, :state, :zip_code, :active)
+    end
+
+    def refresh_active_address(current_id)
+      @address.user.addresses.each do |a| 
+        a.update(active: false) unless a.id == current_id
+      end
     end
 end
