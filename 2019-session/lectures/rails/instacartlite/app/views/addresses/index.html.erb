@@ -18,7 +18,7 @@
   <tbody>
     <% @addresses.each do |address| %>
       <tr>
-        <td><%= address.user_id %></td>
+        <td><%= address.user.email %></td>
         <td><%= address.street %></td>
         <td><%= address.city %></td>
         <td><%= address.state %></td>
