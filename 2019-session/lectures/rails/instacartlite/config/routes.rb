@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :addresses
   get 'sessions/new'
   resources :users
   get 'welcome/index'
