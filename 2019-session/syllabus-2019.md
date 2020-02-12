@@ -273,6 +273,7 @@ Let's go over how to deal with your inevitable problems.
 #### Discussion
 - Debugging and Inspecting Your Application / Review of What We Can Do With Rails
 - Howard and Viktor 
+- Pry Cheatsheet: https://gist.github.com/lfender6445/9919357
 
 #### Coursework
 - [Treehouse: Practice Rails Basics](https://teamtreehouse.com/library/practice-ruby-on-rails-basics)
