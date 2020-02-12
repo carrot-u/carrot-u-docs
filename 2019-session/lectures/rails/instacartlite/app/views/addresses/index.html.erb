@@ -6,11 +6,13 @@
   <thead>
     <tr>
       <th>User</th>
+      <th>Label</th>
       <th>Street</th>
-      <th>City</th>
       <th>State</th>
-      <th>Zip code</th>
+      <th>City</th>
+      <th>Zipcode</th>
       <th>Active</th>
+      <th>Timestamps</th>
       <th colspan="3"></th>
     </tr>
   </thead>
@@ -18,12 +20,14 @@
   <tbody>
     <% @addresses.each do |address| %>
       <tr>
-        <td><%= address.user.email %></td>
+        <td><%= address.user %></td>
+        <td><%= address.label %></td>
         <td><%= address.street %></td>
-        <td><%= address.city %></td>
         <td><%= address.state %></td>
-        <td><%= address.zip_code %></td>
+        <td><%= address.city %></td>
+        <td><%= address.zipcode %></td>
         <td><%= address.active %></td>
+        <td><%= address.timestamps %></td>
         <td><%= link_to 'Show', address %></td>
         <td><%= link_to 'Edit', edit_address_path(address) %></td>
         <td><%= link_to 'Destroy', address, method: :delete, data: { confirm: 'Are you sure?' } %></td>

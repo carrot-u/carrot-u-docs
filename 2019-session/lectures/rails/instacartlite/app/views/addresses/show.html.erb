@@ -2,7 +2,12 @@
 
 <p>
   <strong>User:</strong>
-  <%= @address.user_id %>
+  <%= @address.user %>
+</p>
+
+<p>
+  <strong>Label:</strong>
+  <%= @address.label %>
 </p>
 
 <p>
@@ -11,23 +16,28 @@
 </p>
 
 <p>
-  <strong>City:</strong>
-  <%= @address.city %>
-</p>
-
-<p>
   <strong>State:</strong>
   <%= @address.state %>
 </p>
 
 <p>
-  <strong>Zip code:</strong>
-  <%= @address.zip_code %>
+  <strong>City:</strong>
+  <%= @address.city %>
+</p>
+
+<p>
+  <strong>Zipcode:</strong>
+  <%= @address.zipcode %>
 </p>
 
 <p>
   <strong>Active:</strong>
   <%= @address.active %>
+</p>
+
+<p>
+  <strong>Timestamps:</strong>
+  <%= @address.timestamps %>
 </p>
 
 <%= link_to 'Edit', edit_address_path(@address) %> |

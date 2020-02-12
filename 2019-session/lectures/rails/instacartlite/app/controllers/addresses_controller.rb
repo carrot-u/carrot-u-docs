@@ -28,7 +28,7 @@ class AddressesController < ApplicationController
 
     respond_to do |format|
       if @address.save
-        format.html { redirect_to @address, notice: 'Address was successfully created.' }
+        format.html { redirect_to @address, notice: 'address was successfully created.' }
         format.json { render :show, status: :created, location: @address }
       else
         format.html { render :new }
@@ -40,10 +40,10 @@ class AddressesController < ApplicationController
   # PATCH/PUT /addresses/1
   # PATCH/PUT /addresses/1.json
   def update
+
     respond_to do |format|
       if @address.update(address_params)
-        refresh_active_address(@address.id) if @address.active?
-        format.html { redirect_to @address, notice: 'Address was successfully updated.' }
+        format.html { redirect_to @address, notice: 'address was successfully updated.' }
         format.json { render :show, status: :ok, location: @address }
       else
         format.html { render :edit }
@@ -57,7 +57,7 @@ class AddressesController < ApplicationController
   def destroy
     @address.destroy
     respond_to do |format|
-      format.html { redirect_to addresses_url, notice: 'Address was successfully destroyed.' }
+      format.html { redirect_to addresses_url, notice: 'address was successfully destroyed.' }
       format.json { head :no_content }
     end
   end
@@ -70,12 +70,6 @@ class AddressesController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def address_params
-      params.require(:address).permit(:user_id, :street, :city, :state, :zip_code, :active)
-    end
-
-    def refresh_active_address(current_id)
-      @address.user.addresses.each do |a| 
-        a.update(active: false) unless a.id == current_id
-      end
+      params.require(:address).permit(:user_id, :label, :street, :state, :city, :zipcode, :active, :timestamps)
     end
 end
