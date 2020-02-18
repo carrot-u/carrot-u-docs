@@ -304,6 +304,15 @@ This week will cover semantic HTML and how to style your application with CSS.
 TODO - Fill in sections below pulling from https://github.com/carrot-u/carrot-u-docs/blob/master/2018-session/docs/html-css/html-css-crash-course.md
 
 #### Discussion
+- HTML
+    - Elements
+    - Attributes
+    - Links
+- CSS
+    - Selectors
+    - Box model
+    - Layout
+- Devtools
 
 #### Coursework
 
