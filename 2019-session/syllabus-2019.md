@@ -396,6 +396,7 @@ Cover more React topics.
 Second half of "Main Concepts" section of https://reactjs.org/docs/hello-world.html
  - Conditional Rendering
  - Lists and Keys
+ - Routing with react-router
  - Forms
  - Lifting State Up
  - Composition vs Inheritance
