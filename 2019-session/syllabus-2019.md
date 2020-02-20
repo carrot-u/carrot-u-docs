@@ -296,20 +296,121 @@ Let's go over how to deal with your inevitable problems.
 
 In this section we'll diver deeper into the major frontend technologies: HTML, CSS, and JavaScript. We'll also start to work with React, the front-end framework we use here at Instacart.
 
-### Week 13 HTML/CSS/Javascript
+### Week 13 HTML and CSS
 **2/25/20**
 
-### Week 14 Javascript the Language and the DOM
+This week will cover semantic HTML and how to style your application with CSS.
+
+TODO - Fill in sections below pulling from https://github.com/carrot-u/carrot-u-docs/blob/master/2018-session/docs/html-css/html-css-crash-course.md
+
+- Taught by @Logan.Murdock
+
+#### Discussion
+- HTML
+    - Elements
+    - Attributes
+    - Links
+- CSS
+    - Selectors
+    - Box model
+    - Layout
+- Devtools
+
+#### Coursework
+
+#### Assignments
+
+#### Extra Resources
+
+### Week 14 JavaScript the Language
 **3/3/20**
 
-### Week 15 React
+This week will cover the basics of JavaScript.
+
+#### Discussion
+- Basics of JavaScript syntax
+- Built-in Types
+    - Primitives vs objects (value vs reference)
+- Operators
+- Control flow
+    - Also exception handling
+- Objects
+    - Prototypes
+- Functions
+    - Higher order functions (callbacks and currying)
+- Arrays
+    - Array.prototype methods
+- ES6 Classes
+
+#### Coursework
+
+#### Assignments
+
+#### Extra Resources
+
+### Week 15 JavaScript in the Browser
 **3/10/20**
 
-### Week 16 More React
+Let's put our new JavaScript knowledge to use in the browser.
+
+#### Discussion
+- Dom manipulation
+- Query selectors
+- Event handling
+- Async JS and the Event Loop
+- Fetch
+- Promises
+- JSON
+
+#### Coursework
+
+#### Assignments
+
+#### Extra Resources
+
+### Week 16 React
 **3/17/20**
 
-### Week 17 Even More React
+Cover the basics of React.
+- Taught by @Victor.Doss
+
+#### Discussion
+Basically the first half of "Main Concepts" section of https://reactjs.org/docs/hello-world.html and also how to use CSS in React
+ - Hello World
+ - Introducing JSX
+ - Rendering Elements
+    - How to use CSS with React
+ - Components and Props
+ - State and Lifecycle
+ - Handling Events
+
+#### Coursework
+
+#### Assignments
+
+#### Extra Resources
+
+### Week 17 More React
 **3/24/20**
+
+Cover more React topics.
+- Taught by @Will.Faurot
+
+#### Discussion
+Second half of "Main Concepts" section of https://reactjs.org/docs/hello-world.html
+ - Conditional Rendering
+ - Lists and Keys
+ - Routing with react-router
+ - Forms
+ - Lifting State Up
+ - Composition vs Inheritance
+ - Thinking In React
+
+#### Coursework
+
+#### Assignments
+
+#### Extra Resources
 
 ## Break #3
 **3/31/20**
