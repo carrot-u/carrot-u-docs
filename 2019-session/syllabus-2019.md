@@ -303,6 +303,8 @@ This week will cover semantic HTML and how to style your application with CSS.
 
 TODO - Fill in sections below pulling from https://github.com/carrot-u/carrot-u-docs/blob/master/2018-session/docs/html-css/html-css-crash-course.md
 
+- Taught by @Logan.Murdock
+
 #### Discussion
 - HTML
     - Elements
@@ -370,6 +372,7 @@ Let's put our new JavaScript knowledge to use in the browser.
 **3/17/20**
 
 Cover the basics of React.
+- Taught by @Victor.Doss
 
 #### Discussion
 Basically the first half of "Main Concepts" section of https://reactjs.org/docs/hello-world.html and also how to use CSS in React
@@ -391,6 +394,7 @@ Basically the first half of "Main Concepts" section of https://reactjs.org/docs/
 **3/24/20**
 
 Cover more React topics.
+- Taught by @Will.Faurot
 
 #### Discussion
 Second half of "Main Concepts" section of https://reactjs.org/docs/hello-world.html
