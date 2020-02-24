@@ -316,9 +316,16 @@ TODO - Fill in sections below pulling from https://github.com/carrot-u/carrot-u-
     - Layout
 - Devtools
 
+[HTML & CSS Overview](./lectures/html_css/../css_html/HTML_CSS_Class_Notes.md)
+
 #### Coursework
+- [Treehouse: CSS Selectors](https://teamtreehouse.com/library/css-selectors-quickstart)
+- [Treehouse: CSS Flexbox](https://teamtreehouse.com/library/css-flexbox-layout)
+- [Treehouse: CSS Box Model Practice](https://teamtreehouse.com/library/practice-the-css-box-model)
+- [Treehouse: CSS debugging](https://teamtreehouse.com/library/debugging-css-with-chrome-devtools)
 
 #### Assignments
+- Build your own responsive website **without** using bootstrap or similar css library.
 
 #### Extra Resources
 
