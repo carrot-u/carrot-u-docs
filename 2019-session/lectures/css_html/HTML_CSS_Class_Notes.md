@@ -141,3 +141,29 @@ Getting familiar with it as well as understanding the basic positioning attribut
 - sticky
 
 https://www.w3schools.com/css/css_positioning.asp
+
+### Mobile First
+
+Mobile first design (also known as responsive web design) is the concept that web pages render well on a variety of devices and window or screen sizes.
+To accomplish this, designs should be composed in such a way that the look good and are functional on all screen sizes.
+Engineering should support these designs using media queries.
+
+[Further reading](https://medium.com/@Vincentxia77/what-is-mobile-first-design-why-its-important-how-to-make-it-7d3cf2e29d00)
+
+#### Media Queries
+
+Media queries target certain parameters to conditionally apply a given style. Typically `max-width` and `min-width` are used for screen size styling.
+
+For example:
+
+```
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+}
+```
+
+This will apply a background color only up to 600px width screens. A 700px screen size would not have the style applied.
+
+More reading: https://www.w3schools.com/cssref/css3_pr_mediaquery.asp
