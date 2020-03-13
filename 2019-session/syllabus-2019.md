@@ -406,10 +406,12 @@ Let's put our new JavaScript knowledge to use in the browser.
 - JSON
 
 #### Coursework
+Review Sections 23-26 of [The JavaScript Beginner's Handbook](https://www.freecodecamp.org/news/the-complete-javascript-handbook-f26b2c71719c/)
 
 #### Assignments
 
 #### Extra Resources
+Dummy rest API to practice fetch: https://reqres.in
 
 ### Week 16 React
 **3/17/20**
