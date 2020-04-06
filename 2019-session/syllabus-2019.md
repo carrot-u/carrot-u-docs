@@ -316,7 +316,7 @@ TODO - Fill in sections below pulling from https://github.com/carrot-u/carrot-u-
     - Layout
 - Devtools
 
-[HTML & CSS Overview](./lectures/html_css/../css_html/HTML_CSS_Class_Notes.md)
+[HTML & CSS Overview](./lectures/css_html/HTML_CSS_Class_Notes.md)
 
 #### Coursework
 - [Treehouse: CSS Selectors](https://teamtreehouse.com/library/css-selectors-quickstart)
@@ -465,25 +465,40 @@ Second half of "Main Concepts" section of https://reactjs.org/docs/hello-world.h
 ### Week 18 Your Final Project
 **4/7/20**
 
-### Week 18 Practice: Database Design
+- Form project teams
+-- [GitHub for projects](https://help.github.com/en/enterprise/2.13/user/articles/creating-a-new-repository)
+-- The mentor assigned to the project team will create this for you in [carrot-u](https://github.com/carrot-u/)
+- Project team roles
+-- Software Developer
+-- Research
+-- [Project specs](./lectures/theory_and_practice/project_specs.md)
+-- Design reviews
+-- [Code Reviews](./lectures/theory_and_practice/code_reviews.md)
+-- User testing and feedback
+
+Lecture: @muffy
+
+### Week 19 Practice: [Database Design](./lectures/theory_and_practice/database_design.md)
 **4/14/20**
 
-### Week 19 Theory: Data Structures and Algorithms
+Lecture: @muffy
+
+### Week 20 Theory: Algorithms and Data Structures
 **4/21/20**
 
-### Week 20 Practice: Deployments
+### Week 21 Practice: Deploying and AWS
 **4/28/20**
 
-### Week 21 Practice: Security
+### Week 22 Practice: Security
 **5/5/20**
 
-### Week 22 Check In on Group Projects
+### Week 23 Check In on Group Projects
 **5/12/20**
 
-### Week 23 Open Topics
+### Week 24 Open Topics
 **5/19/20**
 
-### Week 24 Prepare For Software Engineering Interviews
+### Week 25 Prepare For Software Engineering Interviews
 **5/26/20**
 
 ### ??? Present Projects At Hacker Lunch
