@@ -466,15 +466,15 @@ Second half of "Main Concepts" section of https://reactjs.org/docs/hello-world.h
 **4/7/20**
 
 - Form project teams
--- [GitHub for projects](https://help.github.com/en/enterprise/2.13/user/articles/creating-a-new-repository)
--- The mentor assigned to the project team will create this for you in [carrot-u](https://github.com/carrot-u/)
+  - [GitHub for projects](https://help.github.com/en/enterprise/2.13/user/articles/creating-a-new-repository)
+  - The mentor assigned to the project team will create this for you in [carrot-u](https://github.com/carrot-u/)
 - Project team roles
--- Software Developer
--- Research
--- [Project specs](./lectures/theory_and_practice/project_specs.md)
--- Design reviews
--- [Code Reviews](./lectures/theory_and_practice/code_reviews.md)
--- User testing and feedback
+  - Software Developer
+  - Research
+  - [Project specs](./lectures/theory_and_practice/project_specs.md)
+  - Design reviews
+  - [Code Reviews](./lectures/theory_and_practice/code_reviews.md)
+  - User testing and feedback
 
 Lecture: @muffy
 
