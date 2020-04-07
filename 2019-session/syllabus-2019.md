@@ -1,6 +1,8 @@
 # Carrot U: Code School Syllabus 2019
 ![Carrot U](./images/code-school-carrot-u.png)
 
+[Current week >](#week-18-your-final-project)
+
 ## Section 1: Solving Problems Like an Engineer
 
 This first section is designed to move you into an engineering mentality. This means learning to use the command line, working with databases, and getting into some basic programming.
