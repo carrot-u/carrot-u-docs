@@ -62,15 +62,15 @@ how it can break is your job. If you can imagine a case where the system would f
 Two big issues to look out for in the product spec are
 
 - The spec is not actually compatible with the existing structure
--- For example, say we want to start offering clothes from Costco. Of course we
+   - For example, say we want to start offering clothes from Costco. Of course we
  can add them to the catalog, add a new "Clothing" department, etc., but we don't
  have a way to specify color or size when adding an item to the cart, so this is
  going to be a very substantial change.
 - There are too many open questions, such as
--- What inputs can we expect from other systems (e.g. inventory files from retailers)?
--- Can the system handle the additional load?
--- What reporting and tracking do we need?
--- Is this even legal?
+   - What inputs can we expect from other systems (e.g. inventory files from retailers)?
+   - Can the system handle the additional load?
+   - What reporting and tracking do we need?
+   - Is this even legal?
 
 ## MVP
 One way to deal with a huge system change or a lot of questions is to produce the
@@ -115,24 +115,24 @@ including something as simple a TODO list.
 
 - Keep PM and Tech Lead informed
 - Project Development Methodolgies
--- Agile
--- XP
--- Pair programming
--- Scrum
--- Velocity
--- Kanban
--- Waterfall 
--- TDD
--- BDD
--- Top-down
--- Bottom-up
+   - Agile
+   - XP
+   - Pair programming
+   - Scrum
+   - Velocity
+   - Kanban
+   - Waterfall 
+   - TDD
+   - BDD
+   - Top-down
+   - Bottom-up
 - In testing, people will do what you don't expect and your code will break
 - Bugs often come from code that is too trusting, not code that is bad
 - TLM
   - may need to break spec down into specific task groups for engineers or teams
   - select other technologies to allow implementation
 - INTERVIEW TIP!
-  - "Here's a product spec. What''s the first thing you do?"
+   - "Here's a product spec. What''s the first thing you do?"
   -- "Look for what's missing, fill in the blanks"
   -- "Google if there is already technology that does what this spec wants"
   --  Using an existing package that's been tested can help avoid a lot of pitfalls, avoid
