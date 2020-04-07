@@ -58,7 +58,7 @@ A pull request is GitHub's mechanism for publishing proposed code changes to all
   * Again, it's about communication as much as verification
 
 ## Additional resources
-https://www.atlassian.com/agile/code-reviews
-https://blog.fogcreek.com/effective-code-reviews-9-tips-from-a-converted-skeptic/
-https://github.com/rebelidealist/stripe-ruby-mock/pull/358
-https://github.com/rebelidealist/stripe-ruby-mock/pull/449
+* https://www.atlassian.com/agile/code-reviews
+* https://blog.fogcreek.com/effective-code-reviews-9-tips-from-a-converted-skeptic/
+* https://github.com/rebelidealist/stripe-ruby-mock/pull/358
+* https://github.com/rebelidealist/stripe-ruby-mock/pull/449
