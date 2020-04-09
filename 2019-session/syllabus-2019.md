@@ -480,27 +480,26 @@ Second half of "Main Concepts" section of https://reactjs.org/docs/hello-world.h
 
 Lecture: @muffy
 
-### Week 19 Practice: [Database Design](./lectures/theory_and_practice/database_design.md)
+### Week 19 PM lecture
 **4/14/20**
 
+### Week 20 Practice: [Database Design](./lectures/theory_and_practice/database_design.md)
+**4/21/20**
 Lecture: @muffy
 
-### Week 20 Theory: Algorithms and Data Structures
-**4/21/20**
-
-### Week 21 Practice: Deploying and AWS
+### Week 21 Theory: Algorithms and Data Structures
 **4/28/20**
 
-### Week 22 Practice: Security
+### Week 22 Open Topics
 **5/5/20**
 
-### Week 23 Check In on Group Projects
+### Week 23 Practice: Deploying and AWS
 **5/12/20**
 
-### Week 24 Open Topics
+### Week 24 Prepare For Software Engineering Interviews
 **5/19/20**
 
-### Week 25 Prepare For Software Engineering Interviews
+### Week 25 Practice: Security / Check In on Group Projects
 **5/26/20**
 
 ### ??? Present Projects At Hacker Lunch
