@@ -482,6 +482,8 @@ Lecture: @muffy
 
 ### Week 19 PM lecture
 **4/14/20**
+Pre-recorded lecture by @kevin.shepherd
+Links will be posted in slack room
 
 ### Week 20 Practice: [Database Design](./lectures/theory_and_practice/database_design.md)
 **4/21/20**
