@@ -1,7 +1,7 @@
 # Carrot U: Code School Syllabus 2019
 ![Carrot U](./images/code-school-carrot-u.png)
 
-[Current week >](#week-18-your-final-project)
+[Current week >](#week-19-pm-lecture)
 
 ## Section 1: Solving Problems Like an Engineer
 
