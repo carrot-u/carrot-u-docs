@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>DS&A</title>
+    <meta charset="utf-8">
+    <style>
+      @import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
+      @import url(https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic);
+      @import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic);
+
+      body { font-family: 'Droid Serif'; }
+      h1, h2, h3 {
+        font-family: 'Yanone Kaffeesatz';
+        font-weight: normal;
+      }
+      .remark-code, .remark-inline-code { font-family: 'Ubuntu Mono'; }
+    </style>
+  </head>
+  <body>
+    <textarea id="source">
+class: center, middle
+
+# Data Structures
+# And Algorithms
+
+---
+
+# Links 
+
+- https://bigmachine.io/products/the-imposters-handbook/
+
+- https://github.com/labuladong/fucking-algorithm/blob/english/dynamic_programming/AnalysisOfDynamicProgramming.md
+
+- https://leetcode.com
+
+- https://www.hackerrank.com
+
+---
+# Plan
+
+- what is big-o anyways
+- basic data structures - array, hash (set)
+- queue and stack
+- example 1
+- advanced data structures - trees, weird tries
+- intro to dynamic programing
+- example 2
+
+---
+
+# Big O
+
+- it is metric
+- it is simplified
+- it is asymptomatic 
+- how many times we need to do something
+
+---
+
+# Big O
+
+It is actually two metrics
+
+- big-O of time
+- big-O of space 
+- we care about both
+- we look at data structures keeping big-O in mind
+
+---
+# Big O
+
+- we talk about O(n) , where n is number of "things"
+- we say O(n) = O(1) (read as - algorithm is of constant e.g. time)
+
+# Typical O(n) with names
+
+- O(1) - constant (best, rarely achievable)
+- O(log n) - logarithmic (what you strive for)
+- O(n) - linear (very good)
+- O(n^2) - quadratic or n squared
+- O(n^3) - cubic
+- O(e^n) - exponential (terrible)
+
+---
+
+# Basic Data Structures
+# Array 
+
+Just list of things
+
+```ruby
+array = [1,2,3] 
+array.first
+array[2]
+```
+
+---
+# Basic Data Structures
+# Array
+### Good for?
+- sequential access
+- random access by index
+
+### OK for 
+- adding elements to the end
+
+### Bad for 
+- adding elements to the head
+
+---
+
+# Basic Data Structures
+# Array
+## big-o
+
+- O(1) random access by index
+- O(n) lookup by value
+- O(n) space
+
+---
+
+# Basic Data Structures
+# Hash 
+
+map of things (called key) related to other things (called values)
+
+```ruby
+hash = { a: 1, b: 2 }
+hash[:a] # 1
+```
+
+---
+# Basic Data Structures
+# Hash
+## Good for?
+- random access by key
+- adding new items
+
+---
+
+# Basic Data Structures
+# Hash
+## big-o
+
+- O(1) random access by key
+- O(n) space
+
+---
+
+# Basic Data Structures
+# Queue
+
+FIFO - first in first out
+
+```ruby
+queue = Queue.new
+queue.push(2) # add 
+queue.peek()  # peek at value
+queue.pop()   # take and remove value from the end k
+queue.pop()   # nil
+```
+---
+
+# Basic Data Structures
+# Queue
+## big-o
+
+- O(1) reading/removing from tail
+- O(1) adding to head
+- O(n) space
+---
+
+# Basic Data Structures
+# Stack
+
+FILO - first in last out
+
+```ruby
+stack = Stack.new
+stack.push(2) # add 
+stack.peek()  # peek at value
+stack.pop()   # take and remove value from the end k
+stack.pop() # nil
+```
+---
+
+# Basic Data Structures
+# Stack
+## big-o
+
+- O(1) reading/removing from head
+- O(1) adding to head
+- O(n) space
+
+---
+
+# Example 1
+
+Check that expression has balanced pairs of parenthises
+
+- `(  )` balanced
+- `(  1 + 1 )` balanced
+- `( 1 + 1 ` not balanced
+- `[ 1 + ( 2 + 3 ) ]` balanced
+
+---
+
+# Advanced Data Structures
+# Trees
+- O(log n) lookup
+- O(2*log n) add/remove
+
+![Tree](https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Binary_tree.svg/384px-Binary_tree.svg.png)
+
+---
+# what are weird tries
+
+- binary trees
+- balanced binary trees
+- red/black tree
+- avl tree
+- heap
+---
+
+# Dynamic programming
+  
+- break into sub problems
+- figure out solution to sub problem
+- choose best solution across all sub problems
+- (*) optimize - calculate sub problems only once
+
+
+Memoisation - storing solutions for subproblems
+
+---
+
+# Example 2 - giving change
+
+- given type of coins available, calculate change
+- given 1, 5 cent coins calculate change to 95 cents 
+ 
+
+---
+
+# Home work
+
+- finish giving-change problem
+- can we implement stack with a queue? 
+- what about queue with a stack? 
+
+
+---
+    </textarea>
+    <script src="https://remarkjs.com/downloads/remark-latest.min.js">
+    </script>
+    <script>
+      var slideshow = remark.create();
+    </script>
+  </body>
+</html>
