@@ -1,7 +1,7 @@
 # Carrot U: Code School Syllabus 2019
 ![Carrot U](./images/code-school-carrot-u.png)
 
-[Current week >](#week-21-theory-algorithms-and-data-structures)
+[Current week >](#week-22-open-topics)
 
 ## Section 1: Solving Problems Like an Engineer
 
@@ -491,9 +491,21 @@ Lecture: @muffy
 
 ### Week 21 Theory: Algorithms and Data Structures
 **4/28/20**
+Lecture @Viktor
+- quick overview of basic DS - array ,set, map, tree
+- queue and stack, practice - check for balanced parenthesis in a string
+- dynamic programming
+
+Notes:
+- [Data Structures and Algorithms](lectures/theory_and_practice/data_structures_and_algorithm.html)
+- [Balanced parens exercise](lectures/theory_and_practice/balanced.rb)
 
 ### Week 22 Open Topics
 **5/5/20**
+- discussion on overengineering (great topic for our projects)
+- logging and metrics
+- monitoring
+- mentor roundtable
 
 ### Week 23 Practice: Deploying and AWS
 **5/12/20**
