@@ -506,6 +506,7 @@ Notes:
 - logging and metrics
 - monitoring
 - mentor roundtable
+- github demo
 
 ### Week 23 Practice: Deploying and AWS
 **5/12/20**
