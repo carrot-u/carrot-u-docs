@@ -1,7 +1,7 @@
 # Carrot U: Code School Syllabus 2019
 ![Carrot U](./images/code-school-carrot-u.png)
 
-[Current week >](#week-22-open-topics)
+[Current week >](#https://github.com/carrot-u/carrot-u-docs/blob/master/2019-session/syllabus-2019.md#week-23-practice-deploying-and-aws)
 
 ## Section 1: Solving Problems Like an Engineer
 
@@ -510,6 +510,14 @@ Notes:
 
 ### Week 23 Practice: Deploying and AWS
 **5/12/20**
+Francois Campbell will be lecturing on builds and deplopyments!
+- everything between committing and running commit changes on production
+- what is docker?
+- what does jenkins do?
+- what is staging
+- what Instacart does to deploy an app to AWS
+- production-izing an application (vs. a local instance)
+- demo of deploying an app
 
 ### Week 24 Prepare For Software Engineering Interviews
 **5/19/20**
