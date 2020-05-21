@@ -523,7 +523,23 @@ Francois Campbell will be lecturing on builds and deplopyments!
 **5/19/20**
 Muffy and Sveta will be overviewing the interview process and taking on a few sample questions.
 
-### Week 25 Practice: Security / Check In on Group Projects
-**5/26/20**
+### Week 25 Summer Break! (for a week!)
+Taking this week off for lectures. Please spead the to week 1) rest/catchup on life 2) look at your project
 
-### ??? Present Projects At Hacker Lunch
+### Week 26 Practice: Security / Check In on Group Projects
+**6/01/20**
+
+### Week 27 Project pairing time
+**6/09/20
+Sync up with mentors/other project teams during lecture time
+
+### Week 28 Project pairing time
+**6/16/20
+Sync up with mentors/other project teams during lecture time
+
+### Week 29 Targeted project wrapup/Demos
+**6/23/20
+We'll play this by ear but lets plan for this as the goal post for project completions and we can do internal demos
+
+### ??? Present Projects At Hacker Lunch/other venue
+TBD
