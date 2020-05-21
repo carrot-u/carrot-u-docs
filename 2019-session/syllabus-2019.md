@@ -1,7 +1,7 @@
 # Carrot U: Code School Syllabus 2019
 ![Carrot U](./images/code-school-carrot-u.png)
 
-[Current week >](https://github.com/carrot-u/carrot-u-docs/blob/master/2019-session/syllabus-2019.md#week-24-prepare-for-software-engineering-interviews)
+[Current week >](https://github.com/carrot-u/carrot-u-docs/blob/master/2019-session/syllabus-2019.md#week-25-summer-break-for-a-weeks)
 
 ## Section 1: Solving Problems Like an Engineer
 
@@ -530,15 +530,15 @@ Taking this week off for lectures. Please spead the to week 1) rest/catchup on l
 **6/01/20**
 
 ### Week 27 Project pairing time
-**6/09/20
+**6/09/20**
 Sync up with mentors/other project teams during lecture time
 
 ### Week 28 Project pairing time
-**6/16/20
+**6/16/20**
 Sync up with mentors/other project teams during lecture time
 
 ### Week 29 Targeted project wrapup/Demos
-**6/23/20
+**6/23/20**
 We'll play this by ear but lets plan for this as the goal post for project completions and we can do internal demos
 
 ### ??? Present Projects At Hacker Lunch/other venue
