@@ -1,7 +1,7 @@
 # Carrot U: Code School Syllabus 2019
 ![Carrot U](./images/code-school-carrot-u.png)
 
-[Current week >](https://github.com/carrot-u/carrot-u-docs/blob/master/2019-session/syllabus-2019.md#week-25-summer-break-for-a-week)
+### [Current week >](https://github.com/carrot-u/carrot-u-docs/blob/master/2019-session/syllabus-2019.md#week-26-practice-security--check-in-on-group-projects)
 
 ## Section 1: Solving Problems Like an Engineer
 
@@ -524,10 +524,12 @@ Francois Campbell will be lecturing on builds and deplopyments!
 Muffy and Sveta will be overviewing the interview process and taking on a few sample questions.
 
 ### Week 25 Summer Break! (for a week!)
-Taking this week off for lectures. Please spead the to week 1) rest/catchup on life 2) look at your project
+Taking this week off for lectures. Please spend the to week 1) rest/catchup on life 2) look at your project
 
 ### Week 26 Practice: Security / Check In on Group Projects
 **6/01/20**
+Ankit and Henry will talk to us about security practices🛡
+We'll also allocate some time for group projects, please think about any cross-team subjects you would like to discuss with the larger group.
 
 ### Week 27 Project pairing time
 **6/09/20**
