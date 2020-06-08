@@ -1,7 +1,7 @@
 # Carrot U: Code School Syllabus 2019
 ![Carrot U](./images/code-school-carrot-u.png)
 
-### [Current week >](https://github.com/carrot-u/carrot-u-docs/blob/master/2019-session/syllabus-2019.md#week-26-practice-security--check-in-on-group-projects)
+### [Current week >](https://github.com/carrot-u/carrot-u-docs/blob/master/2019-session/syllabus-2019.md#week-27-project-pairing-time)
 
 ## Section 1: Solving Problems Like an Engineer
 
@@ -533,7 +533,7 @@ We'll also allocate some time for group projects, please think about any cross-t
 
 ### Week 27 Project pairing time
 **6/09/20**
-Sync up with mentors/other project teams during lecture time
+No lecture topic but we'll talk a bit about the project as well as interviews and internship placements. The remaining period will be working time.
 
 ### Week 28 Project pairing time
 **6/16/20**
