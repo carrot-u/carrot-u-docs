@@ -1,7 +1,7 @@
 # Carrot U: Code School Syllabus 2019
 ![Carrot U](./images/code-school-carrot-u.png)
 
-### [Current week >](https://github.com/carrot-u/carrot-u-docs/blob/master/2019-session/syllabus-2019.md#week-27-project-pairing-time)
+### [Current week >](https://github.com/carrot-u/carrot-u-docs/blob/master/2019-session/syllabus-2019.md#week-28-project-pairing-time)
 
 ## Section 1: Solving Problems Like an Engineer
 
@@ -537,7 +537,7 @@ No lecture topic but we'll talk a bit about the project as well as interviews an
 
 ### Week 28 Project pairing time
 **6/16/20**
-Sync up with mentors/other project teams during lecture time
+Sync up with mentors/other project teams during lecture time. Getting close to the last week ⏱
 
 ### Week 29 Targeted project wrapup/Demos
 **6/23/20**
