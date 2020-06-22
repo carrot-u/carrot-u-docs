@@ -1,7 +1,7 @@
 # Carrot U: Code School Syllabus 2019
 ![Carrot U](./images/code-school-carrot-u.png)
 
-### [Current week >](https://github.com/carrot-u/carrot-u-docs/blob/master/2019-session/syllabus-2019.md#week-28-project-pairing-time)
+### [Current week >](https://github.com/carrot-u/carrot-u-docs/blob/master/2019-session/syllabus-2019.md#week-29-targeted-project-wrapupdemos)
 
 ## Section 1: Solving Problems Like an Engineer
 
@@ -542,6 +542,10 @@ Sync up with mentors/other project teams during lecture time. Getting close to t
 ### Week 29 Targeted project wrapup/Demos
 **6/23/20**
 We'll play this by ear but lets plan for this as the goal post for project completions and we can do internal demos
+
+### Week 30 New Targeted project wrapup/Demos
+**6/30/20**
+Extending out the deadline to week 30!
 
 ### ??? Present Projects At Hacker Lunch/other venue
 TBD
