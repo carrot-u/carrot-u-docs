@@ -1,7 +1,7 @@
 # Carrot U: Code School Syllabus 2019
 ![Carrot U](./images/code-school-carrot-u.png)
 
-### [Current week >](https://github.com/carrot-u/carrot-u-docs/blob/master/2019-session/syllabus-2019.md#week-29-targeted-project-wrapupdemos)
+### [Current week >](https://github.com/carrot-u/carrot-u-docs/blob/master/2019-session/syllabus-2019.md#week-30-new-targeted-project-wrapupdemos)
 
 ## Section 1: Solving Problems Like an Engineer
 
@@ -545,7 +545,7 @@ We'll play this by ear but lets plan for this as the goal post for project compl
 
 ### Week 30 New Targeted project wrapup/Demos
 **6/30/20**
-Extending out the deadline to week 30!
+Demo time! This will be our internal demo where we go through the admin app end to end: creating a new student/mentor/session/homework and try out the management features. This will also be our last class session
 
-### ??? Present Projects At Hacker Lunch/other venue
-TBD
+### July 8 Demo Wednesday
+We have the last two slots from 2-3pm. Lets prepare some slides and do a walk through of the app. Showtime!
